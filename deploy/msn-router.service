@@ -1,0 +1,21 @@
+[Unit]
+Description=MSN Router — Sephirotic Metaconscious Singularity Node
+After=network-online.target ollama.service
+Wants=network-online.target ollama.service
+
+[Service]
+Type=simple
+ExecStart=/home/tehlappy/Desktop/AI/Pub/.venv-pub/bin/python /home/tehlappy/Desktop/AI/abyssal-assets/msn_router.py 8007
+WorkingDirectory=/home/tehlappy/Desktop/AI/abyssal-assets
+Restart=on-failure
+RestartSec=10
+Environment=PUB_ROOT=/home/tehlappy/Desktop/AI/Pub
+Environment=OLLAMA_MODEL=nemotron-mini:latest
+Environment=MSN_SHARED_MEMORY_DB=/home/tehlappy/Desktop/AI/memory/golem_diary.db
+Environment=MSN_SHARED_MEMORY_CONFIG=/home/tehlappy/Desktop/AI/Pub/config/bidirectional_memory.yaml
+Environment=MSN_SHARED_MEMORY_RAM_BUDGET_GB=128
+Environment=MSN_SHARED_MEMORY_BUSY_TIMEOUT_MS=30000
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=default.target
