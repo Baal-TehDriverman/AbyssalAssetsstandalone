@@ -22,7 +22,7 @@ on:
           - release
 
 env:
-  NODE_VERSION: '20'
+  NODE_VERSION: '24'
   JAVA_VERSION: '17'
   GRADLE_VERSION: '8.5'
 
@@ -31,6 +31,8 @@ jobs:
     name: Build Android APK/AAB
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    env:
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: 'true'
     
     steps:
       # ============ CHECKOUT ============
