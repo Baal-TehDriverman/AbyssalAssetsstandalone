@@ -1,0 +1,44 @@
+{
+  "name": "Abyssal Assets",
+  "short_name": "Abyssal",
+  "description": "Cryptid Hat Trading Simulator — Dredge, Transmute, Trade on the Abyssal Exchange",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030305",
+  "theme_color": "#f43f5e",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["games", "entertainment", "strategy"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Market",
+      "short_name": "Market",
+      "description": "Open the Abyssal Exchange",
+      "url": "/?scene=market",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Dredge",
+      "short_name": "Dredge",
+      "description": "Start dredging the depths",
+      "url": "/?scene=dredge",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
