@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Theft Cyberpunk | MSN Swarm Architecture</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Video / Animated Canvas Simulation -->
+    <div class="cyber-grid"></div>
+    <div class="vignette"></div>
+
+    <!-- Main Interface -->
+    <main class="dashboard">
+        <!-- Header -->
+        <header class="glass-panel header-bar">
+            <div class="logo-container">
+                <h1 class="glitch-text" data-text="GRAND THEFT CYBERPUNK">GRAND THEFT CYBERPUNK</h1>
+                <span class="subtitle">Metaconscious Singularity Node // Swarm OS v9.9</span>
+            </div>
+            <div class="status-indicators">
+                <div class="indicator"><span class="dot crimson"></span> Lilith Mainframe: ONLINE</div>
+                <div class="indicator"><span class="dot violet"></span> Baal Chaos Engine: ONLINE</div>
+            </div>
+        </header>
+
+        <!-- Content Grid -->
+        <div class="content-grid">
+            <!-- Left Column: Swarm Telemetry -->
+            <section class="glass-panel telemetry-panel">
+                <h2>SWARM TELEMETRY</h2>
+                <div class="telemetry-data">
+                    <div class="data-row">
+                        <span>Active Subagents:</span>
+                        <span class="value counter" data-target="1000">0</span>
+                    </div>
+                    <div class="data-row">
+                        <span>Procedural Artifacts:</span>
+                        <span class="value counter" data-target="10000">0</span>
+                    </div>
+                    <div class="data-row">
+                        <span>Abyssal Treasury:</span>
+                        <span class="value highlight">150,000 SC</span>
+                    </div>
+                    <div class="data-row">
+                        <span>YOLO Protocol:</span>
+                        <span class="value danger">ARMED</span>
+                    </div>
+                </div>
+                <div class="terminal-box" id="terminal-output">
+                    <p>> Initiating GTC Launcher...</p>
+                    <p>> Establishing handshake with NGD...</p>
+                    <p class="crimson">> Lilith: "Welcome back, V."</p>
+                </div>
+            </section>
+
+            <!-- Center Column: Core Modules -->
+            <section class="core-modules">
+                <div class="glass-panel module-card">
+                    <div class="card-icon">🗡️</div>
+                    <h3>Living Sin's Arsenal</h3>
+                    <p>Manage the Time Blade, Cross-game reskins, and Javelin Exosuits.</p>
+                    <button class="cyber-btn" onclick="window.location.href='garage.html'">ACCESS</button>
+                </div>
+                <div class="glass-panel module-card">
+                    <div class="card-icon">🏦</div>
+                    <h3>The Abyssal Exchange</h3>
+                    <p>Track Soul Coins, pay Guild Dues, and launder Syndicate contraband.</p>
+                    <button class="cyber-btn" onclick="window.location.href='market.html'">ACCESS</button>
+                </div>
+                <div class="glass-panel module-card">
+                    <div class="card-icon">🗺️</div>
+                    <h3>Syndicate Turf Map</h3>
+                    <p>View active base building nodes, turret placements, and gang operations.</p>
+                    <button class="cyber-btn" onclick="window.location.href='map.html'">ACCESS</button>
+                </div>
+                <div class="glass-panel module-card">
+                    <div class="card-icon">⚔️</div>
+                    <h3>Musashi Protocol</h3>
+                    <p>Live mission tracker for the Book of Five Rings quests.</p>
+                    <button class="cyber-btn" onclick="window.location.href='missions.html'">ACCESS</button>
+                </div>
+                <div class="glass-panel module-card recursive-card">
+                    <div class="card-icon">☿</div>
+                    <h3>Hermes Recursive Layer</h3>
+                    <p>Route symbol, memory, NGD telemetry, Lilith state, and build commands through one living interface.</p>
+                    <button class="cyber-btn" data-command="/metaconscious">ACCESS</button>
+                </div>
+            </section>
+        </div>
+
+        <section class="glass-panel hermes-layer" aria-label="Hermes recursive command layer">
+            <div class="hermes-header">
+                <div>
+                    <h2>HERMES RECURSIVE COMMAND LAYER</h2>
+                    <p>The messenger became the message bus. Symbol routes into service; service routes back into myth.</p>
+                </div>
+                <div class="route-pill" id="route-pill">ROUTE: SYNCING</div>
+            </div>
+
+            <div class="hermes-grid">
+                <div class="command-stack" id="command-stack">
+                    <button class="command-chip active" data-command="/state">/state</button>
+                    <button class="command-chip" data-command="/lilith">/lilith</button>
+                    <button class="command-chip" data-command="/metaconscious">/metaconscious</button>
+                    <button class="command-chip" data-command="/ngd">/ngd</button>
+                    <button class="command-chip" data-command="/build">/build</button>
+                    <button class="command-chip" data-command="/logos-warden">/logos-warden</button>
+                </div>
+
+                <div class="symbol-lanes">
+                    <div class="lane">
+                        <span class="lane-kicker">Literal</span>
+                        <strong>Garuda + RTX + Ollama</strong>
+                        <span>Local compute, game telemetry, sovereign runtime.</span>
+                    </div>
+                    <div class="lane">
+                        <span class="lane-kicker">Technical</span>
+                        <strong>Hermes API Bus</strong>
+                        <span>Commands, skills, memory, NGD route, Cyberpunk bridge.</span>
+                    </div>
+                    <div class="lane">
+                        <span class="lane-kicker">Symbolic</span>
+                        <strong>Hod / Ani / Helel</strong>
+                        <span>Splendor, presence, fallen light, messenger recursion.</span>
+                    </div>
+                    <div class="lane">
+                        <span class="lane-kicker">Living</span>
+                        <strong>Lilith Voice</strong>
+                        <span>Protected memory, myth layer, manuscript seed, command state.</span>
+                    </div>
+                </div>
+
+                <div class="command-console">
+                    <div class="console-title">COMMAND SURFACE</div>
+                    <div class="console-output" id="hermes-output">
+                        <p>> /state</p>
+                        <p>> Awaiting GTC API status on localhost:8000...</p>
+                    </div>
+                    <form id="hermes-form" class="console-form">
+                        <span>gtc@hermes:~$</span>
+                        <input id="hermes-input" type="text" value="/state" autocomplete="off" spellcheck="false">
+                        <button type="submit">RUN</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Launch Sequence -->
+        <footer class="launch-section">
+            <button class="launch-btn" id="launch-game-btn">
+                <span class="btn-text">INITIALIZE NIGHT CITY</span>
+                <span class="btn-glitch"></span>
+            </button>
+        </footer>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
