@@ -1,0 +1,4 @@
+# YESOD Build Pipeline Dependencies
+# These are required for the build_pipeline.py script
+toml; python_version < "3.11"
+pyyaml>=6.0
