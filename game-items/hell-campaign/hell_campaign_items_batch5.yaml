@@ -1,0 +1,430 @@
+- id: Item_Hell_CyberdeckMod_Limbo_00
+  category: Cyberdeck_Mod
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Hesitation Processor
+  description: Infernal deck modification from Limbo. Indecision enhances it.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Rare
+  mod_type: Processor
+  bonus: +10% RAM
+  level: 10
+  price: 3000
+- id: Item_Hell_CyberdeckMod_Limbo_01
+  category: Cyberdeck_Mod
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Void Cooling
+  description: Infernal deck modification from Limbo. Indecision enhances it.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Epic
+  mod_type: Cooling
+  bonus: +15% Cooling
+  level: 10
+  price: 3000
+- id: Item_Hell_CyberdeckMod_Lust_00
+  category: Cyberdeck_Mod
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Desire RAM
+  description: Infernal deck modification from Lust. Desire enhances it.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Rare
+  mod_type: Processor
+  bonus: +10% RAM
+  level: 15
+  price: 5000
+- id: Item_Hell_CyberdeckMod_Lust_01
+  category: Cyberdeck_Mod
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Siren PSU
+  description: Infernal deck modification from Lust. Desire enhances it.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Epic
+  mod_type: Cooling
+  bonus: +15% Cooling
+  level: 15
+  price: 5000
+- id: Item_Hell_CyberdeckMod_Gluttony_00
+  category: Cyberdeck_Mod
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Consumption Processor
+  description: Infernal deck modification from Gluttony. Consumption enhances it.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Rare
+  mod_type: Processor
+  bonus: +10% RAM
+  level: 20
+  price: 7000
+- id: Item_Hell_CyberdeckMod_Gluttony_01
+  category: Cyberdeck_Mod
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Digestion Cooling
+  description: Infernal deck modification from Gluttony. Consumption enhances it.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Epic
+  mod_type: Cooling
+  bonus: +15% Cooling
+  level: 20
+  price: 7000
+- id: Item_Hell_CyberdeckMod_Greed_00
+  category: Cyberdeck_Mod
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Avarice RAM
+  description: Infernal deck modification from Greed. Avarice enhances it.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Rare
+  mod_type: Processor
+  bonus: +10% RAM
+  level: 25
+  price: 9000
+- id: Item_Hell_CyberdeckMod_Greed_01
+  category: Cyberdeck_Mod
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Hoard PSU
+  description: Infernal deck modification from Greed. Avarice enhances it.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Epic
+  mod_type: Cooling
+  bonus: +15% Cooling
+  level: 25
+  price: 9000
+- id: Item_Hell_CyberdeckMod_Wrath_00
+  category: Cyberdeck_Mod
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Rage Processor
+  description: Infernal deck modification from Wrath. Rage enhances it.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Rare
+  mod_type: Processor
+  bonus: +10% RAM
+  level: 30
+  price: 11000
+- id: Item_Hell_CyberdeckMod_Wrath_01
+  category: Cyberdeck_Mod
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Fury Cooling
+  description: Infernal deck modification from Wrath. Rage enhances it.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Epic
+  mod_type: Cooling
+  bonus: +15% Cooling
+  level: 30
+  price: 11000
+- id: Item_Hell_CyberdeckMod_Heresy_00
+  category: Cyberdeck_Mod
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Blasphemy RAM
+  description: Infernal deck modification from Heresy. Blasphemy enhances it.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Rare
+  mod_type: Processor
+  bonus: +10% RAM
+  level: 35
+  price: 13000
+- id: Item_Hell_CyberdeckMod_Heresy_01
+  category: Cyberdeck_Mod
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Sacrilege PSU
+  description: Infernal deck modification from Heresy. Blasphemy enhances it.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Epic
+  mod_type: Cooling
+  bonus: +15% Cooling
+  level: 35
+  price: 13000
+- id: Item_Hell_CyberdeckMod_Violence_00
+  category: Cyberdeck_Mod
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Carnage Processor
+  description: Infernal deck modification from Violence. Brutality enhances it.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Rare
+  mod_type: Processor
+  bonus: +10% RAM
+  level: 40
+  price: 15000
+- id: Item_Hell_CyberdeckMod_Violence_01
+  category: Cyberdeck_Mod
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Slaughter Cooling
+  description: Infernal deck modification from Violence. Brutality enhances it.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Epic
+  mod_type: Cooling
+  bonus: +15% Cooling
+  level: 40
+  price: 15000
+- id: Item_Hell_CyberdeckMod_Fraud_00
+  category: Cyberdeck_Mod
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Deception RAM
+  description: Infernal deck modification from Fraud. Deception enhances it.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Rare
+  mod_type: Processor
+  bonus: +10% RAM
+  level: 45
+  price: 17000
+- id: Item_Hell_CyberdeckMod_Fraud_01
+  category: Cyberdeck_Mod
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Mirror PSU
+  description: Infernal deck modification from Fraud. Deception enhances it.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Epic
+  mod_type: Cooling
+  bonus: +15% Cooling
+  level: 45
+  price: 17000
+- id: Item_Hell_CyberdeckMod_Treachery_00
+  category: Cyberdeck_Mod
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Betrayal Processor
+  description: Infernal deck modification from Treachery. Betrayal enhances it.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Rare
+  mod_type: Processor
+  bonus: +10% RAM
+  level: 50
+  price: 19000
+- id: Item_Hell_CyberdeckMod_Treachery_01
+  category: Cyberdeck_Mod
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Turncoat Cooling
+  description: Infernal deck modification from Treachery. Betrayal enhances it.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Epic
+  mod_type: Cooling
+  bonus: +15% Cooling
+  level: 50
+  price: 19000
+- id: Item_Hell_CyberdeckMod_Lucifers_Throne_00
+  category: Cyberdeck_Mod
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Pride RAM
+  description: Infernal deck modification from Lucifers_Throne. Pride enhances it.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Rare
+  mod_type: Processor
+  bonus: +10% RAM
+  level: 55
+  price: 21000
+- id: Item_Hell_CyberdeckMod_Lucifers_Throne_01
+  category: Cyberdeck_Mod
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Morningstar PSU
+  description: Infernal deck modification from Lucifers_Throne. Pride enhances it.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Epic
+  mod_type: Cooling
+  bonus: +15% Cooling
+  level: 55
+  price: 21000
+- id: Item_Hell_Consumable_Limbo_Legendary
+  category: Consumable
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Elixir of Pure Indecision
+  description: Freezes all choice for 60s
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Mythic
+  consumable_type: Legendary_Elixir
+  duration: 30
+  cooldown: 300
+  level: 50
+  price: 50000
+- id: Item_Hell_Consumable_Lust_Legendary
+  category: Consumable
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Siren's Tears
+  description: Charms all in 20m radius
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Mythic
+  consumable_type: Legendary_Elixir
+  duration: 30
+  cooldown: 300
+  level: 50
+  price: 50000
+- id: Item_Hell_Consumable_Gluttony_Legendary
+  category: Consumable
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Devourer's Feast
+  description: Restores all resources, gains max HP
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Mythic
+  consumable_type: Legendary_Elixir
+  duration: 30
+  cooldown: 300
+  level: 50
+  price: 50000
+- id: Item_Hell_Consumable_Greed_Legendary
+  category: Consumable
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Mammon's Coin
+  description: Doubles eddies for 5 minutes
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Mythic
+  consumable_type: Legendary_Elixir
+  duration: 30
+  cooldown: 300
+  level: 50
+  price: 50000
+- id: Item_Hell_Consumable_Wrath_Legendary
+  category: Consumable
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Fury's Draught
+  description: 'Berserk mode: 300% damage, -90% armor'
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Mythic
+  consumable_type: Legendary_Elixir
+  duration: 30
+  cooldown: 300
+  level: 50
+  price: 50000
+- id: Item_Hell_Consumable_Heresy_Legendary
+  category: Consumable
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Iconoclast's Ink
+  description: Next quickhack costs 0 RAM, ignores immunity
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Mythic
+  consumable_type: Legendary_Elixir
+  duration: 30
+  cooldown: 300
+  level: 50
+  price: 50000
+- id: Item_Hell_Consumable_Violence_Legendary
+  category: Consumable
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Butcher's Brew
+  description: Melee kills restore full health for 30s
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Mythic
+  consumable_type: Legendary_Elixir
+  duration: 30
+  cooldown: 300
+  level: 50
+  price: 50000
+- id: Item_Hell_Consumable_Fraud_Legendary
+  category: Consumable
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Mirror Potion
+  description: Creates 3 decoys for 60s
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Mythic
+  consumable_type: Legendary_Elixir
+  duration: 30
+  cooldown: 300
+  level: 50
+  price: 50000
+- id: Item_Hell_Consumable_Treachery_Legendary
+  category: Consumable
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Turncoat's Tincture
+  description: Converts nearest enemy to ally
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Mythic
+  consumable_type: Legendary_Elixir
+  duration: 30
+  cooldown: 300
+  level: 50
+  price: 50000
+- id: Item_Hell_Consumable_Lucifers_Throne_Legendary
+  category: Consumable
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Morningstar's Blood
+  description: 'God-mode: Invulnerable, infinite RAM, 30s'
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Mythic
+  consumable_type: Legendary_Elixir
+  duration: 30
+  cooldown: 300
+  level: 50
+  price: 50000
