@@ -82,6 +82,11 @@ jobs:
           VITE_WS_URL: wss://api.abyssalassets.com
 
       # ============ CAPACITOR SYNC ============
+      - name: Capacitor add android platform
+        working-directory: ./client
+        run: |
+          npx cap add android || true
+
       - name: Capacitor sync
         working-directory: ./client
         run: |
