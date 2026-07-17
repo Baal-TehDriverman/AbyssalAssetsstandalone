@@ -1,0 +1,1541 @@
+- id: Item_Hell_Quickhack_Limbo_Breach
+  category: Quickhack
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: 'Breach Protocol: Indecision'
+  description: Hell-code from Limbo. Indecision spreads.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Uncommon
+  quickhack_type: Breach
+  ram_cost: 2
+  upload_time: 1.0
+  duration: 5
+  cooldown: 15
+  level: 5
+  price: 500
+- id: Item_Hell_Quickhack_Limbo_Control
+  category: Quickhack
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: 'Control Protocol: Indecision'
+  description: Hell-code from Limbo. Indecision spreads.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Rare
+  quickhack_type: Control
+  ram_cost: 4
+  upload_time: 1.5
+  duration: 10
+  cooldown: 25
+  level: 7
+  price: 1000
+- id: Item_Hell_Quickhack_Limbo_Damage
+  category: Quickhack
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: 'Damage Protocol: Indecision'
+  description: Hell-code from Limbo. Indecision spreads.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Epic
+  quickhack_type: Damage
+  ram_cost: 6
+  upload_time: 2.0
+  duration: 15
+  cooldown: 35
+  level: 9
+  price: 1500
+- id: Item_Hell_Quickhack_Limbo_Ultimate
+  category: Quickhack
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: 'Ultimate Protocol: Indecision'
+  description: Hell-code from Limbo. Indecision spreads.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Legendary
+  quickhack_type: Ultimate
+  ram_cost: 8
+  upload_time: 2.5
+  duration: 20
+  cooldown: 45
+  level: 11
+  price: 2000
+- id: Item_Hell_Quickhack_Lust_Breach
+  category: Quickhack
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: 'Breach Protocol: Desire'
+  description: Hell-code from Lust. Desire overwrites.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Uncommon
+  quickhack_type: Breach
+  ram_cost: 2
+  upload_time: 1.0
+  duration: 5
+  cooldown: 15
+  level: 10
+  price: 1500
+- id: Item_Hell_Quickhack_Lust_Control
+  category: Quickhack
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: 'Control Protocol: Desire'
+  description: Hell-code from Lust. Desire overwrites.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Rare
+  quickhack_type: Control
+  ram_cost: 4
+  upload_time: 1.5
+  duration: 10
+  cooldown: 25
+  level: 12
+  price: 2000
+- id: Item_Hell_Quickhack_Lust_Damage
+  category: Quickhack
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: 'Damage Protocol: Desire'
+  description: Hell-code from Lust. Desire overwrites.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Epic
+  quickhack_type: Damage
+  ram_cost: 6
+  upload_time: 2.0
+  duration: 15
+  cooldown: 35
+  level: 14
+  price: 2500
+- id: Item_Hell_Quickhack_Lust_Ultimate
+  category: Quickhack
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: 'Ultimate Protocol: Desire'
+  description: Hell-code from Lust. Desire overwrites.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Legendary
+  quickhack_type: Ultimate
+  ram_cost: 8
+  upload_time: 2.5
+  duration: 20
+  cooldown: 45
+  level: 16
+  price: 3000
+- id: Item_Hell_Quickhack_Gluttony_Breach
+  category: Quickhack
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: 'Breach Protocol: Consumption'
+  description: Hell-code from Gluttony. Consumption corrupts.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Uncommon
+  quickhack_type: Breach
+  ram_cost: 2
+  upload_time: 1.0
+  duration: 5
+  cooldown: 15
+  level: 15
+  price: 2500
+- id: Item_Hell_Quickhack_Gluttony_Control
+  category: Quickhack
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: 'Control Protocol: Consumption'
+  description: Hell-code from Gluttony. Consumption corrupts.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Rare
+  quickhack_type: Control
+  ram_cost: 4
+  upload_time: 1.5
+  duration: 10
+  cooldown: 25
+  level: 17
+  price: 3000
+- id: Item_Hell_Quickhack_Gluttony_Damage
+  category: Quickhack
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: 'Damage Protocol: Consumption'
+  description: Hell-code from Gluttony. Consumption corrupts.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Epic
+  quickhack_type: Damage
+  ram_cost: 6
+  upload_time: 2.0
+  duration: 15
+  cooldown: 35
+  level: 19
+  price: 3500
+- id: Item_Hell_Quickhack_Gluttony_Ultimate
+  category: Quickhack
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: 'Ultimate Protocol: Consumption'
+  description: Hell-code from Gluttony. Consumption corrupts.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Legendary
+  quickhack_type: Ultimate
+  ram_cost: 8
+  upload_time: 2.5
+  duration: 20
+  cooldown: 45
+  level: 21
+  price: 4000
+- id: Item_Hell_Quickhack_Greed_Breach
+  category: Quickhack
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: 'Breach Protocol: Avarice'
+  description: Hell-code from Greed. Avarice calculates.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Uncommon
+  quickhack_type: Breach
+  ram_cost: 2
+  upload_time: 1.0
+  duration: 5
+  cooldown: 15
+  level: 20
+  price: 3500
+- id: Item_Hell_Quickhack_Greed_Control
+  category: Quickhack
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: 'Control Protocol: Avarice'
+  description: Hell-code from Greed. Avarice calculates.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Rare
+  quickhack_type: Control
+  ram_cost: 4
+  upload_time: 1.5
+  duration: 10
+  cooldown: 25
+  level: 22
+  price: 4000
+- id: Item_Hell_Quickhack_Greed_Damage
+  category: Quickhack
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: 'Damage Protocol: Avarice'
+  description: Hell-code from Greed. Avarice calculates.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Epic
+  quickhack_type: Damage
+  ram_cost: 6
+  upload_time: 2.0
+  duration: 15
+  cooldown: 35
+  level: 24
+  price: 4500
+- id: Item_Hell_Quickhack_Greed_Ultimate
+  category: Quickhack
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: 'Ultimate Protocol: Avarice'
+  description: Hell-code from Greed. Avarice calculates.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Legendary
+  quickhack_type: Ultimate
+  ram_cost: 8
+  upload_time: 2.5
+  duration: 20
+  cooldown: 45
+  level: 26
+  price: 5000
+- id: Item_Hell_Quickhack_Wrath_Breach
+  category: Quickhack
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: 'Breach Protocol: Rage'
+  description: Hell-code from Wrath. Rage burns.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Uncommon
+  quickhack_type: Breach
+  ram_cost: 2
+  upload_time: 1.0
+  duration: 5
+  cooldown: 15
+  level: 25
+  price: 4500
+- id: Item_Hell_Quickhack_Wrath_Control
+  category: Quickhack
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: 'Control Protocol: Rage'
+  description: Hell-code from Wrath. Rage burns.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Rare
+  quickhack_type: Control
+  ram_cost: 4
+  upload_time: 1.5
+  duration: 10
+  cooldown: 25
+  level: 27
+  price: 5000
+- id: Item_Hell_Quickhack_Wrath_Damage
+  category: Quickhack
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: 'Damage Protocol: Rage'
+  description: Hell-code from Wrath. Rage burns.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Epic
+  quickhack_type: Damage
+  ram_cost: 6
+  upload_time: 2.0
+  duration: 15
+  cooldown: 35
+  level: 29
+  price: 5500
+- id: Item_Hell_Quickhack_Wrath_Ultimate
+  category: Quickhack
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: 'Ultimate Protocol: Rage'
+  description: Hell-code from Wrath. Rage burns.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Legendary
+  quickhack_type: Ultimate
+  ram_cost: 8
+  upload_time: 2.5
+  duration: 20
+  cooldown: 45
+  level: 31
+  price: 6000
+- id: Item_Hell_Quickhack_Heresy_Breach
+  category: Quickhack
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: 'Breach Protocol: Blasphemy'
+  description: Hell-code from Heresy. Blasphemy denies.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Uncommon
+  quickhack_type: Breach
+  ram_cost: 2
+  upload_time: 1.0
+  duration: 5
+  cooldown: 15
+  level: 30
+  price: 5500
+- id: Item_Hell_Quickhack_Heresy_Control
+  category: Quickhack
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: 'Control Protocol: Blasphemy'
+  description: Hell-code from Heresy. Blasphemy denies.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Rare
+  quickhack_type: Control
+  ram_cost: 4
+  upload_time: 1.5
+  duration: 10
+  cooldown: 25
+  level: 32
+  price: 6000
+- id: Item_Hell_Quickhack_Heresy_Damage
+  category: Quickhack
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: 'Damage Protocol: Blasphemy'
+  description: Hell-code from Heresy. Blasphemy denies.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Epic
+  quickhack_type: Damage
+  ram_cost: 6
+  upload_time: 2.0
+  duration: 15
+  cooldown: 35
+  level: 34
+  price: 6500
+- id: Item_Hell_Quickhack_Heresy_Ultimate
+  category: Quickhack
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: 'Ultimate Protocol: Blasphemy'
+  description: Hell-code from Heresy. Blasphemy denies.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Legendary
+  quickhack_type: Ultimate
+  ram_cost: 8
+  upload_time: 2.5
+  duration: 20
+  cooldown: 45
+  level: 36
+  price: 7000
+- id: Item_Hell_Quickhack_Violence_Breach
+  category: Quickhack
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: 'Breach Protocol: Brutality'
+  description: Hell-code from Violence. Violence executes.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Uncommon
+  quickhack_type: Breach
+  ram_cost: 2
+  upload_time: 1.0
+  duration: 5
+  cooldown: 15
+  level: 35
+  price: 6500
+- id: Item_Hell_Quickhack_Violence_Control
+  category: Quickhack
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: 'Control Protocol: Brutality'
+  description: Hell-code from Violence. Violence executes.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Rare
+  quickhack_type: Control
+  ram_cost: 4
+  upload_time: 1.5
+  duration: 10
+  cooldown: 25
+  level: 37
+  price: 7000
+- id: Item_Hell_Quickhack_Violence_Damage
+  category: Quickhack
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: 'Damage Protocol: Brutality'
+  description: Hell-code from Violence. Violence executes.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Epic
+  quickhack_type: Damage
+  ram_cost: 6
+  upload_time: 2.0
+  duration: 15
+  cooldown: 35
+  level: 39
+  price: 7500
+- id: Item_Hell_Quickhack_Violence_Ultimate
+  category: Quickhack
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: 'Ultimate Protocol: Brutality'
+  description: Hell-code from Violence. Violence executes.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Legendary
+  quickhack_type: Ultimate
+  ram_cost: 8
+  upload_time: 2.5
+  duration: 20
+  cooldown: 45
+  level: 41
+  price: 8000
+- id: Item_Hell_Quickhack_Fraud_Breach
+  category: Quickhack
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: 'Breach Protocol: Deception'
+  description: Hell-code from Fraud. Deception rewrites.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Uncommon
+  quickhack_type: Breach
+  ram_cost: 2
+  upload_time: 1.0
+  duration: 5
+  cooldown: 15
+  level: 40
+  price: 7500
+- id: Item_Hell_Quickhack_Fraud_Control
+  category: Quickhack
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: 'Control Protocol: Deception'
+  description: Hell-code from Fraud. Deception rewrites.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Rare
+  quickhack_type: Control
+  ram_cost: 4
+  upload_time: 1.5
+  duration: 10
+  cooldown: 25
+  level: 42
+  price: 8000
+- id: Item_Hell_Quickhack_Fraud_Damage
+  category: Quickhack
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: 'Damage Protocol: Deception'
+  description: Hell-code from Fraud. Deception rewrites.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Epic
+  quickhack_type: Damage
+  ram_cost: 6
+  upload_time: 2.0
+  duration: 15
+  cooldown: 35
+  level: 44
+  price: 8500
+- id: Item_Hell_Quickhack_Fraud_Ultimate
+  category: Quickhack
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: 'Ultimate Protocol: Deception'
+  description: Hell-code from Fraud. Deception rewrites.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Legendary
+  quickhack_type: Ultimate
+  ram_cost: 8
+  upload_time: 2.5
+  duration: 20
+  cooldown: 45
+  level: 46
+  price: 9000
+- id: Item_Hell_Quickhack_Treachery_Breach
+  category: Quickhack
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: 'Breach Protocol: Betrayal'
+  description: Hell-code from Treachery. Betrayal backdoors.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Uncommon
+  quickhack_type: Breach
+  ram_cost: 2
+  upload_time: 1.0
+  duration: 5
+  cooldown: 15
+  level: 45
+  price: 8500
+- id: Item_Hell_Quickhack_Treachery_Control
+  category: Quickhack
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: 'Control Protocol: Betrayal'
+  description: Hell-code from Treachery. Betrayal backdoors.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Rare
+  quickhack_type: Control
+  ram_cost: 4
+  upload_time: 1.5
+  duration: 10
+  cooldown: 25
+  level: 47
+  price: 9000
+- id: Item_Hell_Quickhack_Treachery_Damage
+  category: Quickhack
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: 'Damage Protocol: Betrayal'
+  description: Hell-code from Treachery. Betrayal backdoors.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Epic
+  quickhack_type: Damage
+  ram_cost: 6
+  upload_time: 2.0
+  duration: 15
+  cooldown: 35
+  level: 49
+  price: 9500
+- id: Item_Hell_Quickhack_Treachery_Ultimate
+  category: Quickhack
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: 'Ultimate Protocol: Betrayal'
+  description: Hell-code from Treachery. Betrayal backdoors.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Legendary
+  quickhack_type: Ultimate
+  ram_cost: 8
+  upload_time: 2.5
+  duration: 20
+  cooldown: 45
+  level: 51
+  price: 10000
+- id: Item_Hell_Quickhack_Lucifers_Throne_Breach
+  category: Quickhack
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: 'Breach Protocol: Pride'
+  description: Hell-code from Lucifers_Throne. Pride deletes.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Uncommon
+  quickhack_type: Breach
+  ram_cost: 2
+  upload_time: 1.0
+  duration: 5
+  cooldown: 15
+  level: 50
+  price: 9500
+- id: Item_Hell_Quickhack_Lucifers_Throne_Control
+  category: Quickhack
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: 'Control Protocol: Pride'
+  description: Hell-code from Lucifers_Throne. Pride deletes.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Rare
+  quickhack_type: Control
+  ram_cost: 4
+  upload_time: 1.5
+  duration: 10
+  cooldown: 25
+  level: 52
+  price: 10000
+- id: Item_Hell_Quickhack_Lucifers_Throne_Damage
+  category: Quickhack
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: 'Damage Protocol: Pride'
+  description: Hell-code from Lucifers_Throne. Pride deletes.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Epic
+  quickhack_type: Damage
+  ram_cost: 6
+  upload_time: 2.0
+  duration: 15
+  cooldown: 35
+  level: 54
+  price: 10500
+- id: Item_Hell_Quickhack_Lucifers_Throne_Ultimate
+  category: Quickhack
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: 'Ultimate Protocol: Pride'
+  description: Hell-code from Lucifers_Throne. Pride deletes.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Legendary
+  quickhack_type: Ultimate
+  ram_cost: 8
+  upload_time: 2.5
+  duration: 20
+  cooldown: 45
+  level: 56
+  price: 11000
+- id: Item_Hell_Shard_Limbo_Memory
+  category: Shard
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: 'Memory of Limbo: Indecision'
+  description: A memory from Limbo. Fragments of hesitation.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Common
+  shard_type: Memory
+  reveals: Limbo Lore
+  level: 1
+  price: 50
+- id: Item_Hell_Shard_Limbo_Log
+  category: Shard
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: 'Log of Limbo: Indecision'
+  description: A log from Limbo. Fragments of hesitation.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Uncommon
+  shard_type: Log
+  reveals: Limbo Lore
+  level: 1
+  price: 100
+- id: Item_Hell_Shard_Limbo_Diary
+  category: Shard
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: 'Diary of Limbo: Indecision'
+  description: A diary from Limbo. Fragments of hesitation.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Rare
+  shard_type: Diary
+  reveals: Limbo Lore
+  level: 1
+  price: 150
+- id: Item_Hell_Shard_Limbo_Contract
+  category: Shard
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: 'Contract of Limbo: Indecision'
+  description: A contract from Limbo. Fragments of hesitation.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Epic
+  shard_type: Contract
+  reveals: Limbo Lore
+  level: 1
+  price: 200
+- id: Item_Hell_Shard_Lust_Memory
+  category: Shard
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: 'Memory of Lust: Desire'
+  description: A memory from Lust. Echoes of want.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Common
+  shard_type: Memory
+  reveals: Lust Secrets
+  level: 1
+  price: 150
+- id: Item_Hell_Shard_Lust_Log
+  category: Shard
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: 'Log of Lust: Desire'
+  description: A log from Lust. Echoes of want.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Uncommon
+  shard_type: Log
+  reveals: Lust Secrets
+  level: 1
+  price: 200
+- id: Item_Hell_Shard_Lust_Diary
+  category: Shard
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: 'Diary of Lust: Desire'
+  description: A diary from Lust. Echoes of want.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Rare
+  shard_type: Diary
+  reveals: Lust Secrets
+  level: 1
+  price: 250
+- id: Item_Hell_Shard_Lust_Contract
+  category: Shard
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: 'Contract of Lust: Desire'
+  description: A contract from Lust. Echoes of want.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Epic
+  shard_type: Contract
+  reveals: Lust Secrets
+  level: 1
+  price: 300
+- id: Item_Hell_Shard_Gluttony_Memory
+  category: Shard
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: 'Memory of Gluttony: Consumption'
+  description: A memory from Gluttony. Records of feast.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Common
+  shard_type: Memory
+  reveals: Gluttony Recipes
+  level: 1
+  price: 250
+- id: Item_Hell_Shard_Gluttony_Log
+  category: Shard
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: 'Log of Gluttony: Consumption'
+  description: A log from Gluttony. Records of feast.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Uncommon
+  shard_type: Log
+  reveals: Gluttony Recipes
+  level: 1
+  price: 300
+- id: Item_Hell_Shard_Gluttony_Diary
+  category: Shard
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: 'Diary of Gluttony: Consumption'
+  description: A diary from Gluttony. Records of feast.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Rare
+  shard_type: Diary
+  reveals: Gluttony Recipes
+  level: 1
+  price: 350
+- id: Item_Hell_Shard_Gluttony_Contract
+  category: Shard
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: 'Contract of Gluttony: Consumption'
+  description: A contract from Gluttony. Records of feast.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Epic
+  shard_type: Contract
+  reveals: Gluttony Recipes
+  level: 1
+  price: 400
+- id: Item_Hell_Shard_Greed_Memory
+  category: Shard
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: 'Memory of Greed: Avarice'
+  description: A memory from Greed. Ledgers of greed.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Common
+  shard_type: Memory
+  reveals: Greed Vaults
+  level: 1
+  price: 350
+- id: Item_Hell_Shard_Greed_Log
+  category: Shard
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: 'Log of Greed: Avarice'
+  description: A log from Greed. Ledgers of greed.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Uncommon
+  shard_type: Log
+  reveals: Greed Vaults
+  level: 1
+  price: 400
+- id: Item_Hell_Shard_Greed_Diary
+  category: Shard
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: 'Diary of Greed: Avarice'
+  description: A diary from Greed. Ledgers of greed.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Rare
+  shard_type: Diary
+  reveals: Greed Vaults
+  level: 1
+  price: 450
+- id: Item_Hell_Shard_Greed_Contract
+  category: Shard
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: 'Contract of Greed: Avarice'
+  description: A contract from Greed. Ledgers of greed.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Epic
+  shard_type: Contract
+  reveals: Greed Vaults
+  level: 1
+  price: 500
+- id: Item_Hell_Shard_Wrath_Memory
+  category: Shard
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: 'Memory of Wrath: Rage'
+  description: A memory from Wrath. Screams of rage.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Common
+  shard_type: Memory
+  reveals: Wrath Tactics
+  level: 1
+  price: 450
+- id: Item_Hell_Shard_Wrath_Log
+  category: Shard
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: 'Log of Wrath: Rage'
+  description: A log from Wrath. Screams of rage.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Uncommon
+  shard_type: Log
+  reveals: Wrath Tactics
+  level: 1
+  price: 500
+- id: Item_Hell_Shard_Wrath_Diary
+  category: Shard
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: 'Diary of Wrath: Rage'
+  description: A diary from Wrath. Screams of rage.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Rare
+  shard_type: Diary
+  reveals: Wrath Tactics
+  level: 1
+  price: 550
+- id: Item_Hell_Shard_Wrath_Contract
+  category: Shard
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: 'Contract of Wrath: Rage'
+  description: A contract from Wrath. Screams of rage.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Epic
+  shard_type: Contract
+  reveals: Wrath Tactics
+  level: 1
+  price: 600
+- id: Item_Hell_Shard_Heresy_Memory
+  category: Shard
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: 'Memory of Heresy: Blasphemy'
+  description: A memory from Heresy. Confessions of heresy.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Common
+  shard_type: Memory
+  reveals: Heresy Rituals
+  level: 1
+  price: 550
+- id: Item_Hell_Shard_Heresy_Log
+  category: Shard
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: 'Log of Heresy: Blasphemy'
+  description: A log from Heresy. Confessions of heresy.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Uncommon
+  shard_type: Log
+  reveals: Heresy Rituals
+  level: 1
+  price: 600
+- id: Item_Hell_Shard_Heresy_Diary
+  category: Shard
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: 'Diary of Heresy: Blasphemy'
+  description: A diary from Heresy. Confessions of heresy.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Rare
+  shard_type: Diary
+  reveals: Heresy Rituals
+  level: 1
+  price: 650
+- id: Item_Hell_Shard_Heresy_Contract
+  category: Shard
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: 'Contract of Heresy: Blasphemy'
+  description: A contract from Heresy. Confessions of heresy.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Epic
+  shard_type: Contract
+  reveals: Heresy Rituals
+  level: 1
+  price: 700
+- id: Item_Hell_Shard_Violence_Memory
+  category: Shard
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: 'Memory of Violence: Brutality'
+  description: A memory from Violence. Footage of slaughter.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Common
+  shard_type: Memory
+  reveals: Violence Maps
+  level: 1
+  price: 650
+- id: Item_Hell_Shard_Violence_Log
+  category: Shard
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: 'Log of Violence: Brutality'
+  description: A log from Violence. Footage of slaughter.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Uncommon
+  shard_type: Log
+  reveals: Violence Maps
+  level: 1
+  price: 700
+- id: Item_Hell_Shard_Violence_Diary
+  category: Shard
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: 'Diary of Violence: Brutality'
+  description: A diary from Violence. Footage of slaughter.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Rare
+  shard_type: Diary
+  reveals: Violence Maps
+  level: 1
+  price: 750
+- id: Item_Hell_Shard_Violence_Contract
+  category: Shard
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: 'Contract of Violence: Brutality'
+  description: A contract from Violence. Footage of slaughter.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Epic
+  shard_type: Contract
+  reveals: Violence Maps
+  level: 1
+  price: 800
+- id: Item_Hell_Shard_Fraud_Memory
+  category: Shard
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: 'Memory of Fraud: Deception'
+  description: A memory from Fraud. Transcripts of lies.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Common
+  shard_type: Memory
+  reveals: Fraud Schemes
+  level: 1
+  price: 750
+- id: Item_Hell_Shard_Fraud_Log
+  category: Shard
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: 'Log of Fraud: Deception'
+  description: A log from Fraud. Transcripts of lies.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Uncommon
+  shard_type: Log
+  reveals: Fraud Schemes
+  level: 1
+  price: 800
+- id: Item_Hell_Shard_Fraud_Diary
+  category: Shard
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: 'Diary of Fraud: Deception'
+  description: A diary from Fraud. Transcripts of lies.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Rare
+  shard_type: Diary
+  reveals: Fraud Schemes
+  level: 1
+  price: 850
+- id: Item_Hell_Shard_Fraud_Contract
+  category: Shard
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: 'Contract of Fraud: Deception'
+  description: A contract from Fraud. Transcripts of lies.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Epic
+  shard_type: Contract
+  reveals: Fraud Schemes
+  level: 1
+  price: 900
+- id: Item_Hell_Shard_Treachery_Memory
+  category: Shard
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: 'Memory of Treachery: Betrayal'
+  description: A memory from Treachery. Testimonies of betrayal.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Common
+  shard_type: Memory
+  reveals: Treachery Proofs
+  level: 1
+  price: 850
+- id: Item_Hell_Shard_Treachery_Log
+  category: Shard
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: 'Log of Treachery: Betrayal'
+  description: A log from Treachery. Testimonies of betrayal.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Uncommon
+  shard_type: Log
+  reveals: Treachery Proofs
+  level: 1
+  price: 900
+- id: Item_Hell_Shard_Treachery_Diary
+  category: Shard
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: 'Diary of Treachery: Betrayal'
+  description: A diary from Treachery. Testimonies of betrayal.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Rare
+  shard_type: Diary
+  reveals: Treachery Proofs
+  level: 1
+  price: 950
+- id: Item_Hell_Shard_Treachery_Contract
+  category: Shard
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: 'Contract of Treachery: Betrayal'
+  description: A contract from Treachery. Testimonies of betrayal.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Epic
+  shard_type: Contract
+  reveals: Treachery Proofs
+  level: 1
+  price: 1000
+- id: Item_Hell_Shard_Lucifers_Throne_Memory
+  category: Shard
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: 'Memory of Lucifers_Throne: Pride'
+  description: A memory from Lucifers_Throne. Decrees of pride.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Common
+  shard_type: Memory
+  reveals: Lucifer's Will
+  level: 1
+  price: 950
+- id: Item_Hell_Shard_Lucifers_Throne_Log
+  category: Shard
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: 'Log of Lucifers_Throne: Pride'
+  description: A log from Lucifers_Throne. Decrees of pride.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Uncommon
+  shard_type: Log
+  reveals: Lucifer's Will
+  level: 1
+  price: 1000
+- id: Item_Hell_Shard_Lucifers_Throne_Diary
+  category: Shard
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: 'Diary of Lucifers_Throne: Pride'
+  description: A diary from Lucifers_Throne. Decrees of pride.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Rare
+  shard_type: Diary
+  reveals: Lucifer's Will
+  level: 1
+  price: 1050
+- id: Item_Hell_Shard_Lucifers_Throne_Contract
+  category: Shard
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: 'Contract of Lucifers_Throne: Pride'
+  description: A contract from Lucifers_Throne. Decrees of pride.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Epic
+  shard_type: Contract
+  reveals: Lucifer's Will
+  level: 1
+  price: 1100
+- id: Item_Hell_Vehicle_Limbo_Chariot
+  category: Vehicle
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: 'Chariot of Limbo: Spectral Hover'
+  description: A chariot from Limbo. Indecision propels it. Phases through matter.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Rare
+  vehicle_type: Chariot
+  speed: 150
+  armor: 100
+  level: 10
+  price: 10000
+- id: Item_Hell_Vehicle_Limbo_Mount
+  category: Vehicle
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: 'Mount of Limbo: Phantom Needle'
+  description: A mount from Limbo. Indecision propels it. Phases through matter.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Epic
+  vehicle_type: Mount
+  speed: 170
+  armor: 200
+  level: 10
+  price: 20000
+- id: Item_Hell_Vehicle_Lust_Chariot
+  category: Vehicle
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: 'Chariot of Lust: Velvet Interceptor'
+  description: A chariot from Lust. Desire propels it. Charms observers.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Rare
+  vehicle_type: Chariot
+  speed: 165
+  armor: 150
+  level: 15
+  price: 15000
+- id: Item_Hell_Vehicle_Lust_Mount
+  category: Vehicle
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: 'Mount of Lust: Pleasure Yacht'
+  description: A mount from Lust. Desire propels it. Charms observers.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Epic
+  vehicle_type: Mount
+  speed: 185
+  armor: 250
+  level: 15
+  price: 25000
+- id: Item_Hell_Vehicle_Gluttony_Chariot
+  category: Vehicle
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: 'Chariot of Gluttony: Tanker Crawler'
+  description: A chariot from Gluttony. Consumption propels it. Consumes fuel as food.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Rare
+  vehicle_type: Chariot
+  speed: 180
+  armor: 200
+  level: 20
+  price: 20000
+- id: Item_Hell_Vehicle_Gluttony_Mount
+  category: Vehicle
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: 'Mount of Gluttony: Consumption Sub'
+  description: A mount from Gluttony. Consumption propels it. Consumes fuel as food.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Epic
+  vehicle_type: Mount
+  speed: 200
+  armor: 300
+  level: 20
+  price: 30000
+- id: Item_Hell_Vehicle_Greed_Chariot
+  category: Vehicle
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: 'Chariot of Greed: Armored Transport'
+  description: A chariot from Greed. Avarice propels it. Pays its own way.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Rare
+  vehicle_type: Chariot
+  speed: 195
+  armor: 250
+  level: 25
+  price: 25000
+- id: Item_Hell_Vehicle_Greed_Mount
+  category: Vehicle
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: 'Mount of Greed: Vault Runner'
+  description: A mount from Greed. Avarice propels it. Pays its own way.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Epic
+  vehicle_type: Mount
+  speed: 215
+  armor: 350
+  level: 25
+  price: 35000
+- id: Item_Hell_Vehicle_Wrath_Chariot
+  category: Vehicle
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: 'Chariot of Wrath: War Charger'
+  description: A chariot from Wrath. Rage propels it. Runs on rage.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Rare
+  vehicle_type: Chariot
+  speed: 210
+  armor: 300
+  level: 30
+  price: 30000
+- id: Item_Hell_Vehicle_Wrath_Mount
+  category: Vehicle
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: 'Mount of Wrath: Fury Bike'
+  description: A mount from Wrath. Rage propels it. Runs on rage.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Epic
+  vehicle_type: Mount
+  speed: 230
+  armor: 400
+  level: 30
+  price: 40000
+- id: Item_Hell_Vehicle_Heresy_Chariot
+  category: Vehicle
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: 'Chariot of Heresy: Iconoclast Walker'
+  description: A chariot from Heresy. Blasphemy propels it. Denies physics.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Rare
+  vehicle_type: Chariot
+  speed: 225
+  armor: 350
+  level: 35
+  price: 35000
+- id: Item_Hell_Vehicle_Heresy_Mount
+  category: Vehicle
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: 'Mount of Heresy: Blasphemy Blade'
+  description: A mount from Heresy. Blasphemy propels it. Denies physics.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Epic
+  vehicle_type: Mount
+  speed: 245
+  armor: 450
+  level: 35
+  price: 45000
+- id: Item_Hell_Vehicle_Violence_Chariot
+  category: Vehicle
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: 'Chariot of Violence: Marauder Technical'
+  description: A chariot from Violence. Brutality propels it. Crushes obstacles.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Rare
+  vehicle_type: Chariot
+  speed: 240
+  armor: 400
+  level: 40
+  price: 40000
+- id: Item_Hell_Vehicle_Violence_Mount
+  category: Vehicle
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: 'Mount of Violence: Butcher''s Ram'
+  description: A mount from Violence. Brutality propels it. Crushes obstacles.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Epic
+  vehicle_type: Mount
+  speed: 260
+  armor: 500
+  level: 40
+  price: 50000
+- id: Item_Hell_Vehicle_Fraud_Chariot
+  category: Vehicle
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: 'Chariot of Fraud: Mirror Chariot'
+  description: A chariot from Fraud. Deception propels it. Mimics other vehicles.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Rare
+  vehicle_type: Chariot
+  speed: 255
+  armor: 450
+  level: 45
+  price: 45000
+- id: Item_Hell_Vehicle_Fraud_Mount
+  category: Vehicle
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: 'Mount of Fraud: Deceiver Drone'
+  description: A mount from Fraud. Deception propels it. Mimics other vehicles.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Epic
+  vehicle_type: Mount
+  speed: 275
+  armor: 550
+  level: 45
+  price: 55000
+- id: Item_Hell_Vehicle_Treachery_Chariot
+  category: Vehicle
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: 'Chariot of Treachery: Frozen Sled'
+  description: A chariot from Treachery. Betrayal propels it. Phases through ice.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Rare
+  vehicle_type: Chariot
+  speed: 270
+  armor: 500
+  level: 50
+  price: 50000
+- id: Item_Hell_Vehicle_Treachery_Mount
+  category: Vehicle
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: 'Mount of Treachery: Traitor''s Toll'
+  description: A mount from Treachery. Betrayal propels it. Phases through ice.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Epic
+  vehicle_type: Mount
+  speed: 290
+  armor: 600
+  level: 50
+  price: 60000
+- id: Item_Hell_Vehicle_Lucifers_Throne_Chariot
+  category: Vehicle
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: 'Chariot of Lucifers_Throne: Morningstar Chariot'
+  description: A chariot from Lucifers_Throne. Pride propels it. Rewrites traffic
+    laws.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Rare
+  vehicle_type: Chariot
+  speed: 285
+  armor: 550
+  level: 55
+  price: 55000
+- id: Item_Hell_Vehicle_Lucifers_Throne_Mount
+  category: Vehicle
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: 'Mount of Lucifers_Throne: Pride''s Apex'
+  description: A mount from Lucifers_Throne. Pride propels it. Rewrites traffic laws.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Epic
+  vehicle_type: Mount
+  speed: 305
+  armor: 650
+  level: 55
+  price: 65000
