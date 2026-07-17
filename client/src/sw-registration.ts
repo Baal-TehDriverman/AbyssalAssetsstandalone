@@ -101,9 +101,10 @@ export async function requestNotificationPermission(): Promise<NotificationPermi
 // Subscribe to push notifications
 export async function subscribeToPush(registration: ServiceWorkerRegistration): Promise<PushSubscription | null> {
   try {
+    const vapidKey = import.meta.env.VITE_VAPID_PUBLIC_KEY as string | undefined
     const subscription = await registration.pushManager.subscribe({
       userVisibleOnly: true,
-      applicationServerKey: urlBase64ToUint8Array(import.meta.env.VITE_VAPID_PUBLIC_KEY || '') as BufferSource,
+      applicationServerKey: vapidKey ? urlBase64ToUint8Array(vapidKey) as BufferSource : undefined,
     })
     console.log('[SW] Push subscription:', subscription)
     return subscription
@@ -135,7 +136,8 @@ export async function registerPeriodicSync(registration: ServiceWorkerRegistrati
   if (!supportsPeriodicSync()) return
 
   try {
-    await (registration as any).periodicSync.register('market-data-refresh', {
+    // @ts-expect-error - periodicSync not in TypeScript lib
+    await registration.periodicSync.register('market-data-refresh', {
       minInterval: 15 * 60 * 1000, // 15 minutes
     })
     console.log('[SW] Periodic sync registered')
