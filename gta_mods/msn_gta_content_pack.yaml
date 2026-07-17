@@ -1,0 +1,62 @@
+schema: msn.gta_content_pack.v1
+local_only: true
+title: GTA MSN/Abyssal Content Pack
+depends_on:
+  - msn_gta_bridge.yaml
+
+content:
+  vehicles:
+    - id: gta_vehicle_loch_runner
+      name: Loch Runner
+      class: amphibious_smuggler
+      role: water route scout and Nessie sighting trigger
+      upgrades: [quiet_propulsion, hidden_cargo, sonar_ping, abyssal_livery]
+    - id: gta_vehicle_nyx_interceptor
+      name: Nyx Interceptor
+      class: stealth_supercar
+      role: night contracts and evasion trials
+      upgrades: [blackout_mode, heat_bleed, route_scrambler, violet_neon]
+    - id: gta_vehicle_thoth_command_van
+      name: Thoth Command Van
+      class: mobile_ops
+      role: evidence board, heist planner, and memory terminal
+      upgrades: [signal_archive, drone_rack, local_ai_terminal, armored_shell]
+
+  businesses:
+    - id: gta_business_abyssal_imports
+      name: Abyssal Imports
+      loop: buy fictional salvage, craft vehicle upgrades, route profits into city-node economy
+      guardrail: no real-world criminal instruction; game economy only
+    - id: gta_business_loch_exchange_los_santos
+      name: Loch Exchange Los Santos Desk
+      loop: fictional market board for cargo, cosmetics, and fleet contracts
+      bridge_to_cyberpunk: Loch Exchange and Soul Coin markets
+
+  heist_chains:
+    - id: gta_heist_prime_13_waters
+      name: Prime 13 Waters
+      acts:
+        - scout reservoir anomalies
+        - recover thirteen encrypted cargo seals
+        - defend the Loch Runner convoy
+        - unlock Nessie easter egg route
+      rewards: [loch_runner_livery, sonar_ping_upgrade, nessie_friendship_flag]
+    - id: gta_heist_static_convergence_field
+      name: Static Convergence Field
+      acts:
+        - stabilize three city nodes
+        - run local-only sandbox checks on the heist scripts
+        - complete a stealth finale
+      rewards: [nyx_interceptor, thoth_command_van_terminal, gta_memory_route_unlock]
+
+  commands:
+    - gta.msn.bridge
+    - gta.economy.bridge
+    - gta.mod.sandbox
+    - gta.memory.route
+    - gta.vehicles.list
+    - gta.heists.list
+
+guardrails:
+  - This is fictional game content, not real-world operational guidance.
+  - Keep installation work in speculative scratch until a specific GTA install and mod loader is confirmed.
