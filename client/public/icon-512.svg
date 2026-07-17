@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#030305"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="250" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="8"/>
+  
+  <!-- Water ripple pattern -->
+  <g opacity="0.15">
+    <path d="M50,200 Q128,180 256,200 Q384,220 462,200" fill="none" stroke="#0ea5e9" stroke-width="3"/>
+    <path d="M50,256 Q128,236 256,256 Q384,276 462,256" fill="none" stroke="#0ea5e9" stroke-width="3"/>
+    <path d="M50,312 Q128,292 256,312 Q384,332 462,312" fill="none" stroke="#0ea5e9" stroke-width="3"/>
+    <path d="M50,144 Q128,124 256,144 Q384,164 462,144" fill="none" stroke="#0ea5e9" stroke-width="2"/>
+    <path d="M50,368 Q128,348 256,368 Q384,388 462,368" fill="none" stroke="#0ea5e9" stroke-width="2"/>
+  </g>
+  
+  <!-- Top Hat Silhouette -->
+  <g filter="url(#glow)">
+    <!-- Brim -->
+    <ellipse cx="256" cy="330" rx="155" ry="32" fill="url(#goldGrad)"/>
+    <ellipse cx="256" cy="330" rx="145" ry="26" fill="#0a0a12"/>
+    
+    <!-- Crown -->
+    <path d="M120,330 L135,150 Q256,90 377,150 L392,330 Z" fill="url(#goldGrad)"/>
+    <path d="M140,330 L150,170 Q256,120 362,170 L372,330 Z" fill="#0a0a12"/>
+    
+    <!-- Hat band -->
+    <rect x="140" y="312" width="232" height="22" fill="#8b5cf6" opacity="0.8"/>
+    <rect x="140" y="312" width="232" height="22" fill="url(#goldGrad)" opacity="0.3"/>
+    
+    <!-- Gem on band -->
+    <circle cx="256" cy="323" r="10" fill="#0ea5e9">
+      <animate attributeName="r" values="8;13;8" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Sparkle particles -->
+  <g fill="#fbbf24">
+    <circle cx="100" cy="140" r="5" opacity="0.8">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite" begin="0s"/>
+      <animate attributeName="r" values="3;8;3" dur="1.5s" repeatCount="indefinite" begin="0s"/>
+    </circle>
+    <circle cx="410" cy="150" r="4" opacity="0.6">
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="1.2s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <circle cx="80" cy="400" r="4" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.8s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+    <circle cx="430" cy="420" r="5" opacity="0.7">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.3s" repeatCount="indefinite" begin="0.8s"/>
+    </circle>
+    <circle cx="180" cy="100" r="3" opacity="0.6">
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="1s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+    <circle cx="330" cy="110" r="3" opacity="0.6">
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="1.1s" repeatCount="indefinite" begin="0.7s"/>
+    </circle>
+  </g>
+  
+  <!-- "AA" Initials -->
+  <text x="256" y="445" text-anchor="middle" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="url(#goldGrad)" opacity="0.95">AA</text>
+</svg>
