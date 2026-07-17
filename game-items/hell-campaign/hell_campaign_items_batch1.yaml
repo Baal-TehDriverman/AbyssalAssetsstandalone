@@ -1,0 +1,1354 @@
+- id: Item_Hell_Weapon_Limbo_01
+  category: Weapon
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Limbo's Hesitation Blade
+  description: A weapon forged from the indecision of the uncommitted. Hesitates before
+    striking.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Rare
+  damage_type: Physical
+  level: 8
+  price: 700
+- id: Item_Hell_Weapon_Limbo_02
+  category: Weapon
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Limbo's Doubt Blade
+  description: A weapon forged from the indecision of the uncommitted. Doubts its
+    own edge.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Rare
+  damage_type: Chemical
+  level: 11
+  price: 900
+- id: Item_Hell_Weapon_Limbo_03
+  category: Weapon
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Limbo's Apathy Blade
+  description: A weapon forged from the indecision of the uncommitted. Feels nothing.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Rare
+  damage_type: EMP
+  level: 14
+  price: 1100
+- id: Item_Hell_Weapon_Limbo_04
+  category: Weapon
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Limbo's Void Blade
+  description: A weapon forged from the indecision of the uncommitted. Erases memory
+    of wound.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Rare
+  damage_type: Thermal
+  level: 17
+  price: 1300
+- id: Item_Hell_Weapon_Limbo_05
+  category: Weapon
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Limbo's Silence Blade
+  description: A weapon forged from the indecision of the uncommitted. Silences the
+    victim.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Rare
+  damage_type: Psyche
+  level: 20
+  price: 1500
+- id: Item_Hell_Weapon_Lust_01
+  category: Weapon
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Siren's Kiss
+  description: Forged in the hurricane of unfulfilled want. Charms on hit.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Epic
+  damage_type: Chemical
+  level: 13
+  price: 2500
+- id: Item_Hell_Weapon_Lust_02
+  category: Weapon
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Incubus Claw
+  description: Forged in the hurricane of unfulfilled want. Drains stamina.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Epic
+  damage_type: Thermal
+  level: 16
+  price: 3000
+- id: Item_Hell_Weapon_Lust_03
+  category: Weapon
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Succubus Whip
+  description: Forged in the hurricane of unfulfilled want. Confuses target.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Epic
+  damage_type: EMP
+  level: 19
+  price: 3500
+- id: Item_Hell_Weapon_Lust_04
+  category: Weapon
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Desire's Edge
+  description: Forged in the hurricane of unfulfilled want. Marks for Sirens.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Epic
+  damage_type: Psyche
+  level: 22
+  price: 4000
+- id: Item_Hell_Weapon_Lust_05
+  category: Weapon
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Lust's Lash
+  description: Forged in the hurricane of unfulfilled want. Feeds on arousal.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Epic
+  damage_type: Physical
+  level: 25
+  price: 4500
+- id: Item_Hell_Weapon_Gluttony_01
+  category: Weapon
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Consumer's Maw
+  description: Devours ammunition to grow stronger. Eats ammo for damage.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Epic
+  damage_type: Physical
+  level: 18
+  price: 3600
+- id: Item_Hell_Weapon_Gluttony_02
+  category: Weapon
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Devourer's Fang
+  description: Devours ammunition to grow stronger. Heals on kill.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Epic
+  damage_type: Chemical
+  level: 21
+  price: 4200
+- id: Item_Hell_Weapon_Gluttony_03
+  category: Weapon
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Gluttony's Gullet
+  description: Devours ammunition to grow stronger. Consumes corpses.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Epic
+  damage_type: Thermal
+  level: 24
+  price: 4800
+- id: Item_Hell_Weapon_Gluttony_04
+  category: Weapon
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Hoarder's Cleaver
+  description: Devours ammunition to grow stronger. Grows with each shot.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Epic
+  damage_type: EMP
+  level: 27
+  price: 5400
+- id: Item_Hell_Weapon_Gluttony_05
+  category: Weapon
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Consumption's Edge
+  description: Devours ammunition to grow stronger. Never reloads.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Epic
+  damage_type: Psyche
+  level: 30
+  price: 6000
+- id: Item_Hell_Weapon_Greed_01
+  category: Weapon
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Avarice's Gavel
+  description: Currency is ammunition. Fires eddies.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Legendary
+  damage_type: EMP
+  level: 24
+  price: 6000
+- id: Item_Hell_Weapon_Greed_02
+  category: Weapon
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Hoarder's Vault-Rifle
+  description: Currency is ammunition. Costs eddies per shot.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Legendary
+  damage_type: Physical
+  level: 28
+  price: 7000
+- id: Item_Hell_Weapon_Greed_03
+  category: Weapon
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Mammon's Ledger
+  description: Currency is ammunition. Steals eddies on hit.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Legendary
+  damage_type: Chemical
+  level: 32
+  price: 8000
+- id: Item_Hell_Weapon_Greed_04
+  category: Weapon
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Gold-Plated Deceiver
+  description: Currency is ammunition. Converts loot to ammo.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Legendary
+  damage_type: Thermal
+  level: 36
+  price: 9000
+- id: Item_Hell_Weapon_Greed_05
+  category: Weapon
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Treasury's Key
+  description: Currency is ammunition. Pays for crits.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Legendary
+  damage_type: Psyche
+  level: 40
+  price: 10000
+- id: Item_Hell_Weapon_Wrath_01
+  category: Weapon
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Rage's Howl
+  description: Fueled by pure rage. Damage increases as health drops.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Legendary
+  damage_type: Thermal
+  level: 29
+  price: 9500
+- id: Item_Hell_Weapon_Wrath_02
+  category: Weapon
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Fury's Brand
+  description: Fueled by pure rage. Crits cause bleed.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Legendary
+  damage_type: Physical
+  level: 33
+  price: 11000
+- id: Item_Hell_Weapon_Wrath_03
+  category: Weapon
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Wrath's Reaver
+  description: Fueled by pure rage. Explodes on kill.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Legendary
+  damage_type: Chemical
+  level: 37
+  price: 12500
+- id: Item_Hell_Weapon_Wrath_04
+  category: Weapon
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Hatred's Hammer
+  description: Fueled by pure rage. Chains to nearby.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Legendary
+  damage_type: EMP
+  level: 41
+  price: 14000
+- id: Item_Hell_Weapon_Wrath_05
+  category: Weapon
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Vengeance's Violin
+  description: Fueled by pure rage. Ignores armor.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Legendary
+  damage_type: Psyche
+  level: 45
+  price: 15500
+- id: Item_Hell_Weapon_Heresy_01
+  category: Weapon
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Blasphemer's Bolt
+  description: Denies divine protection. Ignores shields.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Epic
+  damage_type: EMP
+  level: 34
+  price: 14000
+- id: Item_Hell_Weapon_Heresy_02
+  category: Weapon
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Iconoclast's Iron
+  description: Denies divine protection. Corrupts cyberware.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Epic
+  damage_type: Thermal
+  level: 38
+  price: 16000
+- id: Item_Hell_Weapon_Heresy_03
+  category: Weapon
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Heretic's Howitzer
+  description: Denies divine protection. Silences quickhacks.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Epic
+  damage_type: Psyche
+  level: 42
+  price: 18000
+- id: Item_Hell_Weapon_Heresy_04
+  category: Weapon
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Apostate's Arc
+  description: Denies divine protection. Defiles holy ground.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Epic
+  damage_type: Chemical
+  level: 46
+  price: 20000
+- id: Item_Hell_Weapon_Heresy_05
+  category: Weapon
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Sacrilege's Scythe
+  description: Denies divine protection. Converts healing to damage.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Epic
+  damage_type: Physical
+  level: 50
+  price: 22000
+- id: Item_Hell_Weapon_Violence_01
+  category: Weapon
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Marauder's Maul
+  description: Kills efficiently. Execution on low HP.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Legendary
+  damage_type: Physical
+  level: 39
+  price: 21000
+- id: Item_Hell_Weapon_Violence_02
+  category: Weapon
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Butcher's Blade
+  description: Kills efficiently. Multi-kill chain.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Legendary
+  damage_type: Thermal
+  level: 43
+  price: 24000
+- id: Item_Hell_Weapon_Violence_03
+  category: Weapon
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Slaughter's Song
+  description: Kills efficiently. Armor shredding.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Legendary
+  damage_type: Chemical
+  level: 47
+  price: 27000
+- id: Item_Hell_Weapon_Violence_04
+  category: Weapon
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Carnage Cannon
+  description: Kills efficiently. Fear aura.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Legendary
+  damage_type: EMP
+  level: 51
+  price: 30000
+- id: Item_Hell_Weapon_Violence_05
+  category: Weapon
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Bloodletter's Bow
+  description: Kills efficiently. Life steal.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Legendary
+  damage_type: Psyche
+  level: 55
+  price: 33000
+- id: Item_Hell_Weapon_Fraud_01
+  category: Weapon
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Deceiver's Dagger
+  description: Reality bends around it. Creates decoys.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Epic
+  damage_type: Psyche
+  level: 44
+  price: 29000
+- id: Item_Hell_Weapon_Fraud_02
+  category: Weapon
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Mirror-Match Rifle
+  description: Reality bends around it. Swaps positions.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Epic
+  damage_type: EMP
+  level: 48
+  price: 33000
+- id: Item_Hell_Weapon_Fraud_03
+  category: Weapon
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Illusionist's Ink
+  description: Reality bends around it. Invisible projectiles.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Epic
+  damage_type: Thermal
+  level: 52
+  price: 37000
+- id: Item_Hell_Weapon_Fraud_04
+  category: Weapon
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: False Prophet's Flare
+  description: Reality bends around it. Mimics enemy.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Epic
+  damage_type: Chemical
+  level: 56
+  price: 41000
+- id: Item_Hell_Weapon_Fraud_05
+  category: Weapon
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Liar's Laser
+  description: Reality bends around it. Rewrites kill feed.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Epic
+  damage_type: Physical
+  level: 60
+  price: 45000
+- id: Item_Hell_Weapon_Treachery_01
+  category: Weapon
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Traitor's Thorn
+  description: Turns allies against each other. Friendly fire bonus.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Legendary
+  damage_type: Physical
+  level: 49
+  price: 40000
+- id: Item_Hell_Weapon_Treachery_02
+  category: Weapon
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Betrayer's Barrel
+  description: Turns allies against each other. Converts enemies.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Legendary
+  damage_type: Psyche
+  level: 53
+  price: 45000
+- id: Item_Hell_Weapon_Treachery_03
+  category: Weapon
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Judas' Javelin
+  description: Turns allies against each other. Steals cyberware.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Legendary
+  damage_type: EMP
+  level: 57
+  price: 50000
+- id: Item_Hell_Weapon_Treachery_04
+  category: Weapon
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Turncoat's Talon
+  description: Turns allies against each other. Reveals traitors.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Legendary
+  damage_type: Thermal
+  level: 61
+  price: 55000
+- id: Item_Hell_Weapon_Treachery_05
+  category: Weapon
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Oathbreaker's Obliterator
+  description: Turns allies against each other. Freezes loyalty.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Legendary
+  damage_type: Chemical
+  level: 65
+  price: 60000
+- id: Item_Hell_Weapon_LucifersThrone_01
+  category: Weapon
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Lucifer's Lightbringer
+  description: The ultimate infernal arms. Reality rewrite.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Mythic
+  damage_type: Psyche
+  level: 55
+  price: 60000
+- id: Item_Hell_Weapon_LucifersThrone_02
+  category: Weapon
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Morningstar's Mercy
+  description: The ultimate infernal arms. Conceptual damage.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Mythic
+  damage_type: Thermal
+  level: 60
+  price: 70000
+- id: Item_Hell_Weapon_LucifersThrone_03
+  category: Weapon
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Pride's Peak
+  description: The ultimate infernal arms. Erases from history.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Mythic
+  damage_type: EMP
+  level: 65
+  price: 80000
+- id: Item_Hell_Weapon_LucifersThrone_04
+  category: Weapon
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Fallen's Finale
+  description: The ultimate infernal arms. Commands demons.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Mythic
+  damage_type: Chemical
+  level: 70
+  price: 90000
+- id: Item_Hell_Weapon_LucifersThrone_05
+  category: Weapon
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Devil's Due
+  description: The ultimate infernal arms. Becomes the wielder.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Mythic
+  damage_type: Physical
+  level: 75
+  price: 100000
+- id: Item_Hell_Armor_Limbo_Helmet
+  category: Armor
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Limbo Helmet of Indecision
+  description: Forged in Limbo. Adapts to sin.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Rare
+  armor_type: Helmet
+  slots: 1
+  level: 5
+  price: 1000
+- id: Item_Hell_Armor_Limbo_Chest
+  category: Armor
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Limbo Chest of Indecision
+  description: Forged in Limbo. Feeds on indecision.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Epic
+  armor_type: Chest
+  slots: 2
+  level: 7
+  price: 1500
+- id: Item_Hell_Armor_Limbo_Arms
+  category: Armor
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Limbo Arms of Indecision
+  description: Forged in Limbo. Reflects Indecision.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Legendary
+  armor_type: Arms
+  slots: 3
+  level: 9
+  price: 2000
+- id: Item_Hell_Armor_Limbo_Legs
+  category: Armor
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Limbo Legs of Indecision
+  description: Forged in Limbo. Grows with Indecision.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Legendary
+  armor_type: Legs
+  slots: 4
+  level: 11
+  price: 2500
+- id: Item_Hell_Armor_Limbo_Full_Set
+  category: Armor
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Limbo Full_Set of Indecision
+  description: Forged in Limbo. Judges the wearer.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Mythic
+  armor_type: Full_Set
+  slots: 5
+  level: 13
+  price: 3000
+- id: Item_Hell_Armor_Lust_Helmet
+  category: Armor
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Lust Helmet of Desire
+  description: Forged in Lust. Adapts to sin.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Rare
+  armor_type: Helmet
+  slots: 1
+  level: 10
+  price: 3000
+- id: Item_Hell_Armor_Lust_Chest
+  category: Armor
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Lust Chest of Desire
+  description: Forged in Lust. Feeds on desire.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Epic
+  armor_type: Chest
+  slots: 2
+  level: 12
+  price: 3500
+- id: Item_Hell_Armor_Lust_Arms
+  category: Armor
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Lust Arms of Desire
+  description: Forged in Lust. Reflects Desire.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Legendary
+  armor_type: Arms
+  slots: 3
+  level: 14
+  price: 4000
+- id: Item_Hell_Armor_Lust_Legs
+  category: Armor
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Lust Legs of Desire
+  description: Forged in Lust. Grows with Desire.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Legendary
+  armor_type: Legs
+  slots: 4
+  level: 16
+  price: 4500
+- id: Item_Hell_Armor_Lust_Full_Set
+  category: Armor
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Lust Full_Set of Desire
+  description: Forged in Lust. Judges the wearer.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Mythic
+  armor_type: Full_Set
+  slots: 5
+  level: 18
+  price: 5000
+- id: Item_Hell_Armor_Gluttony_Helmet
+  category: Armor
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Gluttony Helmet of Consumption
+  description: Forged in Gluttony. Adapts to sin.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Rare
+  armor_type: Helmet
+  slots: 1
+  level: 15
+  price: 5000
+- id: Item_Hell_Armor_Gluttony_Chest
+  category: Armor
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Gluttony Chest of Consumption
+  description: Forged in Gluttony. Feeds on consumption.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Epic
+  armor_type: Chest
+  slots: 2
+  level: 17
+  price: 5500
+- id: Item_Hell_Armor_Gluttony_Arms
+  category: Armor
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Gluttony Arms of Consumption
+  description: Forged in Gluttony. Reflects Consumption.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Legendary
+  armor_type: Arms
+  slots: 3
+  level: 19
+  price: 6000
+- id: Item_Hell_Armor_Gluttony_Legs
+  category: Armor
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Gluttony Legs of Consumption
+  description: Forged in Gluttony. Grows with Consumption.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Legendary
+  armor_type: Legs
+  slots: 4
+  level: 21
+  price: 6500
+- id: Item_Hell_Armor_Gluttony_Full_Set
+  category: Armor
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Gluttony Full_Set of Consumption
+  description: Forged in Gluttony. Judges the wearer.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Mythic
+  armor_type: Full_Set
+  slots: 5
+  level: 23
+  price: 7000
+- id: Item_Hell_Armor_Greed_Helmet
+  category: Armor
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Greed Helmet of Avarice
+  description: Forged in Greed. Adapts to sin.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Rare
+  armor_type: Helmet
+  slots: 1
+  level: 20
+  price: 7000
+- id: Item_Hell_Armor_Greed_Chest
+  category: Armor
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Greed Chest of Avarice
+  description: Forged in Greed. Feeds on avarice.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Epic
+  armor_type: Chest
+  slots: 2
+  level: 22
+  price: 7500
+- id: Item_Hell_Armor_Greed_Arms
+  category: Armor
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Greed Arms of Avarice
+  description: Forged in Greed. Reflects Avarice.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Legendary
+  armor_type: Arms
+  slots: 3
+  level: 24
+  price: 8000
+- id: Item_Hell_Armor_Greed_Legs
+  category: Armor
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Greed Legs of Avarice
+  description: Forged in Greed. Grows with Avarice.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Legendary
+  armor_type: Legs
+  slots: 4
+  level: 26
+  price: 8500
+- id: Item_Hell_Armor_Greed_Full_Set
+  category: Armor
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Greed Full_Set of Avarice
+  description: Forged in Greed. Judges the wearer.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Mythic
+  armor_type: Full_Set
+  slots: 5
+  level: 28
+  price: 9000
+- id: Item_Hell_Armor_Wrath_Helmet
+  category: Armor
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Wrath Helmet of Rage
+  description: Forged in Wrath. Adapts to sin.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Rare
+  armor_type: Helmet
+  slots: 1
+  level: 25
+  price: 9000
+- id: Item_Hell_Armor_Wrath_Chest
+  category: Armor
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Wrath Chest of Rage
+  description: Forged in Wrath. Feeds on rage.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Epic
+  armor_type: Chest
+  slots: 2
+  level: 27
+  price: 9500
+- id: Item_Hell_Armor_Wrath_Arms
+  category: Armor
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Wrath Arms of Rage
+  description: Forged in Wrath. Reflects Rage.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Legendary
+  armor_type: Arms
+  slots: 3
+  level: 29
+  price: 10000
+- id: Item_Hell_Armor_Wrath_Legs
+  category: Armor
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Wrath Legs of Rage
+  description: Forged in Wrath. Grows with Rage.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Legendary
+  armor_type: Legs
+  slots: 4
+  level: 31
+  price: 10500
+- id: Item_Hell_Armor_Wrath_Full_Set
+  category: Armor
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Wrath Full_Set of Rage
+  description: Forged in Wrath. Judges the wearer.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Mythic
+  armor_type: Full_Set
+  slots: 5
+  level: 33
+  price: 11000
+- id: Item_Hell_Armor_Heresy_Helmet
+  category: Armor
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Heresy Helmet of Blasphemy
+  description: Forged in Heresy. Adapts to sin.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Rare
+  armor_type: Helmet
+  slots: 1
+  level: 30
+  price: 11000
+- id: Item_Hell_Armor_Heresy_Chest
+  category: Armor
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Heresy Chest of Blasphemy
+  description: Forged in Heresy. Feeds on blasphemy.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Epic
+  armor_type: Chest
+  slots: 2
+  level: 32
+  price: 11500
+- id: Item_Hell_Armor_Heresy_Arms
+  category: Armor
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Heresy Arms of Blasphemy
+  description: Forged in Heresy. Reflects Blasphemy.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Legendary
+  armor_type: Arms
+  slots: 3
+  level: 34
+  price: 12000
+- id: Item_Hell_Armor_Heresy_Legs
+  category: Armor
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Heresy Legs of Blasphemy
+  description: Forged in Heresy. Grows with Blasphemy.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Legendary
+  armor_type: Legs
+  slots: 4
+  level: 36
+  price: 12500
+- id: Item_Hell_Armor_Heresy_Full_Set
+  category: Armor
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Heresy Full_Set of Blasphemy
+  description: Forged in Heresy. Judges the wearer.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Mythic
+  armor_type: Full_Set
+  slots: 5
+  level: 38
+  price: 13000
+- id: Item_Hell_Armor_Violence_Helmet
+  category: Armor
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Violence Helmet of Brutality
+  description: Forged in Violence. Adapts to sin.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Rare
+  armor_type: Helmet
+  slots: 1
+  level: 35
+  price: 13000
+- id: Item_Hell_Armor_Violence_Chest
+  category: Armor
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Violence Chest of Brutality
+  description: Forged in Violence. Feeds on brutality.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Epic
+  armor_type: Chest
+  slots: 2
+  level: 37
+  price: 13500
+- id: Item_Hell_Armor_Violence_Arms
+  category: Armor
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Violence Arms of Brutality
+  description: Forged in Violence. Reflects Brutality.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Legendary
+  armor_type: Arms
+  slots: 3
+  level: 39
+  price: 14000
+- id: Item_Hell_Armor_Violence_Legs
+  category: Armor
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Violence Legs of Brutality
+  description: Forged in Violence. Grows with Brutality.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Legendary
+  armor_type: Legs
+  slots: 4
+  level: 41
+  price: 14500
+- id: Item_Hell_Armor_Violence_Full_Set
+  category: Armor
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Violence Full_Set of Brutality
+  description: Forged in Violence. Judges the wearer.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Mythic
+  armor_type: Full_Set
+  slots: 5
+  level: 43
+  price: 15000
+- id: Item_Hell_Armor_Fraud_Helmet
+  category: Armor
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Fraud Helmet of Deception
+  description: Forged in Fraud. Adapts to sin.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Rare
+  armor_type: Helmet
+  slots: 1
+  level: 40
+  price: 15000
+- id: Item_Hell_Armor_Fraud_Chest
+  category: Armor
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Fraud Chest of Deception
+  description: Forged in Fraud. Feeds on deception.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Epic
+  armor_type: Chest
+  slots: 2
+  level: 42
+  price: 15500
+- id: Item_Hell_Armor_Fraud_Arms
+  category: Armor
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Fraud Arms of Deception
+  description: Forged in Fraud. Reflects Deception.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Legendary
+  armor_type: Arms
+  slots: 3
+  level: 44
+  price: 16000
+- id: Item_Hell_Armor_Fraud_Legs
+  category: Armor
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Fraud Legs of Deception
+  description: Forged in Fraud. Grows with Deception.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Legendary
+  armor_type: Legs
+  slots: 4
+  level: 46
+  price: 16500
+- id: Item_Hell_Armor_Fraud_Full_Set
+  category: Armor
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Fraud Full_Set of Deception
+  description: Forged in Fraud. Judges the wearer.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Mythic
+  armor_type: Full_Set
+  slots: 5
+  level: 48
+  price: 17000
+- id: Item_Hell_Armor_Treachery_Helmet
+  category: Armor
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Treachery Helmet of Betrayal
+  description: Forged in Treachery. Adapts to sin.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Rare
+  armor_type: Helmet
+  slots: 1
+  level: 45
+  price: 17000
+- id: Item_Hell_Armor_Treachery_Chest
+  category: Armor
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Treachery Chest of Betrayal
+  description: Forged in Treachery. Feeds on betrayal.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Epic
+  armor_type: Chest
+  slots: 2
+  level: 47
+  price: 17500
+- id: Item_Hell_Armor_Treachery_Arms
+  category: Armor
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Treachery Arms of Betrayal
+  description: Forged in Treachery. Reflects Betrayal.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Legendary
+  armor_type: Arms
+  slots: 3
+  level: 49
+  price: 18000
+- id: Item_Hell_Armor_Treachery_Legs
+  category: Armor
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Treachery Legs of Betrayal
+  description: Forged in Treachery. Grows with Betrayal.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Legendary
+  armor_type: Legs
+  slots: 4
+  level: 51
+  price: 18500
+- id: Item_Hell_Armor_Treachery_Full_Set
+  category: Armor
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Treachery Full_Set of Betrayal
+  description: Forged in Treachery. Judges the wearer.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Mythic
+  armor_type: Full_Set
+  slots: 5
+  level: 53
+  price: 19000
+- id: Item_Hell_Armor_Lucifers_Throne_Helmet
+  category: Armor
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Lucifers_Throne Helmet of Pride
+  description: Forged in Lucifers_Throne. Adapts to sin.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Rare
+  armor_type: Helmet
+  slots: 1
+  level: 50
+  price: 19000
+- id: Item_Hell_Armor_Lucifers_Throne_Chest
+  category: Armor
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Lucifers_Throne Chest of Pride
+  description: Forged in Lucifers_Throne. Feeds on pride.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Epic
+  armor_type: Chest
+  slots: 2
+  level: 52
+  price: 19500
+- id: Item_Hell_Armor_Lucifers_Throne_Arms
+  category: Armor
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Lucifers_Throne Arms of Pride
+  description: Forged in Lucifers_Throne. Reflects Pride.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Legendary
+  armor_type: Arms
+  slots: 3
+  level: 54
+  price: 20000
+- id: Item_Hell_Armor_Lucifers_Throne_Legs
+  category: Armor
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Lucifers_Throne Legs of Pride
+  description: Forged in Lucifers_Throne. Grows with Pride.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Legendary
+  armor_type: Legs
+  slots: 4
+  level: 56
+  price: 20500
+- id: Item_Hell_Armor_Lucifers_Throne_Full_Set
+  category: Armor
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Lucifers_Throne Full_Set of Pride
+  description: Forged in Lucifers_Throne. Judges the wearer.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Mythic
+  armor_type: Full_Set
+  slots: 5
+  level: 58
+  price: 21000
