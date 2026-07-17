@@ -1,0 +1,9 @@
+{
+  "route": "LOCAL_CEREBELLUM",
+  "smoothed_vram_free_mb": 1100.0,
+  "cooldown_until": 0,
+  "model": "hermes3:8b",
+  "cloud_enabled": false,
+  "tokens_local": true,
+  "pinned": true
+}
