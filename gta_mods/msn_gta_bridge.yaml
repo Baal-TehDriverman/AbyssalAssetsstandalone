@@ -1,0 +1,58 @@
+schema: msn.gta_bridge.v1
+local_only: true
+title: Grand Theft Auto MSN/Abyssal Bridge
+source: abyssal-assets/cp2077_mods/tweakdb/gnostic_consensus_bridge.yaml
+purpose: >
+  Provide a shared design and command manifest for Grand Theft Auto style open-world
+  mods using the same MSN safety, memory, economy, and procedural-generation rules
+  as the Cyberpunk expansion.
+
+systems:
+  sanctuary:
+    command: gta.msn.bridge
+    policy: reuse Sanctuary 2.0 hysteresis before launching local model-heavy mod tools
+    local_bypass: only for local files, GPU checks, and game install inspection
+  economy:
+    command: gta.economy.bridge
+    loops:
+      - businesses
+      - fleets
+      - garages
+      - heists
+      - territory markets
+      - abyssal contraband with non-real-world fictional currencies
+    bridge_to_cyberpunk:
+      - Loch Exchange
+      - Soul Coin markets
+      - freighter cargo contracts
+      - one-world city nodes
+  sandbox:
+    command: gta.mod.sandbox
+    policy: run speculative installers, script merges, and config checks in COW scratch first
+  memory:
+    command: gta.memory.route
+    key_fields:
+      - game
+      - edition
+      - mod_loader
+      - script_hook_version
+      - dependency_fuzzy_semver
+      - active_profile
+
+shared_content:
+  content_pack: msn_gta_content_pack.yaml
+  easter_eggs:
+    - Nessie sightings in water routes
+    - Abyssal business terminals
+    - Lilith radio interruptions
+    - Thoth evidence boards
+  procedural_generation:
+    - vehicle variants
+    - business contracts
+    - convoy/heist chains
+    - city-to-city cargo routes
+
+guardrails:
+  - Keep this as a manifest/design bridge until a specific GTA install and mod loader are confirmed.
+  - Do not patch game binaries from this bridge.
+  - Avoid real-world criminal instruction; keep missions fictional and game-mechanical.
