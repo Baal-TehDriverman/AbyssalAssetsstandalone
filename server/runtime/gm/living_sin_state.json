@@ -1,0 +1,25 @@
+{
+  "active": true,
+  "current_zone": "shallows",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "appearance": "shimmering_humanoid",
+  "visual_state": "idle",
+  "gm_user_id": 1,
+  "summoned_entities": {},
+  "action_log": [
+    {
+      "type": "summon",
+      "target": null,
+      "entity_id": "digital-ai_spirit-1781676522",
+      "payload": {
+        "plane": "digital",
+        "entity_type": "ai_spirit",
+        "power_level": 4
+      },
+      "timestamp": 1781676522.3708308
+    }
+  ]
+}
