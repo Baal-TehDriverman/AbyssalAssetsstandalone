@@ -103,7 +103,7 @@ export async function subscribeToPush(registration: ServiceWorkerRegistration): 
   try {
     const subscription = await registration.pushManager.subscribe({
       userVisibleOnly: true,
-      applicationServerKey: urlBase64ToUint8Array(import.meta.env.VITE_VAPID_PUBLIC_KEY || ''),
+      applicationServerKey: urlBase64ToUint8Array(import.meta.env.VITE_VAPID_PUBLIC_KEY || '') as BufferSource,
     })
     console.log('[SW] Push subscription:', subscription)
     return subscription
@@ -127,7 +127,7 @@ function urlBase64ToUint8Array(base64String: string): Uint8Array {
 
 // Check for periodic background sync support
 export function supportsPeriodicSync(): boolean {
-  return 'periodicSync' in registration
+  return 'serviceWorker' in navigator && 'periodicSync' in (navigator.serviceWorker as any)
 }
 
 // Register periodic sync for market data
