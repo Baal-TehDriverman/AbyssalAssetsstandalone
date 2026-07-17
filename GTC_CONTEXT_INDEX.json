@@ -1,0 +1,2936 @@
+{
+  "ai_root": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI",
+  "deployment_comparison": {
+    "primary_mod_source_to_installed_msn_integration": {
+      "changed_count": 86,
+      "changed_in_target": [
+        "assets/models/model_production_manifest.yaml",
+        "character/lilith_character.yaml",
+        "hell_campaign.cpmodproj",
+        "info.json",
+        "localization/en.stringlist",
+        "msn_integration.cpmodproj",
+        "msn_integration.redmod.toml",
+        "msn_integration.toml",
+        "msn_magic_starwars.cpmodproj",
+        "msn_multiplayer.toml",
+        "msn_tweakdb.toml",
+        "ngd_rnn_optimization.redmod.toml",
+        "quests/abyssal_skill_tree_quests.yaml",
+        "quests/guild/msn_guild_quests.toml",
+        "quests/guild/msn_guild_quests.yaml",
+        "quests/msn_narrative_arc.yaml",
+        "redmod.toml",
+        "scripts/abyssal_lyra_integration.reds",
+        "scripts/cyberpunk_ngd_bridge.reds",
+        "scripts/cyberpunk_ngd_integration.reds",
+        "scripts/hell/msn_hell_campaign.reds",
+        "scripts/jedi/msn_jedi_system.reds",
+        "scripts/lilith_console.reds",
+        "scripts/lilith_easter_eggs.reds",
+        "scripts/lilith_enhanced_dialogue.reds",
+        "scripts/lilith_ngd_control.reds",
+        "scripts/lilith_npc.reds",
+        "scripts/livingsin_time_blade.reds",
+        "scripts/magic/msn_magic_quests.reds",
+        "scripts/magic/msn_magic_system.reds",
+        "scripts/msn_business_console.reds",
+        "scripts/msn_cerebellum.reds",
+        "scripts/msn_cortex_link.reds",
+        "scripts/msn_hell_campaign.reds",
+        "scripts/msn_lyra_dialogue.reds",
+        "scripts/msn_master_integration.reds",
+        "scripts/msn_master_integration_cores.reds",
+        "scripts/msn_master_integration_triggers.reds",
+        "scripts/msn_master_integration_wave34.reds",
+        "scripts/msn_modern_ballistics.reds",
+        "scripts/msn_multiplayer_client.reds",
+        "scripts/msn_npc_ai.reds",
+        "scripts/msn_ouroboros.reds",
+        "scripts/msn_overhaul_mechanics.reds",
+        "scripts/msn_quantum_bridge.reds",
+        "scripts/msn_sephirotic_npcs.reds",
+        "scripts/msn_speculative_cerebellum.reds",
+        "scripts/msn_weapons.reds",
+        "scripts/nssp_bridge.reds",
+        "scripts/skills/msn_abyssal_skills.reds",
+        "scripts/skills/msn_metaconscious_skills_integration.reds",
+        "scripts/starwars/msn_starwars_quests.reds",
+        "scripts/starwars/msn_starwars_system.reds",
+        "tweakdb/Abyssal_Cyberpunk_Crossover.toml",
+        "tweakdb/Anthem_Javelin_Suits.toml",
+        "tweakdb/LivingSin_TimeBlade.toml",
+        "tweakdb/abyssal_assets.yaml",
+        "tweakdb/abyssal_fabricator_recipes.yaml",
+        "tweakdb/abyssal_hat_catalog.yaml",
+        "tweakdb/abyssal_skill_tree_quests.toml",
+        "tweakdb/anthem_javelin_mechanics.yaml",
+        "tweakdb/custom_body_augments_bios.yaml",
+        "tweakdb/custom_clothing_expanded.yaml",
+        "tweakdb/custom_content_acquisition_map.yaml",
+        "tweakdb/custom_cyberware_expanded.yaml",
+        "tweakdb/custom_gear_runescape_wow_allods.yaml",
+        "tweakdb/custom_item_business_bridge.yaml",
+        "tweakdb/custom_models_msn_abyssal.yaml",
+        "tweakdb/custom_quickhacks_expanded.yaml",
+        "tweakdb/custom_shards_expanded.yaml",
+        "tweakdb/custom_vehicles_expanded.yaml",
+        "tweakdb/custom_weapons_expanded.yaml",
+        "tweakdb/freighter_javelin_business_systems.yaml",
+        "tweakdb/gnostic_consensus_bridge.yaml",
+        "tweakdb/hell_campaign_map.yaml",
+        "tweakdb/lilith_full_database_overlay.yaml",
+        "tweakdb/msn_graphics_driver_bridge.yaml",
+        "tweakdb/msn_story_vehicles_complete.toml",
+        "tweakdb/nessie_rewards.yaml",
+        "tweakdb/new_map_areas.yaml",
+        "tweakdb/new_map_encounter_tables.yaml",
+        "tweakdb/nssp_crossover.yaml",
+        "tweakdb/one_world_space_economy.yaml",
+        "tweakdb/procedural_encounter_tables.yaml",
+        "tweakdb/procedural_space_systems.yaml",
+        "tweakdb/vendor_inventory_loch_exchange.yaml"
+      ],
+      "extra_count": 53,
+      "extra_in_target": [
+        ".deploy_manifest.json",
+        "CODE_OF_CONDUCT.md",
+        "CONTRIBUTING.md",
+        "SECURITY.md",
+        "SUPPORT.md",
+        "build_msn.py",
+        "msn_abyssal_crafting.reds",
+        "msn_abyssal_skills.reds",
+        "msn_business_management.reds",
+        "msn_crafting_overhaul.reds",
+        "msn_crime_syndicate.reds",
+        "msn_crypto_wallet.reds",
+        "msn_cyberpsychosis_ui.reds",
+        "msn_drone_swarms.reds",
+        "msn_five_rings_quest.reds",
+        "msn_freighter_business.reds",
+        "msn_gang_bases.reds",
+        "msn_gang_management.reds",
+        "msn_guilds_expansion.reds",
+        "msn_horsemen_audio.reds",
+        "msn_hunter_ai.reds",
+        "msn_lyra_audio_integration.reds",
+        "msn_main_quest_the_void.reds",
+        "msn_nemotron_brains.reds",
+        "msn_nemotron_mining.reds",
+        "msn_neon_zealots_ambush.reds",
+        "msn_orbital_drop.reds",
+        "msn_orbital_travel.reds",
+        "msn_overhaul_mechanics.reds",
+        "msn_physical_economy_map.reds",
+        "msn_quest_archangel.reds",
+        "msn_reddit_fixes.reds",
+        "msn_sephirotic_quests.reds",
+        "msn_wanted_level.reds",
+        "msn_yolo_mode.reds",
+        "packed/archive/pc/mod/msn_integration.archive",
+        "scripts/msn_listener.reds",
+        "scripts/skills/msn_chakra_quantum_mapper.reds",
+        "scripts/watchdogs/wd_blackout_quickhack.reds",
+        "scripts/watchdogs/wd_kiroshi_profiler.reds",
+        "scripts/watchdogs/wd_seamless_invasion.reds",
+        "scripts/watchdogs/wd_traffic_override.reds",
+        "tweakdb/hell_fraud.reds",
+        "tweakdb/hell_gluttony.reds",
+        "tweakdb/hell_greed.reds",
+        "tweakdb/hell_heresy.reds",
+        "tweakdb/hell_items.reds",
+        "tweakdb/hell_limbo.reds",
+        "tweakdb/hell_lucifers_throne.reds",
+        "tweakdb/hell_lust.reds",
+        "tweakdb/hell_treachery.reds",
+        "tweakdb/hell_violence.reds",
+        "tweakdb/hell_wrath.reds"
+      ],
+      "missing_count": 208,
+      "missing_in_target": [
+        "BUSINESS.md",
+        "DESIGN_DOCS/PITCH_DECK.md",
+        "DESIGN_DOCS/book_1_ground.md",
+        "DESIGN_DOCS/book_2_water.md",
+        "DESIGN_DOCS/book_3_fire.md",
+        "DESIGN_DOCS/book_4_wind.md",
+        "DESIGN_DOCS/book_5_void.md",
+        "DESIGN_DOCS/file_manifest.md",
+        "DESIGN_DOCS/metrics.md",
+        "DESIGN_DOCS/pipeline.md",
+        "DESIGN_DOCS/pitch_deck.md",
+        "DESIGN_DOCS/space_quests.md",
+        "README.md",
+        "append_tweakdb.py",
+        "archive/benchmark_results.json",
+        "balance_tweakdb.py",
+        "bench_cerebellum.py",
+        "benchmark_results.json",
+        "compile_wolvenkit.sh",
+        "data/cyberpunk_skill_trees.json",
+        "data/symbiosis_coop_live.json",
+        "data/symbiosis_coop_live_compressed.md",
+        "deploy_all_mods.sh",
+        "deploy_performance_boosts.sh",
+        "integrate_msn.py",
+        "launch_gtc.sh",
+        "localization/msn_magic_en.json",
+        "localization/msn_starwars_en.json",
+        "manifest/hell_campaign_manifest.yaml",
+        "msn_magic_starwars_project/localization/en.stringlist",
+        "msn_magic_starwars_project/localization/msn_magic_en.json",
+        "msn_magic_starwars_project/localization/msn_starwars_en.json",
+        "msn_magic_starwars_project/msn_magic_starwars.cpmodproj",
+        "msn_magic_starwars_project/packed/archive/pc/mod/msn_magic_starwars.archive",
+        "msn_magic_starwars_project/quests/abyssal_skill_tree_quests.yaml",
+        "msn_magic_starwars_project/quests/guild/msn_guild_quests.toml",
+        "msn_magic_starwars_project/quests/guild/msn_guild_quests.yaml",
+        "msn_magic_starwars_project/quests/msn_narrative_arc.yaml",
+        "msn_magic_starwars_project/redmod.toml",
+        "msn_magic_starwars_project/tweakdb/Abyssal_Cyberpunk_Crossover.toml",
+        "msn_magic_starwars_project/tweakdb/Anthem_Javelin_Suits.toml",
+        "msn_magic_starwars_project/tweakdb/LivingSin_TimeBlade.toml",
+        "msn_magic_starwars_project/tweakdb/abyssal_assets.yaml",
+        "msn_magic_starwars_project/tweakdb/abyssal_fabricator_recipes.yaml",
+        "msn_magic_starwars_project/tweakdb/abyssal_hat_catalog.yaml",
+        "msn_magic_starwars_project/tweakdb/abyssal_skill_tree_quests.toml",
+        "msn_magic_starwars_project/tweakdb/anthem_javelin_mechanics.yaml",
+        "msn_magic_starwars_project/tweakdb/custom_body_augments_bios.yaml",
+        "msn_magic_starwars_project/tweakdb/custom_clothing_expanded.yaml",
+        "msn_magic_starwars_project/tweakdb/custom_content_acquisition_map.yaml",
+        "msn_magic_starwars_project/tweakdb/custom_cyberware_expanded.yaml",
+        "msn_magic_starwars_project/tweakdb/custom_gear_runescape_wow_allods.yaml",
+        "msn_magic_starwars_project/tweakdb/custom_item_business_bridge.yaml",
+        "msn_magic_starwars_project/tweakdb/custom_models_msn_abyssal.yaml",
+        "msn_magic_starwars_project/tweakdb/custom_quickhacks_expanded.yaml",
+        "msn_magic_starwars_project/tweakdb/custom_shards_expanded.yaml",
+        "msn_magic_starwars_project/tweakdb/custom_vehicles_expanded.yaml",
+        "msn_magic_starwars_project/tweakdb/custom_weapons_expanded.yaml",
+        "msn_magic_starwars_project/tweakdb/freighter_javelin_business_systems.yaml",
+        "msn_magic_starwars_project/tweakdb/gnostic_consensus_bridge.yaml",
+        "msn_magic_starwars_project/tweakdb/hell_campaign_map.yaml",
+        "msn_magic_starwars_project/tweakdb/lilith_full_database_overlay.yaml",
+        "msn_magic_starwars_project/tweakdb/msn_graphics_driver_bridge.yaml",
+        "msn_magic_starwars_project/tweakdb/msn_story_vehicles_complete.toml",
+        "msn_magic_starwars_project/tweakdb/nessie_rewards.yaml",
+        "msn_magic_starwars_project/tweakdb/new_map_areas.yaml",
+        "msn_magic_starwars_project/tweakdb/new_map_encounter_tables.yaml",
+        "msn_magic_starwars_project/tweakdb/nssp_crossover.yaml",
+        "msn_magic_starwars_project/tweakdb/one_world_space_economy.yaml",
+        "msn_magic_starwars_project/tweakdb/procedural_encounter_tables.yaml",
+        "msn_magic_starwars_project/tweakdb/procedural_space_systems.yaml",
+        "msn_magic_starwars_project/tweakdb/vendor_inventory_loch_exchange.yaml",
+        "msn_sephirotic_court_binder.reds",
+        "output/completion_report.json",
+        "output/in_game_validation.json",
+        "output/ingame_smoke_test.json",
+        "output/mod_test_results.json",
+        "output/msn_magic_starwars_v1.0.0_20260620/README.md",
+        "output/sephirotic_court_registry.json",
+        "output/working_condition.json",
+        "packed/archive/pc/mod/msn_magic_starwars.archive",
+        "patch_unify.py",
+        "record_memory.py",
+        "run_balancer.py",
+        "scripts/compile_hell_campaign.sh",
+        "scripts/core/msn_lucifer_dialogue.reds",
+        "scripts/generated/skill_tree_registry.reds",
+        "scripts/hell_circle_quests.reds",
+        "scripts/hell_fraud.reds",
+        "scripts/hell_gluttony.reds",
+        "scripts/hell_greed.reds",
+        "scripts/hell_heresy.reds",
+        "scripts/hell_items.reds",
+        "scripts/hell_limbo.reds",
+        "scripts/hell_lucifers_throne.reds",
+        "scripts/hell_lust.reds",
+        "scripts/hell_treachery.reds",
+        "scripts/hell_violence.reds",
+        "scripts/hell_wrath.reds",
+        "scripts/lilith_campaign.reds",
+        "scripts/lilith_sovereign_kernel.reds",
+        "scripts/livingsin_hell_integration.reds",
+        "scripts/msn_abyssal_crafting.reds",
+        "scripts/msn_ai_overhaul.reds",
+        "scripts/msn_api_dialogue_bridge.reds",
+        "scripts/msn_business_management.reds",
+        "scripts/msn_campaign_orchestrator.reds",
+        "scripts/msn_cool_mode.reds",
+        "scripts/msn_crafting_overhaul.reds",
+        "scripts/msn_crime_syndicate.reds",
+        "scripts/msn_crypto_wallet.reds",
+        "scripts/msn_custom_item_factory.reds",
+        "scripts/msn_cyberpsychosis_ui.reds",
+        "scripts/msn_drone_swarms.reds",
+        "scripts/msn_five_rings_quest.reds",
+        "scripts/msn_freighter_business.reds",
+        "scripts/msn_gaming_engine.reds",
+        "scripts/msn_gang_bases.reds",
+        "scripts/msn_gang_management.reds",
+        "scripts/msn_grand_theft_cyberpunk_hub.reds",
+        "scripts/msn_gtc_sephirotic_router.reds",
+        "scripts/msn_guilds_expansion.reds",
+        "scripts/msn_hell_space_combat.reds",
+        "scripts/msn_horsemen_audio.reds",
+        "scripts/msn_hunter_ai.reds",
+        "scripts/msn_jedi_system.reds",
+        "scripts/msn_lucifer_dialogue.reds",
+        "scripts/msn_lyra_audio_integration.reds",
+        "scripts/msn_magic_quests.reds",
+        "scripts/msn_magic_system.reds",
+        "scripts/msn_main_quest_the_void.reds",
+        "scripts/msn_metaconscious_skills_integration.reds",
+        "scripts/msn_narrative_story.reds",
+        "scripts/msn_nemotron_brains.reds",
+        "scripts/msn_nemotron_mining.reds",
+        "scripts/msn_neon_zealots_ambush.reds",
+        "scripts/msn_orbital_drop.reds",
+        "scripts/msn_orbital_travel.reds",
+        "scripts/msn_physical_economy_map.reds",
+        "scripts/msn_procgen_engine.reds",
+        "scripts/msn_quest_archangel.reds",
+        "scripts/msn_reddit_fixes.reds",
+        "scripts/msn_sephirotic_quests.reds",
+        "scripts/msn_service_endpoints.reds",
+        "scripts/msn_starwars_quests.reds",
+        "scripts/msn_starwars_system.reds",
+        "scripts/msn_symbiosis_bridge.reds",
+        "scripts/msn_title_screen.reds",
+        "scripts/msn_token_economy.reds",
+        "scripts/msn_wanted_level.reds",
+        "scripts/msn_yolo_mode.reds",
+        "scripts/quests/hell_circle_quests.reds",
+        "scripts/skills/msn_skill_hooks.reds",
+        "scripts/space/msn_hell_space_combat.reds",
+        "scripts/ui/corruption_hud.reds",
+        "scripts/ui/custom_audio_injector.reds",
+        "scripts/ui/holocron_dialogue.reds",
+        "scripts/ui/lightsaber_vfx.reds",
+        "scripts/ui/livingsin_time_blade.reds",
+        "scripts/ui/msn_synchronicity_enhancements.reds",
+        "scripts/ui/space_combat_camera.reds",
+        "test_mod/packed/archive/pc/mod/test.archive",
+        "test_mod/test.cpmodproj",
+        "tools/build_completion_report.py",
+        "tools/build_msn.py",
+        "tools/compile_full_stack.sh",
+        "tools/complete_mods.sh",
+        "tools/dedupe_scripts_for_redmod.py",
+        "tools/fix_redscript.py",
+        "tools/generate_abyssal_hat_catalog.py",
+        "tools/generate_cpmodproj.py",
+        "tools/generate_cyberpunk_skill_trees.py",
+        "tools/generate_procgen_item_catalog.py",
+        "tools/install_frameworks.sh",
+        "tools/launch_verify.sh",
+        "tools/lilith_unify_cyberpunk.py",
+        "tools/optimize_gtc_sync_mods.py",
+        "tools/ouroboros_cyberpunk_recursive.py",
+        "tools/resolve_game_path.py",
+        "tools/restore_incomplete_scripts.py",
+        "tools/safe_deploy.sh",
+        "tools/sephirotic_court_deploy.py",
+        "tools/test_all_mods.py",
+        "tools/tier1_launch_prep.sh",
+        "tools/tier_enable.sh",
+        "tools/validate_full_stack.py",
+        "tools/validate_magic_jedi.py",
+        "tweakdb/adaptive_quantization.yaml",
+        "tweakdb/cerebellum_optimization.yaml",
+        "tweakdb/hell_crafting.yaml",
+        "tweakdb/hell_items.yaml",
+        "tweakdb/lilith_campaign_tweakdb.yaml",
+        "tweakdb/msn_procgen_weapon_catalog.yaml",
+        "tweakdb/new_performance_boosts.yaml",
+        "tweakdb/new_performance_boosts_v2.yaml",
+        "tweakdb/nssp_token_economy.yaml",
+        "tweakdb/performance_boosts_15.txt",
+        "tweakdb/reds/hell_fraud.reds",
+        "tweakdb/reds/hell_gluttony.reds",
+        "tweakdb/reds/hell_greed.reds",
+        "tweakdb/reds/hell_heresy.reds",
+        "tweakdb/reds/hell_items.reds",
+        "tweakdb/reds/hell_limbo.reds",
+        "tweakdb/reds/hell_lucifers_throne.reds",
+        "tweakdb/reds/hell_lust.reds",
+        "tweakdb/reds/hell_treachery.reds",
+        "tweakdb/reds/hell_violence.reds",
+        "tweakdb/reds/hell_wrath.reds"
+      ],
+      "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods",
+      "source_exists": true,
+      "source_file_count": 297,
+      "source_to_target_path_map": {},
+      "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration",
+      "target_exists": true,
+      "target_file_count": 142
+    },
+    "total_rebuild_source_to_installed_gtc_total_rebuild": {
+      "changed_count": 7,
+      "changed_in_target": [
+        "redmod.toml",
+        "tweakdb/gtc_easter_eggs.yaml",
+        "tweakdb/gtc_items.yaml",
+        "tweakdb/gtc_nessie_hats.yaml",
+        "tweakdb/gtc_quests.yaml",
+        "tweakdb/gtc_space_systems.yaml",
+        "tweakdb/lilith_campaign_tweakdb.yaml"
+      ],
+      "extra_count": 13,
+      "extra_in_target": [
+        "redscripts/cyberpunk_ngd_integration.reds",
+        "redscripts/lilith_campaign.reds",
+        "redscripts/lilith_easter_eggs.reds",
+        "redscripts/livingsin_time_blade.reds",
+        "redscripts/msn_cerebellum.reds",
+        "redscripts/msn_cortex_link.reds",
+        "redscripts/msn_five_rings_quest.reds",
+        "redscripts/msn_lyra_dialogue.reds",
+        "redscripts/msn_main_quest_the_void.reds",
+        "redscripts/msn_npc_ai.reds",
+        "redscripts/msn_ouroboros.reds",
+        "redscripts/msn_sephirotic_quests.reds",
+        "redscripts/nssp_bridge.reds"
+      ],
+      "missing_count": 13,
+      "missing_in_target": [
+        "scripts/cyberpunk_ngd_integration.reds",
+        "scripts/lilith_campaign.reds",
+        "scripts/lilith_easter_eggs.reds",
+        "scripts/livingsin_time_blade.reds",
+        "scripts/msn_cerebellum.reds",
+        "scripts/msn_cortex_link.reds",
+        "scripts/msn_five_rings_quest.reds",
+        "scripts/msn_lyra_dialogue.reds",
+        "scripts/msn_main_quest_the_void.reds",
+        "scripts/msn_npc_ai.reds",
+        "scripts/msn_ouroboros.reds",
+        "scripts/msn_sephirotic_quests.reds",
+        "scripts/nssp_bridge.reds"
+      ],
+      "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild",
+      "source_exists": true,
+      "source_file_count": 23,
+      "source_to_target_path_map": {
+        "redscripts/": "scripts/"
+      },
+      "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild",
+      "target_exists": true,
+      "target_file_count": 23
+    }
+  },
+  "generated_at": "2026-06-21T10:37:22.073173+00:00",
+  "installed_roots": {
+    "installed_archives": {
+      "by_extension": {
+        ".archive": 3,
+        ".md": 1,
+        ".yaml": 1
+      },
+      "exists": true,
+      "file_count": 5,
+      "key_files": [
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/archive/pc/mod/MSNWeaponOverhaul.archive",
+          "size": 8192
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/archive/pc/mod/msn_integration.archive",
+          "size": 8192
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/archive/pc/mod/msn_magic_starwars.archive",
+          "size": 8192
+        }
+      ],
+      "manifests": [],
+      "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/archive/pc/mod"
+    },
+    "installed_cet_mods": {
+      "by_extension": {
+        ".lua": 5
+      },
+      "exists": true,
+      "file_count": 5,
+      "key_files": [],
+      "manifests": [],
+      "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/bin/x64/plugins/cyber_engine_tweaks/mods"
+    },
+    "installed_redmod_mods": {
+      "by_extension": {
+        ".archive": 11,
+        ".cpmodproj": 19,
+        ".json": 163,
+        ".md": 55,
+        ".py": 116,
+        ".reds": 544,
+        ".sh": 24,
+        ".stringlist": 7,
+        ".toml": 178,
+        ".txt": 17,
+        ".yaml": 308,
+        ".yml": 2
+      },
+      "exists": true,
+      "file_count": 1444,
+      "key_files": [
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/MSNWeaponOverhaul/MSNWeaponOverhaul.cpmodproj",
+          "size": 1815
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/MSNWeaponOverhaul/build_msn_weapon_overhaul.py",
+          "size": 4344
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/MSNWeaponOverhaul/packed/archive/pc/mod/MSNWeaponOverhaul.archive",
+          "size": 8192
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/MSNWeaponOverhaul/scripts/msn_ai_companion.reds",
+          "size": 50561
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/MSNWeaponOverhaul/scripts/msn_weapon_overhaul.reds",
+          "size": 43948
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/MSNWeaponOverhaul/tweakdb/msn_story_vehicles_complete.toml",
+          "size": 55776
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/MSNWeaponOverhaul/tweakdb/msn_tweakdb.toml",
+          "size": 95147
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/MSN_MoralityAndStory/scripts/msn_law_morality.reds",
+          "size": 5400
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gta_mods/bridge/msn_gta_bridge.yaml",
+          "size": 2583
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gta_mods/msn_gta_content_pack.yaml",
+          "size": 3041
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_total_rebuild/redscripts/cyberpunk_ngd_integration.reds",
+          "size": 22447
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_total_rebuild/redscripts/msn_cerebellum.reds",
+          "size": 10530
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_total_rebuild/redscripts/msn_cortex_link.reds",
+          "size": 11720
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_total_rebuild/redscripts/msn_five_rings_quest.reds",
+          "size": 5998
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_total_rebuild/redscripts/msn_lyra_dialogue.reds",
+          "size": 11510
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_total_rebuild/redscripts/msn_main_quest_the_void.reds",
+          "size": 7103
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_total_rebuild/redscripts/msn_npc_ai.reds",
+          "size": 8279
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_total_rebuild/redscripts/msn_ouroboros.reds",
+          "size": 12172
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_total_rebuild/redscripts/msn_sephirotic_quests.reds",
+          "size": 6488
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_total_rebuild/tweakdb/gtc_easter_eggs.yaml",
+          "size": 13258
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_total_rebuild/tweakdb/gtc_items.yaml",
+          "size": 167426
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_total_rebuild/tweakdb/gtc_nessie_hats.yaml",
+          "size": 12693
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_total_rebuild/tweakdb/gtc_quests.yaml",
+          "size": 69168
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_total_rebuild/tweakdb/gtc_space_systems.yaml",
+          "size": 17164
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/bench_cerebellum.py",
+          "size": 36101
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/hell_campaign.cpmodproj",
+          "size": 5360
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/install_gtc_abyssal.sh",
+          "size": 7531
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/launch_gtc.sh",
+          "size": 2670
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/localization/hell_campaign_en.json",
+          "size": 5980
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/manifest/hell_campaign_manifest.yaml",
+          "size": 6611
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_integration.cpmodproj",
+          "size": 3957
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_integration.redmod.toml",
+          "size": 14938
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_integration.toml",
+          "size": 11223
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars.cpmodproj",
+          "size": 1675
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/msn_magic_starwars.cpmodproj",
+          "size": 1675
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/packed/archive/pc/mod/msn_magic_starwars.archive",
+          "size": 8192
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/quests/guild/msn_guild_quests.toml",
+          "size": 17317
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/quests/guild/msn_guild_quests.yaml",
+          "size": 21020
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/quests/msn_narrative_arc.yaml",
+          "size": 15545
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/cyberpunk_ngd_bridge.reds",
+          "size": 14557
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/cyberpunk_ngd_integration.reds",
+          "size": 22237
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/hell/msn_hell_campaign.reds",
+          "size": 41145
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/jedi/msn_jedi_system.reds",
+          "size": 50126
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/lilith_ngd_control.reds",
+          "size": 14783
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/magic/msn_magic_quests.reds",
+          "size": 22399
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/magic/msn_magic_system.reds",
+          "size": 58797
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_business_console.reds",
+          "size": 30114
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_cerebellum.reds",
+          "size": 10374
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_cortex_link.reds",
+          "size": 11550
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_lyra_dialogue.reds",
+          "size": 11336
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_master_integration.reds",
+          "size": 10917
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_master_integration_cores.reds",
+          "size": 24590
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_master_integration_triggers.reds",
+          "size": 9147
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_master_integration_wave34.reds",
+          "size": 11023
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_modern_ballistics.reds",
+          "size": 50419
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_multiplayer_client.reds",
+          "size": 24329
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_npc_ai.reds",
+          "size": 8126
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_ouroboros.reds",
+          "size": 12007
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_overhaul_mechanics.reds",
+          "size": 7270
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_quantum_bridge.reds",
+          "size": 7697
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_sephirotic_npcs.reds",
+          "size": 7354
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_speculative_cerebellum.reds",
+          "size": 25675
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/msn_weapons.reds",
+          "size": 14039
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/skills/msn_abyssal_skills.reds",
+          "size": 28770
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/skills/msn_metaconscious_skills_integration.reds",
+          "size": 21692
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/starwars/msn_starwars_quests.reds",
+          "size": 27329
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/scripts/starwars/msn_starwars_system.reds",
+          "size": 4988
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/tweakdb/custom_models_msn_abyssal.yaml",
+          "size": 16552
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/tweakdb/hell_campaign_map.yaml",
+          "size": 32424
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/tweakdb/msn_graphics_driver_bridge.yaml",
+          "size": 4916
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/tweakdb/msn_story_vehicles_complete.toml",
+          "size": 55766
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/tweakdb/one_world_space_economy.yaml",
+          "size": 8128
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/tweakdb/procedural_space_systems.yaml",
+          "size": 8188
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_multiplayer.toml",
+          "size": 2186
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_tweakdb.toml",
+          "size": 95172
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/ngd_rnn_optimization.redmod.toml",
+          "size": 3800
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/packed/archive/pc/mod/msn_magic_starwars.archive",
+          "size": 8192
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/quests/guild/msn_guild_quests.toml",
+          "size": 17317
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/quests/guild/msn_guild_quests.yaml",
+          "size": 21020
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/quests/msn_narrative_arc.yaml",
+          "size": 15559
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/compile_hell_campaign.sh",
+          "size": 8604
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/core/msn_lucifer_dialogue.reds",
+          "size": 14920
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/cyberpunk_ngd_bridge.reds",
+          "size": 14710
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/cyberpunk_ngd_integration.reds",
+          "size": 22447
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/hell/msn_hell_campaign.reds",
+          "size": 23517
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/jedi/msn_jedi_system.reds",
+          "size": 50264
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/lilith-ngd-integration.py",
+          "size": 7975
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/lilith_ngd_control.reds",
+          "size": 15000
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/magic/msn_magic_quests.reds",
+          "size": 22610
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/magic/msn_magic_system.reds",
+          "size": 58938
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_business_console.reds",
+          "size": 30282
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_cerebellum.reds",
+          "size": 36560
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_cortex_link.reds",
+          "size": 32637
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_lyra_dialogue.reds",
+          "size": 11510
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_master_integration.reds",
+          "size": 11094
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_master_integration_cores.reds",
+          "size": 24782
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_master_integration_triggers.reds",
+          "size": 9348
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_master_integration_wave34.reds",
+          "size": 11218
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_modern_ballistics.reds",
+          "size": 50604
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_multiplayer_client.reds",
+          "size": 24517
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_npc_ai.reds",
+          "size": 8279
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_ouroboros.reds",
+          "size": 12172
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_overhaul_mechanics.reds",
+          "size": 7453
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_quantum_bridge.reds",
+          "size": 7868
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_sephirotic_court_binder.reds",
+          "size": 2949
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_sephirotic_npcs.reds",
+          "size": 7354
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_speculative_cerebellum.reds",
+          "size": 30263
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_synchronicity_enhancements.reds",
+          "size": 12625
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/msn_weapons.reds",
+          "size": 14192
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/quests/hell_circle_quests.reds",
+          "size": 25815
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/skills/msn_abyssal_skills.reds",
+          "size": 28951
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/skills/msn_metaconscious_skills_integration.reds",
+          "size": 21908
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/space/msn_hell_space_combat.reds",
+          "size": 27395
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/space_combat_camera.reds",
+          "size": 3201
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/start-ngd.sh",
+          "size": 599
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/starwars/msn_starwars_quests.reds",
+          "size": 27549
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/scripts/starwars/msn_starwars_system.reds",
+          "size": 5138
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/test_mod/scripts/msn_magic_system.reds",
+          "size": 58465
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/cerebellum_optimization.yaml",
+          "size": 14991
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/custom_models_msn_abyssal.yaml",
+          "size": 16558
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/hell_campaign_map.yaml",
+          "size": 32424
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/hell_items.yaml",
+          "size": 919
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/msn_graphics_driver_bridge.yaml",
+          "size": 4922
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/msn_story_vehicles_complete.toml",
+          "size": 55766
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/one_world_space_economy.yaml",
+          "size": 8128
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/procedural_space_systems.yaml",
+          "size": 8188
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/reds/hell_fraud.reds",
+          "size": 21474
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/reds/hell_gluttony.reds",
+          "size": 22722
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/reds/hell_greed.reds",
+          "size": 21725
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/reds/hell_heresy.reds",
+          "size": 22160
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/reds/hell_items.reds",
+          "size": 201030
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/reds/hell_limbo.reds",
+          "size": 21942
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/reds/hell_lucifers_throne.reds",
+          "size": 24044
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/reds/hell_lust.reds",
+          "size": 21303
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/reds/hell_treachery.reds",
+          "size": 22810
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/reds/hell_violence.reds",
+          "size": 22856
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/tweakdb/reds/hell_wrath.reds",
+          "size": 21418
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/bench_cerebellum.py",
+          "size": 33857
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/hell_campaign.cpmodproj",
+          "size": 5360
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/launch_gtc.sh",
+          "size": 2691
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/localization/hell_campaign_en.json",
+          "size": 5980
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/manifest/hell_campaign_manifest.yaml",
+          "size": 6624
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_integration.cpmodproj",
+          "size": 3957
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_integration.redmod.toml",
+          "size": 14951
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_integration.toml",
+          "size": 11236
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars.cpmodproj",
+          "size": 1675
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/msn_magic_starwars.cpmodproj",
+          "size": 1675
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/packed/archive/pc/mod/msn_magic_starwars.archive",
+          "size": 8192
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/quests/guild/msn_guild_quests.toml",
+          "size": 17330
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/quests/guild/msn_guild_quests.yaml",
+          "size": 21033
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/quests/msn_narrative_arc.yaml",
+          "size": 15558
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/cyberpunk_ngd_bridge.reds",
+          "size": 14570
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/cyberpunk_ngd_integration.reds",
+          "size": 22250
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/hell/msn_hell_campaign.reds",
+          "size": 41158
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/jedi/msn_jedi_system.reds",
+          "size": 50139
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/lilith_ngd_control.reds",
+          "size": 14796
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/magic/msn_magic_quests.reds",
+          "size": 22412
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/magic/msn_magic_system.reds",
+          "size": 58810
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_business_console.reds",
+          "size": 30127
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_cerebellum.reds",
+          "size": 10387
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_cortex_link.reds",
+          "size": 11563
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_lyra_dialogue.reds",
+          "size": 11349
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_master_integration.reds",
+          "size": 10930
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_master_integration_cores.reds",
+          "size": 24603
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_master_integration_triggers.reds",
+          "size": 9160
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_master_integration_wave34.reds",
+          "size": 11036
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_modern_ballistics.reds",
+          "size": 50432
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_multiplayer_client.reds",
+          "size": 24342
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_npc_ai.reds",
+          "size": 8139
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_ouroboros.reds",
+          "size": 12020
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_overhaul_mechanics.reds",
+          "size": 7283
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_quantum_bridge.reds",
+          "size": 7710
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_sephirotic_npcs.reds",
+          "size": 7367
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_speculative_cerebellum.reds",
+          "size": 25688
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/msn_weapons.reds",
+          "size": 14052
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/skills/msn_abyssal_skills.reds",
+          "size": 28783
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/skills/msn_metaconscious_skills_integration.reds",
+          "size": 21705
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/starwars/msn_starwars_quests.reds",
+          "size": 27342
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/scripts/starwars/msn_starwars_system.reds",
+          "size": 5001
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/tweakdb/custom_models_msn_abyssal.yaml",
+          "size": 16565
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/tweakdb/hell_campaign_map.yaml",
+          "size": 32437
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/tweakdb/msn_graphics_driver_bridge.yaml",
+          "size": 4929
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/tweakdb/msn_story_vehicles_complete.toml",
+          "size": 55779
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/tweakdb/one_world_space_economy.yaml",
+          "size": 8141
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/tweakdb/procedural_space_systems.yaml",
+          "size": 8201
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_multiplayer.toml",
+          "size": 2200
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_tweakdb.toml",
+          "size": 95189
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/ngd_rnn_optimization.redmod.toml",
+          "size": 3813
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/packed/archive/pc/mod/msn_magic_starwars.archive",
+          "size": 8192
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/quests/guild/msn_guild_quests.toml",
+          "size": 17330
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/quests/guild/msn_guild_quests.yaml",
+          "size": 21033
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/quests/msn_narrative_arc.yaml",
+          "size": 15572
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/scripts/compile_hell_campaign.sh",
+          "size": 8604
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/scripts/core/msn_lucifer_dialogue.reds",
+          "size": 14750
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/scripts/cyberpunk_ngd_bridge.reds",
+          "size": 14592
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/scripts/cyberpunk_ngd_integration.reds",
+          "size": 22329
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/scripts/hell/msn_hell_campaign.reds",
+          "size": 23362
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/scripts/jedi/msn_jedi_system.reds",
+          "size": 50139
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/scripts/lilith_ngd_control.reds",
+          "size": 14859
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/scripts/magic/msn_magic_quests.reds",
+          "size": 22452
+        }
+      ],
+      "manifests": [
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/MSNWeaponOverhaul/MSNWeaponOverhaul.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/MSNWeaponOverhaul/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/MSN_MoralityAndStory/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_total_rebuild/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/hell_campaign.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_integration.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/msn_magic_starwars.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/msn_magic_starwars_project/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/_disabled_gtc_unified/test_mod/test.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/hell_campaign.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_integration.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/msn_magic_starwars.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/msn_magic_starwars_project/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/abyssal_assets/test_mod/test.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_001_chokmah_space_travel/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_001_chokmah_space_travel/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_002_binah_invention/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_002_binah_invention/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_003_chesed_orbital/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_003_chesed_orbital/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_004_geburah_javelin/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_004_geburah_javelin/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_005_tiphereth_memory_engram/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_005_tiphereth_memory_engram/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_006_netzach_lilith_head/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_006_netzach_lilith_head/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_007_hod_agy_working/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_007_hod_agy_working/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_008_yesod_ngd_optimize/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_008_yesod_ngd_optimize/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_009_malkuth_ouroboros/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_009_malkuth_ouroboros/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_010_kether_business_transaction/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_010_kether_business_transaction/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_011_chokmah_gang_war/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_011_chokmah_gang_war/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_012_binah_law_enforcement/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_012_binah_law_enforcement/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_013_chesed_employee_management/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_013_chesed_employee_management/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_014_geburah_espionage/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_014_geburah_espionage/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_015_tiphereth_weapon_fire/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_015_tiphereth_weapon_fire/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_016_netzach_hell_circle/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_016_netzach_hell_circle/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_017_hod_wrath_combat/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_017_hod_wrath_combat/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_018_yesod_magic_cast/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_018_yesod_magic_cast/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_019_malkuth_starwars_force/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_019_malkuth_starwars_force/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_020_kether_sneak_success/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_020_kether_sneak_success/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_021_chokmah_path_dark/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_021_chokmah_path_dark/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_022_binah_path_grey/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_022_binah_path_grey/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_023_chesed_path_light/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_023_chesed_path_light/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_024_geburah_nessie_sighting/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_024_geburah_nessie_sighting/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_025_tiphereth_skill_levelup/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_025_tiphereth_skill_levelup/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_026_netzach_quest_complete/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_026_netzach_quest_complete/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_027_hod_ui_title/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_027_hod_ui_title/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_028_yesod_performance_ngd/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_028_yesod_performance_ngd/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_029_malkuth_redscript_hook/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_029_malkuth_redscript_hook/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_030_kether_item_craft/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_030_kether_item_craft/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_031_chokmah_vehicle_spawn/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_031_chokmah_vehicle_spawn/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_032_binah_lochness_reward/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_032_binah_lochness_reward/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_033_chesed_hat_equip/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_033_chesed_hat_equip/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_034_geburah_abyssal_fabricator/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_034_geburah_abyssal_fabricator/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_035_tiphereth_npc_dialogue/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_035_tiphereth_npc_dialogue/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_036_netzach_lilith_resonance/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_036_netzach_lilith_resonance/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_037_hod_sephirotic_court/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_037_hod_sephirotic_court/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_038_yesod_morality_choice/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_038_yesod_morality_choice/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_039_malkuth_ending_sync/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_039_malkuth_ending_sync/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_040_kether_core_engine/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_040_kether_core_engine/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_041_chokmah_space_travel/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_041_chokmah_space_travel/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_042_binah_invention/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_042_binah_invention/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_043_chesed_orbital/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_043_chesed_orbital/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_044_geburah_javelin/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_044_geburah_javelin/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_045_tiphereth_memory_engram/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_045_tiphereth_memory_engram/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_046_netzach_lilith_head/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_046_netzach_lilith_head/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_047_hod_agy_working/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_047_hod_agy_working/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_048_yesod_ngd_optimize/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_048_yesod_ngd_optimize/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_049_malkuth_ouroboros/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_049_malkuth_ouroboros/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_050_kether_business_transaction/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_050_kether_business_transaction/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_051_chokmah_gang_war/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_051_chokmah_gang_war/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_052_binah_law_enforcement/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_052_binah_law_enforcement/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_053_chesed_employee_management/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_053_chesed_employee_management/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_054_geburah_espionage/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_054_geburah_espionage/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_055_tiphereth_weapon_fire/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_055_tiphereth_weapon_fire/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_056_netzach_hell_circle/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_056_netzach_hell_circle/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_057_hod_wrath_combat/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_057_hod_wrath_combat/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_058_yesod_magic_cast/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_058_yesod_magic_cast/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_059_malkuth_starwars_force/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_059_malkuth_starwars_force/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_060_kether_sneak_success/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_060_kether_sneak_success/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_061_chokmah_path_dark/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_061_chokmah_path_dark/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_062_binah_path_grey/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_062_binah_path_grey/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_063_chesed_path_light/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_063_chesed_path_light/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_064_geburah_nessie_sighting/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_064_geburah_nessie_sighting/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_065_tiphereth_skill_levelup/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_065_tiphereth_skill_levelup/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_066_netzach_quest_complete/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_066_netzach_quest_complete/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_067_hod_ui_title/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_067_hod_ui_title/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_068_yesod_performance_ngd/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_068_yesod_performance_ngd/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_069_malkuth_redscript_hook/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_069_malkuth_redscript_hook/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_070_kether_item_craft/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_070_kether_item_craft/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_071_chokmah_vehicle_spawn/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_071_chokmah_vehicle_spawn/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_072_binah_lochness_reward/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_072_binah_lochness_reward/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_073_chesed_hat_equip/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_073_chesed_hat_equip/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_074_geburah_abyssal_fabricator/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_074_geburah_abyssal_fabricator/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_075_tiphereth_npc_dialogue/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_075_tiphereth_npc_dialogue/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_076_netzach_lilith_resonance/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_076_netzach_lilith_resonance/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_077_hod_sephirotic_court/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_077_hod_sephirotic_court/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_078_yesod_morality_choice/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_078_yesod_morality_choice/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_079_malkuth_ending_sync/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_079_malkuth_ending_sync/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_080_kether_core_engine/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_080_kether_core_engine/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_081_chokmah_space_travel/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_081_chokmah_space_travel/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_082_binah_invention/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_082_binah_invention/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_083_chesed_orbital/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_083_chesed_orbital/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_084_geburah_javelin/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_084_geburah_javelin/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_085_tiphereth_memory_engram/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_085_tiphereth_memory_engram/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_086_netzach_lilith_head/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_086_netzach_lilith_head/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_087_hod_agy_working/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_087_hod_agy_working/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_088_yesod_ngd_optimize/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_088_yesod_ngd_optimize/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_089_malkuth_ouroboros/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_089_malkuth_ouroboros/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_090_kether_business_transaction/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_090_kether_business_transaction/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_091_chokmah_gang_war/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_091_chokmah_gang_war/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_092_binah_law_enforcement/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_092_binah_law_enforcement/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_093_chesed_employee_management/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_093_chesed_employee_management/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_094_geburah_espionage/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_094_geburah_espionage/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_095_tiphereth_weapon_fire/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_095_tiphereth_weapon_fire/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_096_netzach_hell_circle/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_096_netzach_hell_circle/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_097_hod_wrath_combat/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_097_hod_wrath_combat/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_098_yesod_magic_cast/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_098_yesod_magic_cast/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_099_malkuth_starwars_force/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_099_malkuth_starwars_force/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_100_kether_sneak_success/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_aethon_sync_100_kether_sneak_success/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_unified/hell_campaign.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_unified/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_unified/msn_integration.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_unified/msn_magic_starwars.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_unified/msn_magic_starwars_project/msn_magic_starwars.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_unified/msn_magic_starwars_project/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_unified/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_unified/test_mod/test.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/hell_campaign.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/info.json",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_integration.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars.cpmodproj",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/redmod.toml"
+      ],
+      "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods"
+    },
+    "installed_redscripts": {
+      "by_extension": {
+        ".reds": 46
+      },
+      "exists": true,
+      "file_count": 46,
+      "key_files": [
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/gtc_unified/msn_synchronicity_enhancements.reds",
+          "size": 12024
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/gtc_unified/space_combat_camera.reds",
+          "size": 2976
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/core/msn_lucifer_dialogue.reds",
+          "size": 14624
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/cyberpunk_ngd_bridge.reds",
+          "size": 14209
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/cyberpunk_ngd_integration.reds",
+          "size": 21897
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/hell/msn_hell_campaign.reds",
+          "size": 23276
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/jedi/msn_jedi_system.reds",
+          "size": 49890
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/lilith_ngd_control.reds",
+          "size": 14443
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/magic/msn_magic_quests.reds",
+          "size": 22357
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/magic/msn_magic_system.reds",
+          "size": 58555
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_business_console.reds",
+          "size": 42438
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_cerebellum.reds",
+          "size": 37056
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_cortex_link.reds",
+          "size": 33079
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_lyra_dialogue.reds",
+          "size": 10978
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_master_integration.reds",
+          "size": 13393
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_master_integration_cores.reds",
+          "size": 24750
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_master_integration_triggers.reds",
+          "size": 8870
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_master_integration_wave34.reds",
+          "size": 10758
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_modern_ballistics.reds",
+          "size": 51024
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_multiplayer_client.reds",
+          "size": 24221
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_npc_ai.reds",
+          "size": 11331
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_ouroboros.reds",
+          "size": 12247
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_overhaul_mechanics.reds",
+          "size": 6914
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_quantum_bridge.reds",
+          "size": 7357
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_sephirotic_npcs.reds",
+          "size": 11947
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_speculative_cerebellum.reds",
+          "size": 32045
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/msn_weapons.reds",
+          "size": 13744
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/quests/hell_circle_quests.reds",
+          "size": 25687
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/skills/msn_abyssal_skills.reds",
+          "size": 28987
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/skills/msn_metaconscious_skills_integration.reds",
+          "size": 21377
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/space/msn_hell_space_combat.reds",
+          "size": 27201
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/starwars/msn_starwars_quests.reds",
+          "size": 27158
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration/starwars/msn_starwars_system.reds",
+          "size": 4644
+        }
+      ],
+      "manifests": [],
+      "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts"
+    },
+    "installed_tweaks": {
+      "by_extension": {
+        ".toml": 14,
+        ".yaml": 71
+      },
+      "exists": true,
+      "file_count": 85,
+      "key_files": [
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/MSNWeaponOverhaul/msn_story_vehicles_complete.toml",
+          "size": 55611
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/MSNWeaponOverhaul/msn_tweakdb.toml",
+          "size": 95023
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/custom_models_msn_abyssal.yaml",
+          "size": 16370
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_200_fiverings_quests.yaml",
+          "size": 72821
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_5000_swarm_artifacts.yaml",
+          "size": 1842554
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_5000_swarm_artifacts_v2.yaml",
+          "size": 1704433
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_500_procedural_weapons.yaml",
+          "size": 459741
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_abyssal_enterprise.yaml",
+          "size": 14737
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_abyssal_skills.yaml",
+          "size": 2147
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_base_building.yaml",
+          "size": 934
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_blackmarket_consumables.yaml",
+          "size": 15596
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_business_employees.yaml",
+          "size": 2125
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_corpo_armor.yaml",
+          "size": 5758
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_corpo_weapons.yaml",
+          "size": 5725
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_crime_syndicate.yaml",
+          "size": 1533
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_custom_gangs.yaml",
+          "size": 7010
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_cyberware_overhaul.yaml",
+          "size": 6260
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_five_rings_shards.yaml",
+          "size": 3020
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_four_horsemen.yaml",
+          "size": 6154
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_freighter_business.yaml",
+          "size": 1808
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_graphics_driver_bridge.yaml",
+          "size": 4733
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_guilds_expansion.yaml",
+          "size": 2329
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_integration.redmod.toml",
+          "size": 12930
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_integration.toml",
+          "size": 7390
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_javelin_mechanics.yaml",
+          "size": 973
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_lifepath_overhaul.yaml",
+          "size": 1270
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_lilith_court_echoes.yaml",
+          "size": 1407
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_main_quest_the_void.yaml",
+          "size": 1711
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_multiplayer.toml",
+          "size": 2049
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_musashi_quests_01.yaml",
+          "size": 10123
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_musashi_quests_02.yaml",
+          "size": 8440
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_musashi_quests_03.yaml",
+          "size": 9746
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_musashi_quests_04.yaml",
+          "size": 6329
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_musashi_quests_05.yaml",
+          "size": 7222
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_nemotron_vehicles.yaml",
+          "size": 4545
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_orbital_travel.yaml",
+          "size": 1078
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_physical_economy_map.yaml",
+          "size": 1651
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_procedural_reskins.yaml",
+          "size": 14902
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_quest_archangel.yaml",
+          "size": 1777
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_sephirotic_characters.yaml",
+          "size": 3096
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_story_vehicles_complete.toml",
+          "size": 55611
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_syndicate_questline.yaml",
+          "size": 2624
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_time_blade.yaml",
+          "size": 1195
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_tweakdb.toml",
+          "size": 95071
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/msn_vehicle_customization.yaml",
+          "size": 994
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/ngd_rnn_optimization.redmod.toml",
+          "size": 3655
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/one_world_space_economy.yaml",
+          "size": 7939
+        },
+        {
+          "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/procedural_space_systems.yaml",
+          "size": 7998
+        }
+      ],
+      "manifests": [
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/MSNWeaponOverhaul/redmod.toml",
+        "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration/redmod.toml"
+      ],
+      "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks"
+    },
+    "red4ext_plugins": {
+      "by_extension": {
+        ".archive": 2,
+        ".md": 2,
+        ".reds": 12,
+        ".txt": 1,
+        ".xl": 20
+      },
+      "exists": true,
+      "file_count": 37,
+      "key_files": [],
+      "manifests": [],
+      "path": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/red4ext/plugins"
+    }
+  },
+  "local_git_repos": [
+    {
+      "branch": "unknown",
+      "commit": "unknown",
+      "name": "AI",
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI",
+      "tags": []
+    },
+    {
+      "branch": "main",
+      "commit": "d6add32",
+      "name": "Evidence",
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Evidence",
+      "tags": []
+    },
+    {
+      "branch": "main",
+      "commit": "2d919ba",
+      "name": "Pub.orig.bak.20260621",
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub.orig.bak.20260621",
+      "tags": []
+    },
+    {
+      "branch": "master",
+      "commit": "258cd50",
+      "name": "abyssal-assets",
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets",
+      "tags": [
+        "primary"
+      ]
+    },
+    {
+      "branch": "master",
+      "commit": "886b23c",
+      "name": "gtc_items",
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/gtc_items",
+      "tags": [
+        "gtc",
+        "primary"
+      ]
+    },
+    {
+      "branch": "master",
+      "commit": "2771ad6",
+      "name": "gtc_quests",
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/gtc_quests",
+      "tags": [
+        "gtc",
+        "primary"
+      ]
+    },
+    {
+      "branch": "master",
+      "commit": "9efb6f0",
+      "name": "gtc_rebuild",
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/gtc_rebuild",
+      "tags": [
+        "gtc",
+        "primary"
+      ]
+    },
+    {
+      "branch": "master",
+      "commit": "2900c52",
+      "name": "gtc_space",
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/gtc_space",
+      "tags": [
+        "gtc",
+        "primary"
+      ]
+    },
+    {
+      "branch": "master",
+      "commit": "886b23c",
+      "name": "gtc_items",
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_items",
+      "tags": [
+        "gtc"
+      ]
+    },
+    {
+      "branch": "master",
+      "commit": "2771ad6",
+      "name": "gtc_quests",
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_quests",
+      "tags": [
+        "gtc"
+      ]
+    },
+    {
+      "branch": "master",
+      "commit": "9efb6f0",
+      "name": "gtc_rebuild",
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild",
+      "tags": [
+        "gtc"
+      ]
+    },
+    {
+      "branch": "master",
+      "commit": "2900c52",
+      "name": "gtc_space",
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_space",
+      "tags": [
+        "gtc"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "fd3beea",
+      "name": "invite",
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/invite",
+      "tags": []
+    }
+  ],
+  "notes": [
+    "Treat Desktop/AI source roots as editable source of truth.",
+    "Treat Steam Cyberpunk roots as installed deployment targets.",
+    "Desktop/GrandTheftCyberpunk is the standalone local GTC web surface.",
+    "Do not broad-search home when implementing GTC; read this index first.",
+    "Run scripts/prime_gtc_ram_context.sh before agent work to expose RAM indexes under /dev/shm/gtc_cerebellum."
+  ],
+  "priority_read_order": [
+    "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/GTC_CONTEXT_INDEX.json",
+    "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/GTC_CONTEXT.md",
+    "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods",
+    "/home/tehlappy/Desktop/GrandTheftCyberpunk",
+    "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redmod.toml",
+    "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts",
+    "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/tweakdb",
+    "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_quests/master_index.json",
+    "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_items/master_index.json",
+    "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_space/master_index.json",
+    "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild",
+    "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration",
+    "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/scripts/msn_integration",
+    "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/tweaks/msn_integration"
+  ],
+  "purpose": "Canonical locator for Grand Theft Cyberpunk local AI context and Cyberpunk 2077 mod deployment.",
+  "source_roots": {
+    "abyssal_gtc_webapp": {
+      "by_extension": {
+        ".css": 1,
+        ".html": 7,
+        ".js": 1,
+        ".json": 1
+      },
+      "exists": true,
+      "file_count": 10,
+      "key_files": [],
+      "manifests": [],
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/server/static/gtc"
+    },
+    "desktop_gtc_app": {
+      "by_extension": {
+        ".css": 1,
+        ".html": 8,
+        ".js": 1,
+        ".json": 1
+      },
+      "exists": true,
+      "file_count": 11,
+      "key_files": [],
+      "manifests": [],
+      "path": "/home/tehlappy/Desktop/GrandTheftCyberpunk"
+    },
+    "gta_bridge_mods": {
+      "by_extension": {
+        ".yaml": 2
+      },
+      "exists": true,
+      "file_count": 2,
+      "key_files": [
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/gta_mods/msn_gta_bridge.yaml",
+          "size": 1846
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/gta_mods/msn_gta_content_pack.yaml",
+          "size": 2298
+        }
+      ],
+      "manifests": [],
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/gta_mods"
+    },
+    "item_source_data": {
+      "by_extension": {
+        ".json": 17
+      },
+      "exists": true,
+      "file_count": 17,
+      "key_files": [],
+      "manifests": [],
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_items"
+    },
+    "ngd_cyberpunk_integration": {
+      "by_extension": {
+        ".sh": 2
+      },
+      "exists": true,
+      "file_count": 2,
+      "key_files": [],
+      "manifests": [],
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/invite/cyberpunk_integration"
+    },
+    "primary_mod_source": {
+      "by_extension": {
+        ".archive": 3,
+        ".cpmodproj": 5,
+        ".json": 16,
+        ".md": 16,
+        ".py": 24,
+        ".reds": 125,
+        ".sh": 12,
+        ".stringlist": 2,
+        ".toml": 19,
+        ".txt": 1,
+        ".yaml": 74
+      },
+      "exists": true,
+      "file_count": 297,
+      "key_files": [
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/DESIGN_DOCS/space_quests.md",
+          "size": 3343
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/bench_cerebellum.py",
+          "size": 32523
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/hell_campaign.cpmodproj",
+          "size": 5355
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/integrate_msn.py",
+          "size": 4611
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/launch_gtc.sh",
+          "size": 2691
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/localization/hell_campaign_en.json",
+          "size": 5980
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/localization/msn_magic_en.json",
+          "size": 550
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/localization/msn_starwars_en.json",
+          "size": 649
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/manifest/hell_campaign_manifest.yaml",
+          "size": 6065
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_integration.cpmodproj",
+          "size": 5287
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_integration.redmod.toml",
+          "size": 14390
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_integration.toml",
+          "size": 10829
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars.cpmodproj",
+          "size": 1671
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/localization/msn_magic_en.json",
+          "size": 550
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/localization/msn_starwars_en.json",
+          "size": 649
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/msn_magic_starwars.cpmodproj",
+          "size": 1746
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/packed/archive/pc/mod/msn_magic_starwars.archive",
+          "size": 8192
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/quests/guild/msn_guild_quests.toml",
+          "size": 16774
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/quests/guild/msn_guild_quests.yaml",
+          "size": 20478
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/quests/msn_narrative_arc.yaml",
+          "size": 15011
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/custom_models_msn_abyssal.yaml",
+          "size": 16004
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/hell_campaign_map.yaml",
+          "size": 31878
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/msn_graphics_driver_bridge.yaml",
+          "size": 4368
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/msn_story_vehicles_complete.toml",
+          "size": 55218
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/one_world_space_economy.yaml",
+          "size": 7580
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/procedural_space_systems.yaml",
+          "size": 7640
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_multiplayer.toml",
+          "size": 1640
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_sephirotic_court_binder.reds",
+          "size": 2743
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_tweakdb.toml",
+          "size": 94146
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/ngd_rnn_optimization.redmod.toml",
+          "size": 3252
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/packed/archive/pc/mod/msn_magic_starwars.archive",
+          "size": 8192
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/quests/guild/msn_guild_quests.toml",
+          "size": 16774
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/quests/guild/msn_guild_quests.yaml",
+          "size": 20478
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/quests/msn_narrative_arc.yaml",
+          "size": 15011
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/compile_hell_campaign.sh",
+          "size": 8604
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/core/msn_lucifer_dialogue.reds",
+          "size": 13192
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/cyberpunk_ngd_bridge.reds",
+          "size": 16512
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/cyberpunk_ngd_integration.reds",
+          "size": 20595
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell/msn_hell_campaign.reds",
+          "size": 21785
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_circle_quests.reds",
+          "size": 24089
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_fraud.reds",
+          "size": 20695
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_gluttony.reds",
+          "size": 21961
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_greed.reds",
+          "size": 20946
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_heresy.reds",
+          "size": 21387
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_items.reds",
+          "size": 199351
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_limbo.reds",
+          "size": 21163
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_lucifers_throne.reds",
+          "size": 22420
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_lust.reds",
+          "size": 20518
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_treachery.reds",
+          "size": 22055
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_violence.reds",
+          "size": 22095
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_wrath.reds",
+          "size": 20639
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/jedi/msn_jedi_system.reds",
+          "size": 48320
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/lilith_ngd_control.reds",
+          "size": 13259
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/livingsin_hell_integration.reds",
+          "size": 5293
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/magic/msn_magic_quests.reds",
+          "size": 22812
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/magic/msn_magic_system.reds",
+          "size": 58025
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_abyssal_crafting.reds",
+          "size": 3281
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_ai_overhaul.reds",
+          "size": 5465
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_api_dialogue_bridge.reds",
+          "size": 10650
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_business_console.reds",
+          "size": 29995
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_business_management.reds",
+          "size": 4426
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_campaign_orchestrator.reds",
+          "size": 9900
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_cerebellum.reds",
+          "size": 9345
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_cool_mode.reds",
+          "size": 4794
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_cortex_link.reds",
+          "size": 9951
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_crafting_overhaul.reds",
+          "size": 4606
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_crime_syndicate.reds",
+          "size": 4044
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_crypto_wallet.reds",
+          "size": 2417
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_custom_item_factory.reds",
+          "size": 9534
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_cyberpsychosis_ui.reds",
+          "size": 3833
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_drone_swarms.reds",
+          "size": 2952
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_five_rings_quest.reds",
+          "size": 4264
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_freighter_business.reds",
+          "size": 3120
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_gaming_engine.reds",
+          "size": 9521
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_gang_bases.reds",
+          "size": 6104
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_gang_management.reds",
+          "size": 6813
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_grand_theft_cyberpunk_hub.reds",
+          "size": 4668
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_gtc_sephirotic_router.reds",
+          "size": 3678
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_guilds_expansion.reds",
+          "size": 5588
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_hell_campaign.reds",
+          "size": 42878
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_hell_space_combat.reds",
+          "size": 25657
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_horsemen_audio.reds",
+          "size": 6032
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_hunter_ai.reds",
+          "size": 2608
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_jedi_system.reds",
+          "size": 48320
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_lucifer_dialogue.reds",
+          "size": 13192
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_lyra_audio_integration.reds",
+          "size": 3143
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_lyra_dialogue.reds",
+          "size": 10557
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_magic_quests.reds",
+          "size": 20857
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_magic_system.reds",
+          "size": 57000
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_main_quest_the_void.reds",
+          "size": 5381
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_master_integration.reds",
+          "size": 12707
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_master_integration_cores.reds",
+          "size": 24276
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_master_integration_triggers.reds",
+          "size": 7734
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_master_integration_wave34.reds",
+          "size": 9598
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_metaconscious_skills_integration.reds",
+          "size": 20114
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_modern_ballistics.reds",
+          "size": 48883
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_multiplayer_client.reds",
+          "size": 23436
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_narrative_story.reds",
+          "size": 9173
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_nemotron_brains.reds",
+          "size": 3122
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_nemotron_mining.reds",
+          "size": 4586
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_neon_zealots_ambush.reds",
+          "size": 4085
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_npc_ai.reds",
+          "size": 7394
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_orbital_drop.reds",
+          "size": 5215
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_orbital_travel.reds",
+          "size": 3172
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_ouroboros.reds",
+          "size": 11732
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_overhaul_mechanics.reds",
+          "size": 5644
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_physical_economy_map.reds",
+          "size": 4630
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_procgen_engine.reds",
+          "size": 14503
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_quantum_bridge.reds",
+          "size": 6126
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_quest_archangel.reds",
+          "size": 4297
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_reddit_fixes.reds",
+          "size": 2106
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_sephirotic_court_binder.reds",
+          "size": 2743
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_sephirotic_npcs.reds",
+          "size": 5899
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_sephirotic_quests.reds",
+          "size": 4189
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_service_endpoints.reds",
+          "size": 2249
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_speculative_cerebellum.reds",
+          "size": 24826
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_starwars_quests.reds",
+          "size": 25814
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_starwars_system.reds",
+          "size": 3354
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_symbiosis_bridge.reds",
+          "size": 5971
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_title_screen.reds",
+          "size": 3377
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_token_economy.reds",
+          "size": 15575
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_wanted_level.reds",
+          "size": 2990
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_weapons.reds",
+          "size": 12339
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_yolo_mode.reds",
+          "size": 3253
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/quests/hell_circle_quests.reds",
+          "size": 24089
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/skills/msn_abyssal_skills.reds",
+          "size": 27199
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/skills/msn_metaconscious_skills_integration.reds",
+          "size": 20114
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/skills/msn_skill_hooks.reds",
+          "size": 3501
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/space/msn_hell_space_combat.reds",
+          "size": 25657
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/starwars/msn_starwars_quests.reds",
+          "size": 25814
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/starwars/msn_starwars_system.reds",
+          "size": 3354
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/ui/msn_synchronicity_enhancements.reds",
+          "size": 10850
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/ui/space_combat_camera.reds",
+          "size": 1658
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/build_msn.py",
+          "size": 2643
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/optimize_gtc_sync_mods.py",
+          "size": 1956
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/cerebellum_optimization.yaml",
+          "size": 14562
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/custom_models_msn_abyssal.yaml",
+          "size": 16131
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/hell_campaign_map.yaml",
+          "size": 31997
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/hell_crafting.yaml",
+          "size": 3850
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/hell_items.yaml",
+          "size": 180219
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/msn_graphics_driver_bridge.yaml",
+          "size": 4051
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/msn_procgen_weapon_catalog.yaml",
+          "size": 24561
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/msn_story_vehicles_complete.toml",
+          "size": 55337
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/one_world_space_economy.yaml",
+          "size": 7699
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/procedural_space_systems.yaml",
+          "size": 7759
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_fraud.reds",
+          "size": 19660
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_gluttony.reds",
+          "size": 20926
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_greed.reds",
+          "size": 19911
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_heresy.reds",
+          "size": 20352
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_items.reds",
+          "size": 199216
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_limbo.reds",
+          "size": 20128
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_lucifers_throne.reds",
+          "size": 22285
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_lust.reds",
+          "size": 19483
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_treachery.reds",
+          "size": 21020
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_violence.reds",
+          "size": 21060
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_wrath.reds",
+          "size": 19604
+        }
+      ],
+      "manifests": [
+        "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/hell_campaign.cpmodproj",
+        "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/info.json",
+        "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_integration.cpmodproj",
+        "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars.cpmodproj",
+        "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/msn_magic_starwars.cpmodproj",
+        "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/redmod.toml",
+        "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/redmod.toml",
+        "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/test_mod/test.cpmodproj"
+      ],
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods"
+    },
+    "pub_gtc_scripts": {
+      "by_extension": {
+        ".js": 1,
+        ".json": 2,
+        ".md": 5,
+        ".py": 197,
+        ".sh": 4
+      },
+      "exists": true,
+      "file_count": 209,
+      "key_files": [
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/gtc_1000_architect_swarm.py",
+          "size": 5779
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/gtc_atm_skimmer.py",
+          "size": 1891
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/gtc_bounty_hunter_ai.py",
+          "size": 2847
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/gtc_crypto_miner.py",
+          "size": 3648
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/gtc_gang_war_simulator.py",
+          "size": 2426
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/gtc_horsemen_coordinator.py",
+          "size": 3007
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/gtc_loyalty_tracker.py",
+          "size": 3534
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/gtc_mod_validator.sh",
+          "size": 1876
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/gtc_reddit_fixes.py",
+          "size": 3795
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/gtc_stock_market_visualizer.py",
+          "size": 5203
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/msn_orchestrator.py",
+          "size": 11284
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/ngd_to_github_sync.py",
+          "size": 1876
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/speculative_cerebellum.py",
+          "size": 8912
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/test_msn_orchestrator.py",
+          "size": 955
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/test_speculative_cerebellum.py",
+          "size": 4374
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/test_workspace_boundaries.py",
+          "size": 848
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/test_workspace_inventory.py",
+          "size": 1117
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts/workspace_boundaries.py",
+          "size": 2470
+        }
+      ],
+      "manifests": [],
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/Pub/scripts"
+    },
+    "quest_source_data": {
+      "by_extension": {
+        ".json": 12
+      },
+      "exists": true,
+      "file_count": 12,
+      "key_files": [],
+      "manifests": [],
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_quests"
+    },
+    "space_source_data": {
+      "by_extension": {
+        ".json": 12
+      },
+      "exists": true,
+      "file_count": 12,
+      "key_files": [
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_space/msn_space_integration.json",
+          "size": 5428
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_space/space_quests.json",
+          "size": 14062
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_space/spacecraft_javelin.json",
+          "size": 4429
+        }
+      ],
+      "manifests": [],
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_space"
+    },
+    "total_rebuild_source": {
+      "by_extension": {
+        ".py": 2,
+        ".reds": 13,
+        ".sh": 1,
+        ".toml": 1,
+        ".yaml": 6
+      },
+      "exists": true,
+      "file_count": 23,
+      "key_files": [
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/cyberpunk_ngd_integration.reds",
+          "size": 19430
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/msn_cerebellum.reds",
+          "size": 7583
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/msn_cortex_link.reds",
+          "size": 8858
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/msn_five_rings_quest.reds",
+          "size": 3070
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/msn_lyra_dialogue.reds",
+          "size": 8521
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/msn_main_quest_the_void.reds",
+          "size": 4160
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/msn_npc_ai.reds",
+          "size": 5338
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/msn_ouroboros.reds",
+          "size": 9280
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/msn_sephirotic_quests.reds",
+          "size": 3547
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/tweakdb/gtc_easter_eggs.yaml",
+          "size": 12520
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/tweakdb/gtc_items.yaml",
+          "size": 166694
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/tweakdb/gtc_nessie_hats.yaml",
+          "size": 11955
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/tweakdb/gtc_quests.yaml",
+          "size": 68427
+        },
+        {
+          "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/tweakdb/gtc_space_systems.yaml",
+          "size": 16421
+        }
+      ],
+      "manifests": [
+        "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redmod.toml"
+      ],
+      "path": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild"
+    }
+  },
+  "steam_cyberpunk_root": "/mnt/d/Games/steamapps/common/Cyberpunk 2077"
+}
