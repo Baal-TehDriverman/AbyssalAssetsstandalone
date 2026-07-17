@@ -1,0 +1,24 @@
+{
+  "friendship_tier": 1,
+  "friendship_xp": 1450,
+  "sightings": 9,
+  "communions": 0,
+  "last_sighting": {
+    "location": "unknown",
+    "time": 1781742500.9117007
+  },
+  "tier_thresholds": [
+    0,
+    500,
+    2000,
+    5000,
+    15000
+  ],
+  "tier_names": [
+    "Curious Observer",
+    "Respected Visitor",
+    "Trusted Ally",
+    "Guardian's Chosen",
+    "DEEP KIN"
+  ]
+}
