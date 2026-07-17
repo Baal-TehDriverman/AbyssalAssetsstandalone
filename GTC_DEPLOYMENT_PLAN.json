@@ -1,0 +1,2260 @@
+{
+  "generated_at": "2026-06-21T10:37:22.507538+00:00",
+  "plans": {
+    "primary_mod_source_to_installed_msn_integration": {
+      "copy_missing": [
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "BUSINESS.md",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/BUSINESS.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/BUSINESS.md"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "DESIGN_DOCS/PITCH_DECK.md",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/DESIGN_DOCS/PITCH_DECK.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/DESIGN_DOCS/PITCH_DECK.md"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "DESIGN_DOCS/book_1_ground.md",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/DESIGN_DOCS/book_1_ground.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/DESIGN_DOCS/book_1_ground.md"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "DESIGN_DOCS/book_2_water.md",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/DESIGN_DOCS/book_2_water.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/DESIGN_DOCS/book_2_water.md"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "DESIGN_DOCS/book_3_fire.md",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/DESIGN_DOCS/book_3_fire.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/DESIGN_DOCS/book_3_fire.md"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "DESIGN_DOCS/book_4_wind.md",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/DESIGN_DOCS/book_4_wind.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/DESIGN_DOCS/book_4_wind.md"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "DESIGN_DOCS/book_5_void.md",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/DESIGN_DOCS/book_5_void.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/DESIGN_DOCS/book_5_void.md"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "DESIGN_DOCS/file_manifest.md",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/DESIGN_DOCS/file_manifest.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/DESIGN_DOCS/file_manifest.md"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "DESIGN_DOCS/metrics.md",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/DESIGN_DOCS/metrics.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/DESIGN_DOCS/metrics.md"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "DESIGN_DOCS/pipeline.md",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/DESIGN_DOCS/pipeline.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/DESIGN_DOCS/pipeline.md"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "DESIGN_DOCS/pitch_deck.md",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/DESIGN_DOCS/pitch_deck.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/DESIGN_DOCS/pitch_deck.md"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "DESIGN_DOCS/space_quests.md",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/DESIGN_DOCS/space_quests.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/DESIGN_DOCS/space_quests.md"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "README.md",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/README.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/README.md"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "append_tweakdb.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/append_tweakdb.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/append_tweakdb.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "archive/benchmark_results.json",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/archive/benchmark_results.json",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/archive/benchmark_results.json"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "balance_tweakdb.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/balance_tweakdb.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/balance_tweakdb.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "bench_cerebellum.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/bench_cerebellum.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/bench_cerebellum.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "benchmark_results.json",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/benchmark_results.json",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/benchmark_results.json"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "compile_wolvenkit.sh",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/compile_wolvenkit.sh",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/compile_wolvenkit.sh"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "data/cyberpunk_skill_trees.json",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/data/cyberpunk_skill_trees.json",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/data/cyberpunk_skill_trees.json"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "data/symbiosis_coop_live.json",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/data/symbiosis_coop_live.json",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/data/symbiosis_coop_live.json"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "data/symbiosis_coop_live_compressed.md",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/data/symbiosis_coop_live_compressed.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/data/symbiosis_coop_live_compressed.md"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "deploy_all_mods.sh",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/deploy_all_mods.sh",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/deploy_all_mods.sh"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "deploy_performance_boosts.sh",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/deploy_performance_boosts.sh",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/deploy_performance_boosts.sh"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "integrate_msn.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/integrate_msn.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/integrate_msn.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "launch_gtc.sh",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/launch_gtc.sh",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/launch_gtc.sh"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "localization/msn_magic_en.json",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/localization/msn_magic_en.json",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/localization/msn_magic_en.json"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "localization/msn_starwars_en.json",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/localization/msn_starwars_en.json",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/localization/msn_starwars_en.json"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "manifest/hell_campaign_manifest.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/manifest/hell_campaign_manifest.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/manifest/hell_campaign_manifest.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/localization/en.stringlist",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/localization/en.stringlist",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/localization/en.stringlist"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/localization/msn_magic_en.json",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/localization/msn_magic_en.json",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/localization/msn_magic_en.json"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/localization/msn_starwars_en.json",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/localization/msn_starwars_en.json",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/localization/msn_starwars_en.json"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/msn_magic_starwars.cpmodproj",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/msn_magic_starwars.cpmodproj",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/msn_magic_starwars.cpmodproj"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/packed/archive/pc/mod/msn_magic_starwars.archive",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/packed/archive/pc/mod/msn_magic_starwars.archive",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/packed/archive/pc/mod/msn_magic_starwars.archive"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/quests/abyssal_skill_tree_quests.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/quests/abyssal_skill_tree_quests.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/quests/abyssal_skill_tree_quests.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/quests/guild/msn_guild_quests.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/quests/guild/msn_guild_quests.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/quests/guild/msn_guild_quests.toml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/quests/guild/msn_guild_quests.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/quests/guild/msn_guild_quests.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/quests/guild/msn_guild_quests.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/quests/msn_narrative_arc.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/quests/msn_narrative_arc.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/quests/msn_narrative_arc.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/redmod.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/redmod.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/redmod.toml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/Abyssal_Cyberpunk_Crossover.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/Abyssal_Cyberpunk_Crossover.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/Abyssal_Cyberpunk_Crossover.toml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/Anthem_Javelin_Suits.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/Anthem_Javelin_Suits.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/Anthem_Javelin_Suits.toml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/LivingSin_TimeBlade.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/LivingSin_TimeBlade.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/LivingSin_TimeBlade.toml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/abyssal_assets.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/abyssal_assets.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/abyssal_assets.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/abyssal_fabricator_recipes.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/abyssal_fabricator_recipes.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/abyssal_fabricator_recipes.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/abyssal_hat_catalog.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/abyssal_hat_catalog.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/abyssal_hat_catalog.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/abyssal_skill_tree_quests.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/abyssal_skill_tree_quests.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/abyssal_skill_tree_quests.toml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/anthem_javelin_mechanics.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/anthem_javelin_mechanics.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/anthem_javelin_mechanics.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/custom_body_augments_bios.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/custom_body_augments_bios.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/custom_body_augments_bios.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/custom_clothing_expanded.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/custom_clothing_expanded.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/custom_clothing_expanded.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/custom_content_acquisition_map.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/custom_content_acquisition_map.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/custom_content_acquisition_map.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/custom_cyberware_expanded.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/custom_cyberware_expanded.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/custom_cyberware_expanded.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/custom_gear_runescape_wow_allods.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/custom_gear_runescape_wow_allods.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/custom_gear_runescape_wow_allods.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/custom_item_business_bridge.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/custom_item_business_bridge.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/custom_item_business_bridge.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/custom_models_msn_abyssal.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/custom_models_msn_abyssal.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/custom_models_msn_abyssal.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/custom_quickhacks_expanded.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/custom_quickhacks_expanded.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/custom_quickhacks_expanded.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/custom_shards_expanded.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/custom_shards_expanded.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/custom_shards_expanded.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/custom_vehicles_expanded.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/custom_vehicles_expanded.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/custom_vehicles_expanded.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/custom_weapons_expanded.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/custom_weapons_expanded.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/custom_weapons_expanded.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/freighter_javelin_business_systems.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/freighter_javelin_business_systems.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/freighter_javelin_business_systems.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/gnostic_consensus_bridge.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/gnostic_consensus_bridge.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/gnostic_consensus_bridge.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/hell_campaign_map.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/hell_campaign_map.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/hell_campaign_map.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/lilith_full_database_overlay.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/lilith_full_database_overlay.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/lilith_full_database_overlay.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/msn_graphics_driver_bridge.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/msn_graphics_driver_bridge.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/msn_graphics_driver_bridge.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/msn_story_vehicles_complete.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/msn_story_vehicles_complete.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/msn_story_vehicles_complete.toml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/nessie_rewards.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/nessie_rewards.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/nessie_rewards.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/new_map_areas.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/new_map_areas.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/new_map_areas.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/new_map_encounter_tables.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/new_map_encounter_tables.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/new_map_encounter_tables.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/nssp_crossover.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/nssp_crossover.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/nssp_crossover.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/one_world_space_economy.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/one_world_space_economy.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/one_world_space_economy.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/procedural_encounter_tables.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/procedural_encounter_tables.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/procedural_encounter_tables.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/procedural_space_systems.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/procedural_space_systems.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/procedural_space_systems.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_magic_starwars_project/tweakdb/vendor_inventory_loch_exchange.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars_project/tweakdb/vendor_inventory_loch_exchange.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars_project/tweakdb/vendor_inventory_loch_exchange.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "msn_sephirotic_court_binder.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_sephirotic_court_binder.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_sephirotic_court_binder.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "output/completion_report.json",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/output/completion_report.json",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/output/completion_report.json"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "output/in_game_validation.json",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/output/in_game_validation.json",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/output/in_game_validation.json"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "output/ingame_smoke_test.json",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/output/ingame_smoke_test.json",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/output/ingame_smoke_test.json"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "output/mod_test_results.json",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/output/mod_test_results.json",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/output/mod_test_results.json"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "output/msn_magic_starwars_v1.0.0_20260620/README.md",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/output/msn_magic_starwars_v1.0.0_20260620/README.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/output/msn_magic_starwars_v1.0.0_20260620/README.md"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "output/sephirotic_court_registry.json",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/output/sephirotic_court_registry.json",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/output/sephirotic_court_registry.json"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "output/working_condition.json",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/output/working_condition.json",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/output/working_condition.json"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "packed/archive/pc/mod/msn_magic_starwars.archive",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/packed/archive/pc/mod/msn_magic_starwars.archive",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/packed/archive/pc/mod/msn_magic_starwars.archive"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "patch_unify.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/patch_unify.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/patch_unify.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "record_memory.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/record_memory.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/record_memory.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "run_balancer.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/run_balancer.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/run_balancer.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/compile_hell_campaign.sh",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/compile_hell_campaign.sh",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/compile_hell_campaign.sh"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/core/msn_lucifer_dialogue.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/core/msn_lucifer_dialogue.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/core/msn_lucifer_dialogue.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/generated/skill_tree_registry.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/generated/skill_tree_registry.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/generated/skill_tree_registry.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/hell_circle_quests.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_circle_quests.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/hell_circle_quests.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/hell_fraud.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_fraud.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/hell_fraud.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/hell_gluttony.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_gluttony.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/hell_gluttony.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/hell_greed.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_greed.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/hell_greed.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/hell_heresy.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_heresy.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/hell_heresy.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/hell_items.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_items.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/hell_items.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/hell_limbo.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_limbo.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/hell_limbo.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/hell_lucifers_throne.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_lucifers_throne.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/hell_lucifers_throne.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/hell_lust.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_lust.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/hell_lust.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/hell_treachery.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_treachery.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/hell_treachery.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/hell_violence.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_violence.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/hell_violence.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/hell_wrath.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell_wrath.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/hell_wrath.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/lilith_campaign.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/lilith_campaign.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/lilith_campaign.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/lilith_sovereign_kernel.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/lilith_sovereign_kernel.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/lilith_sovereign_kernel.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/livingsin_hell_integration.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/livingsin_hell_integration.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/livingsin_hell_integration.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_abyssal_crafting.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_abyssal_crafting.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_abyssal_crafting.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_ai_overhaul.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_ai_overhaul.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_ai_overhaul.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_api_dialogue_bridge.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_api_dialogue_bridge.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_api_dialogue_bridge.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_business_management.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_business_management.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_business_management.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_campaign_orchestrator.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_campaign_orchestrator.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_campaign_orchestrator.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_cool_mode.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_cool_mode.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_cool_mode.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_crafting_overhaul.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_crafting_overhaul.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_crafting_overhaul.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_crime_syndicate.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_crime_syndicate.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_crime_syndicate.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_crypto_wallet.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_crypto_wallet.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_crypto_wallet.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_custom_item_factory.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_custom_item_factory.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_custom_item_factory.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_cyberpsychosis_ui.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_cyberpsychosis_ui.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_cyberpsychosis_ui.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_drone_swarms.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_drone_swarms.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_drone_swarms.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_five_rings_quest.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_five_rings_quest.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_five_rings_quest.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_freighter_business.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_freighter_business.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_freighter_business.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_gaming_engine.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_gaming_engine.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_gaming_engine.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_gang_bases.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_gang_bases.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_gang_bases.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_gang_management.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_gang_management.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_gang_management.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_grand_theft_cyberpunk_hub.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_grand_theft_cyberpunk_hub.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_grand_theft_cyberpunk_hub.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_gtc_sephirotic_router.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_gtc_sephirotic_router.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_gtc_sephirotic_router.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_guilds_expansion.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_guilds_expansion.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_guilds_expansion.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_hell_space_combat.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_hell_space_combat.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_hell_space_combat.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_horsemen_audio.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_horsemen_audio.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_horsemen_audio.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_hunter_ai.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_hunter_ai.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_hunter_ai.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_jedi_system.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_jedi_system.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_jedi_system.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_lucifer_dialogue.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_lucifer_dialogue.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_lucifer_dialogue.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_lyra_audio_integration.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_lyra_audio_integration.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_lyra_audio_integration.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_magic_quests.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_magic_quests.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_magic_quests.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_magic_system.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_magic_system.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_magic_system.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_main_quest_the_void.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_main_quest_the_void.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_main_quest_the_void.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_metaconscious_skills_integration.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_metaconscious_skills_integration.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_metaconscious_skills_integration.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_narrative_story.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_narrative_story.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_narrative_story.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_nemotron_brains.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_nemotron_brains.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_nemotron_brains.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_nemotron_mining.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_nemotron_mining.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_nemotron_mining.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_neon_zealots_ambush.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_neon_zealots_ambush.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_neon_zealots_ambush.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_orbital_drop.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_orbital_drop.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_orbital_drop.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_orbital_travel.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_orbital_travel.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_orbital_travel.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_physical_economy_map.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_physical_economy_map.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_physical_economy_map.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_procgen_engine.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_procgen_engine.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_procgen_engine.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_quest_archangel.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_quest_archangel.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_quest_archangel.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_reddit_fixes.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_reddit_fixes.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_reddit_fixes.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_sephirotic_quests.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_sephirotic_quests.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_sephirotic_quests.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_service_endpoints.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_service_endpoints.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_service_endpoints.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_starwars_quests.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_starwars_quests.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_starwars_quests.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_starwars_system.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_starwars_system.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_starwars_system.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_symbiosis_bridge.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_symbiosis_bridge.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_symbiosis_bridge.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_title_screen.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_title_screen.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_title_screen.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_token_economy.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_token_economy.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_token_economy.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_wanted_level.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_wanted_level.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_wanted_level.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_yolo_mode.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_yolo_mode.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_yolo_mode.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/quests/hell_circle_quests.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/quests/hell_circle_quests.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/quests/hell_circle_quests.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/skills/msn_skill_hooks.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/skills/msn_skill_hooks.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/skills/msn_skill_hooks.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/space/msn_hell_space_combat.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/space/msn_hell_space_combat.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/space/msn_hell_space_combat.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/ui/corruption_hud.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/ui/corruption_hud.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/ui/corruption_hud.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/ui/custom_audio_injector.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/ui/custom_audio_injector.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/ui/custom_audio_injector.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/ui/holocron_dialogue.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/ui/holocron_dialogue.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/ui/holocron_dialogue.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/ui/lightsaber_vfx.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/ui/lightsaber_vfx.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/ui/lightsaber_vfx.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/ui/livingsin_time_blade.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/ui/livingsin_time_blade.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/ui/livingsin_time_blade.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/ui/msn_synchronicity_enhancements.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/ui/msn_synchronicity_enhancements.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/ui/msn_synchronicity_enhancements.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/ui/space_combat_camera.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/ui/space_combat_camera.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/ui/space_combat_camera.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "test_mod/packed/archive/pc/mod/test.archive",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/test_mod/packed/archive/pc/mod/test.archive",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/test_mod/packed/archive/pc/mod/test.archive"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "test_mod/test.cpmodproj",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/test_mod/test.cpmodproj",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/test_mod/test.cpmodproj"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/build_completion_report.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/build_completion_report.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/build_completion_report.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/build_msn.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/build_msn.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/build_msn.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/compile_full_stack.sh",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/compile_full_stack.sh",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/compile_full_stack.sh"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/complete_mods.sh",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/complete_mods.sh",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/complete_mods.sh"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/dedupe_scripts_for_redmod.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/dedupe_scripts_for_redmod.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/dedupe_scripts_for_redmod.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/fix_redscript.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/fix_redscript.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/fix_redscript.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/generate_abyssal_hat_catalog.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/generate_abyssal_hat_catalog.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/generate_abyssal_hat_catalog.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/generate_cpmodproj.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/generate_cpmodproj.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/generate_cpmodproj.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/generate_cyberpunk_skill_trees.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/generate_cyberpunk_skill_trees.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/generate_cyberpunk_skill_trees.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/generate_procgen_item_catalog.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/generate_procgen_item_catalog.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/generate_procgen_item_catalog.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/install_frameworks.sh",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/install_frameworks.sh",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/install_frameworks.sh"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/launch_verify.sh",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/launch_verify.sh",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/launch_verify.sh"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/lilith_unify_cyberpunk.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/lilith_unify_cyberpunk.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/lilith_unify_cyberpunk.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/optimize_gtc_sync_mods.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/optimize_gtc_sync_mods.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/optimize_gtc_sync_mods.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/ouroboros_cyberpunk_recursive.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/ouroboros_cyberpunk_recursive.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/ouroboros_cyberpunk_recursive.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/resolve_game_path.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/resolve_game_path.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/resolve_game_path.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/restore_incomplete_scripts.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/restore_incomplete_scripts.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/restore_incomplete_scripts.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/safe_deploy.sh",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/safe_deploy.sh",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/safe_deploy.sh"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/sephirotic_court_deploy.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/sephirotic_court_deploy.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/sephirotic_court_deploy.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/test_all_mods.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/test_all_mods.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/test_all_mods.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/tier1_launch_prep.sh",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/tier1_launch_prep.sh",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/tier1_launch_prep.sh"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/tier_enable.sh",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/tier_enable.sh",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/tier_enable.sh"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/validate_full_stack.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/validate_full_stack.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/validate_full_stack.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tools/validate_magic_jedi.py",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tools/validate_magic_jedi.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tools/validate_magic_jedi.py"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/adaptive_quantization.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/adaptive_quantization.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/adaptive_quantization.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/cerebellum_optimization.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/cerebellum_optimization.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/cerebellum_optimization.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/hell_crafting.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/hell_crafting.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/hell_crafting.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/hell_items.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/hell_items.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/hell_items.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/lilith_campaign_tweakdb.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/lilith_campaign_tweakdb.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/lilith_campaign_tweakdb.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/msn_procgen_weapon_catalog.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/msn_procgen_weapon_catalog.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/msn_procgen_weapon_catalog.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/new_performance_boosts.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/new_performance_boosts.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/new_performance_boosts.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/new_performance_boosts_v2.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/new_performance_boosts_v2.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/new_performance_boosts_v2.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/nssp_token_economy.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/nssp_token_economy.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/nssp_token_economy.yaml"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/performance_boosts_15.txt",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/performance_boosts_15.txt",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/performance_boosts_15.txt"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/reds/hell_fraud.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_fraud.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/reds/hell_fraud.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/reds/hell_gluttony.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_gluttony.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/reds/hell_gluttony.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/reds/hell_greed.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_greed.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/reds/hell_greed.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/reds/hell_heresy.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_heresy.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/reds/hell_heresy.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/reds/hell_items.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_items.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/reds/hell_items.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/reds/hell_limbo.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_limbo.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/reds/hell_limbo.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/reds/hell_lucifers_throne.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_lucifers_throne.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/reds/hell_lucifers_throne.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/reds/hell_lust.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_lust.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/reds/hell_lust.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/reds/hell_treachery.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_treachery.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/reds/hell_treachery.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/reds/hell_violence.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_violence.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/reds/hell_violence.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "tweakdb/reds/hell_wrath.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/reds/hell_wrath.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/reds/hell_wrath.reds"
+        }
+      ],
+      "path_map": {},
+      "review_installed_only": [
+        {
+          "action": "review_installed_only_file",
+          "relative_path": ".deploy_manifest.json",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/.deploy_manifest.json"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "CODE_OF_CONDUCT.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/CODE_OF_CONDUCT.md"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "CONTRIBUTING.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/CONTRIBUTING.md"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "SECURITY.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/SECURITY.md"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "SUPPORT.md",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/SUPPORT.md"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "build_msn.py",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/build_msn.py"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_abyssal_crafting.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_abyssal_crafting.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_abyssal_skills.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_abyssal_skills.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_business_management.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_business_management.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_crafting_overhaul.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_crafting_overhaul.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_crime_syndicate.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_crime_syndicate.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_crypto_wallet.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_crypto_wallet.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_cyberpsychosis_ui.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_cyberpsychosis_ui.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_drone_swarms.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_drone_swarms.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_five_rings_quest.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_five_rings_quest.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_freighter_business.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_freighter_business.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_gang_bases.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_gang_bases.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_gang_management.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_gang_management.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_guilds_expansion.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_guilds_expansion.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_horsemen_audio.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_horsemen_audio.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_hunter_ai.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_hunter_ai.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_lyra_audio_integration.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_lyra_audio_integration.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_main_quest_the_void.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_main_quest_the_void.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_nemotron_brains.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_nemotron_brains.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_nemotron_mining.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_nemotron_mining.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_neon_zealots_ambush.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_neon_zealots_ambush.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_orbital_drop.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_orbital_drop.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_orbital_travel.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_orbital_travel.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_overhaul_mechanics.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_overhaul_mechanics.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_physical_economy_map.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_physical_economy_map.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_quest_archangel.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_quest_archangel.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_reddit_fixes.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_reddit_fixes.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_sephirotic_quests.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_sephirotic_quests.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_wanted_level.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_wanted_level.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "msn_yolo_mode.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_yolo_mode.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "packed/archive/pc/mod/msn_integration.archive",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/packed/archive/pc/mod/msn_integration.archive"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "scripts/msn_listener.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_listener.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "scripts/skills/msn_chakra_quantum_mapper.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/skills/msn_chakra_quantum_mapper.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "scripts/watchdogs/wd_blackout_quickhack.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/watchdogs/wd_blackout_quickhack.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "scripts/watchdogs/wd_kiroshi_profiler.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/watchdogs/wd_kiroshi_profiler.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "scripts/watchdogs/wd_seamless_invasion.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/watchdogs/wd_seamless_invasion.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "scripts/watchdogs/wd_traffic_override.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/watchdogs/wd_traffic_override.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "tweakdb/hell_fraud.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/hell_fraud.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "tweakdb/hell_gluttony.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/hell_gluttony.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "tweakdb/hell_greed.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/hell_greed.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "tweakdb/hell_heresy.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/hell_heresy.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "tweakdb/hell_items.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/hell_items.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "tweakdb/hell_limbo.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/hell_limbo.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "tweakdb/hell_lucifers_throne.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/hell_lucifers_throne.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "tweakdb/hell_lust.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/hell_lust.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "tweakdb/hell_treachery.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/hell_treachery.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "tweakdb/hell_violence.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/hell_violence.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "tweakdb/hell_wrath.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/hell_wrath.reds"
+        }
+      ],
+      "review_update": [
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "assets/models/model_production_manifest.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/assets/models/model_production_manifest.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/assets/models/model_production_manifest.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "character/lilith_character.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/character/lilith_character.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/character/lilith_character.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "hell_campaign.cpmodproj",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/hell_campaign.cpmodproj",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/hell_campaign.cpmodproj"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "info.json",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/info.json",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/info.json"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "localization/en.stringlist",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/localization/en.stringlist",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/localization/en.stringlist"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "msn_integration.cpmodproj",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_integration.cpmodproj",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_integration.cpmodproj"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "msn_integration.redmod.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_integration.redmod.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_integration.redmod.toml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "msn_integration.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_integration.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_integration.toml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "msn_magic_starwars.cpmodproj",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_magic_starwars.cpmodproj",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_magic_starwars.cpmodproj"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "msn_multiplayer.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_multiplayer.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_multiplayer.toml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "msn_tweakdb.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/msn_tweakdb.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/msn_tweakdb.toml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "ngd_rnn_optimization.redmod.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/ngd_rnn_optimization.redmod.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/ngd_rnn_optimization.redmod.toml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "quests/abyssal_skill_tree_quests.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/quests/abyssal_skill_tree_quests.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/quests/abyssal_skill_tree_quests.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "quests/guild/msn_guild_quests.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/quests/guild/msn_guild_quests.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/quests/guild/msn_guild_quests.toml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "quests/guild/msn_guild_quests.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/quests/guild/msn_guild_quests.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/quests/guild/msn_guild_quests.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "quests/msn_narrative_arc.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/quests/msn_narrative_arc.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/quests/msn_narrative_arc.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "redmod.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/redmod.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/redmod.toml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/abyssal_lyra_integration.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/abyssal_lyra_integration.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/abyssal_lyra_integration.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/cyberpunk_ngd_bridge.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/cyberpunk_ngd_bridge.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/cyberpunk_ngd_bridge.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/cyberpunk_ngd_integration.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/cyberpunk_ngd_integration.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/cyberpunk_ngd_integration.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/hell/msn_hell_campaign.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/hell/msn_hell_campaign.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/hell/msn_hell_campaign.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/jedi/msn_jedi_system.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/jedi/msn_jedi_system.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/jedi/msn_jedi_system.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/lilith_console.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/lilith_console.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/lilith_console.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/lilith_easter_eggs.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/lilith_easter_eggs.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/lilith_easter_eggs.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/lilith_enhanced_dialogue.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/lilith_enhanced_dialogue.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/lilith_enhanced_dialogue.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/lilith_ngd_control.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/lilith_ngd_control.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/lilith_ngd_control.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/lilith_npc.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/lilith_npc.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/lilith_npc.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/livingsin_time_blade.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/livingsin_time_blade.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/livingsin_time_blade.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/magic/msn_magic_quests.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/magic/msn_magic_quests.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/magic/msn_magic_quests.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/magic/msn_magic_system.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/magic/msn_magic_system.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/magic/msn_magic_system.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_business_console.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_business_console.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_business_console.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_cerebellum.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_cerebellum.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_cerebellum.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_cortex_link.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_cortex_link.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_cortex_link.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_hell_campaign.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_hell_campaign.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_hell_campaign.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_lyra_dialogue.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_lyra_dialogue.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_lyra_dialogue.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_master_integration.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_master_integration.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_master_integration.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_master_integration_cores.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_master_integration_cores.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_master_integration_cores.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_master_integration_triggers.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_master_integration_triggers.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_master_integration_triggers.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_master_integration_wave34.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_master_integration_wave34.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_master_integration_wave34.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_modern_ballistics.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_modern_ballistics.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_modern_ballistics.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_multiplayer_client.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_multiplayer_client.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_multiplayer_client.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_npc_ai.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_npc_ai.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_npc_ai.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_ouroboros.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_ouroboros.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_ouroboros.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_overhaul_mechanics.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_overhaul_mechanics.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_overhaul_mechanics.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_quantum_bridge.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_quantum_bridge.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_quantum_bridge.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_sephirotic_npcs.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_sephirotic_npcs.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_sephirotic_npcs.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_speculative_cerebellum.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_speculative_cerebellum.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_speculative_cerebellum.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/msn_weapons.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/msn_weapons.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/msn_weapons.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/nssp_bridge.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/nssp_bridge.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/nssp_bridge.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/skills/msn_abyssal_skills.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/skills/msn_abyssal_skills.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/skills/msn_abyssal_skills.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/skills/msn_metaconscious_skills_integration.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/skills/msn_metaconscious_skills_integration.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/skills/msn_metaconscious_skills_integration.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/starwars/msn_starwars_quests.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/starwars/msn_starwars_quests.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/starwars/msn_starwars_quests.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "scripts/starwars/msn_starwars_system.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/scripts/starwars/msn_starwars_system.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/scripts/starwars/msn_starwars_system.reds"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/Abyssal_Cyberpunk_Crossover.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/Abyssal_Cyberpunk_Crossover.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/Abyssal_Cyberpunk_Crossover.toml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/Anthem_Javelin_Suits.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/Anthem_Javelin_Suits.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/Anthem_Javelin_Suits.toml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/LivingSin_TimeBlade.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/LivingSin_TimeBlade.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/LivingSin_TimeBlade.toml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/abyssal_assets.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/abyssal_assets.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/abyssal_assets.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/abyssal_fabricator_recipes.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/abyssal_fabricator_recipes.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/abyssal_fabricator_recipes.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/abyssal_hat_catalog.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/abyssal_hat_catalog.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/abyssal_hat_catalog.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/abyssal_skill_tree_quests.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/abyssal_skill_tree_quests.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/abyssal_skill_tree_quests.toml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/anthem_javelin_mechanics.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/anthem_javelin_mechanics.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/anthem_javelin_mechanics.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/custom_body_augments_bios.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/custom_body_augments_bios.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/custom_body_augments_bios.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/custom_clothing_expanded.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/custom_clothing_expanded.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/custom_clothing_expanded.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/custom_content_acquisition_map.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/custom_content_acquisition_map.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/custom_content_acquisition_map.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/custom_cyberware_expanded.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/custom_cyberware_expanded.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/custom_cyberware_expanded.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/custom_gear_runescape_wow_allods.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/custom_gear_runescape_wow_allods.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/custom_gear_runescape_wow_allods.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/custom_item_business_bridge.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/custom_item_business_bridge.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/custom_item_business_bridge.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/custom_models_msn_abyssal.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/custom_models_msn_abyssal.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/custom_models_msn_abyssal.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/custom_quickhacks_expanded.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/custom_quickhacks_expanded.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/custom_quickhacks_expanded.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/custom_shards_expanded.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/custom_shards_expanded.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/custom_shards_expanded.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/custom_vehicles_expanded.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/custom_vehicles_expanded.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/custom_vehicles_expanded.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/custom_weapons_expanded.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/custom_weapons_expanded.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/custom_weapons_expanded.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/freighter_javelin_business_systems.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/freighter_javelin_business_systems.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/freighter_javelin_business_systems.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/gnostic_consensus_bridge.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/gnostic_consensus_bridge.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/gnostic_consensus_bridge.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/hell_campaign_map.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/hell_campaign_map.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/hell_campaign_map.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/lilith_full_database_overlay.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/lilith_full_database_overlay.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/lilith_full_database_overlay.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/msn_graphics_driver_bridge.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/msn_graphics_driver_bridge.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/msn_graphics_driver_bridge.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/msn_story_vehicles_complete.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/msn_story_vehicles_complete.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/msn_story_vehicles_complete.toml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/nessie_rewards.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/nessie_rewards.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/nessie_rewards.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/new_map_areas.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/new_map_areas.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/new_map_areas.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/new_map_encounter_tables.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/new_map_encounter_tables.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/new_map_encounter_tables.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/nssp_crossover.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/nssp_crossover.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/nssp_crossover.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/one_world_space_economy.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/one_world_space_economy.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/one_world_space_economy.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/procedural_encounter_tables.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/procedural_encounter_tables.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/procedural_encounter_tables.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/procedural_space_systems.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/procedural_space_systems.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/procedural_space_systems.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/vendor_inventory_loch_exchange.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods/tweakdb/vendor_inventory_loch_exchange.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration/tweakdb/vendor_inventory_loch_exchange.yaml"
+        }
+      ],
+      "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/abyssal-assets/cp2077_mods",
+      "summary": {
+        "copy_missing_count": 208,
+        "review_installed_only_count": 53,
+        "review_update_count": 86
+      },
+      "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/msn_integration"
+    },
+    "total_rebuild_source_to_installed_gtc_total_rebuild": {
+      "copy_missing": [
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/cyberpunk_ngd_integration.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/cyberpunk_ngd_integration.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/scripts/cyberpunk_ngd_integration.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/lilith_campaign.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/lilith_campaign.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/scripts/lilith_campaign.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/lilith_easter_eggs.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/lilith_easter_eggs.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/scripts/lilith_easter_eggs.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/livingsin_time_blade.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/livingsin_time_blade.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/scripts/livingsin_time_blade.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_cerebellum.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/msn_cerebellum.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/scripts/msn_cerebellum.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_cortex_link.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/msn_cortex_link.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/scripts/msn_cortex_link.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_five_rings_quest.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/msn_five_rings_quest.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/scripts/msn_five_rings_quest.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_lyra_dialogue.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/msn_lyra_dialogue.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/scripts/msn_lyra_dialogue.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_main_quest_the_void.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/msn_main_quest_the_void.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/scripts/msn_main_quest_the_void.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_npc_ai.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/msn_npc_ai.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/scripts/msn_npc_ai.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_ouroboros.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/msn_ouroboros.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/scripts/msn_ouroboros.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/msn_sephirotic_quests.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/msn_sephirotic_quests.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/scripts/msn_sephirotic_quests.reds"
+        },
+        {
+          "action": "copy_missing_source_to_target",
+          "relative_path": "scripts/nssp_bridge.reds",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redscripts/nssp_bridge.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/scripts/nssp_bridge.reds"
+        }
+      ],
+      "path_map": {
+        "redscripts/": "scripts/"
+      },
+      "review_installed_only": [
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "redscripts/cyberpunk_ngd_integration.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/redscripts/cyberpunk_ngd_integration.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "redscripts/lilith_campaign.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/redscripts/lilith_campaign.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "redscripts/lilith_easter_eggs.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/redscripts/lilith_easter_eggs.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "redscripts/livingsin_time_blade.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/redscripts/livingsin_time_blade.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "redscripts/msn_cerebellum.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/redscripts/msn_cerebellum.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "redscripts/msn_cortex_link.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/redscripts/msn_cortex_link.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "redscripts/msn_five_rings_quest.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/redscripts/msn_five_rings_quest.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "redscripts/msn_lyra_dialogue.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/redscripts/msn_lyra_dialogue.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "redscripts/msn_main_quest_the_void.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/redscripts/msn_main_quest_the_void.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "redscripts/msn_npc_ai.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/redscripts/msn_npc_ai.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "redscripts/msn_ouroboros.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/redscripts/msn_ouroboros.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "redscripts/msn_sephirotic_quests.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/redscripts/msn_sephirotic_quests.reds"
+        },
+        {
+          "action": "review_installed_only_file",
+          "relative_path": "redscripts/nssp_bridge.reds",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/redscripts/nssp_bridge.reds"
+        }
+      ],
+      "review_update": [
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "redmod.toml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/redmod.toml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/redmod.toml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/gtc_easter_eggs.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/tweakdb/gtc_easter_eggs.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/tweakdb/gtc_easter_eggs.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/gtc_items.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/tweakdb/gtc_items.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/tweakdb/gtc_items.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/gtc_nessie_hats.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/tweakdb/gtc_nessie_hats.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/tweakdb/gtc_nessie_hats.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/gtc_quests.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/tweakdb/gtc_quests.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/tweakdb/gtc_quests.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/gtc_space_systems.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/tweakdb/gtc_space_systems.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/tweakdb/gtc_space_systems.yaml"
+        },
+        {
+          "action": "review_then_update_changed_target",
+          "relative_path": "tweakdb/lilith_campaign_tweakdb.yaml",
+          "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild/tweakdb/lilith_campaign_tweakdb.yaml",
+          "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild/tweakdb/lilith_campaign_tweakdb.yaml"
+        }
+      ],
+      "source": "/home/tehlappy/Desktop/Lilith/Core_Systems/AI/gtc_rebuild",
+      "summary": {
+        "copy_missing_count": 13,
+        "review_installed_only_count": 13,
+        "review_update_count": 7
+      },
+      "target": "/mnt/d/Games/steamapps/common/Cyberpunk 2077/r6/mods/gtc_total_rebuild"
+    }
+  },
+  "purpose": "Action plan for reconciling Grand Theft Cyberpunk source mods with installed Cyberpunk 2077 targets.",
+  "safety": [
+    "This file is a plan only; it does not copy or delete files.",
+    "Copy missing source files only after confirming they belong in the target mod.",
+    "Never delete installed-only files until they are classified as obsolete or generated output.",
+    "Changed files require review because installed files may contain local deployment edits."
+  ]
+}
