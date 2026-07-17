@@ -1,0 +1,16 @@
+{
+  "drowned-warden": {
+    "boss_id": "drowned-warden",
+    "hp": 0,
+    "max_hp": 5000,
+    "phase": 0,
+    "active": true,
+    "spawned_at": 1781805448.0945313,
+    "defeated": true,
+    "defeated_by": 1,
+    "defeated_at": 1781805463.1942823,
+    "loot_claimed": [
+      1
+    ]
+  }
+}
