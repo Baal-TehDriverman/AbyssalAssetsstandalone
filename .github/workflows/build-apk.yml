@@ -56,7 +56,8 @@ jobs:
           distribution: 'temurin'
           java-version: ${{ env.JAVA_VERSION }}
           cache: 'gradle'
-
+          cache-dependency-path: client/android/
+          java-package: jdk
       # ============ SETUP ANDROID SDK ============
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
