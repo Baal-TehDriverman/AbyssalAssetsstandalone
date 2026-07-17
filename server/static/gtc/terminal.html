@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTC Terminal</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            background-color: #050505;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 16px;
+            height: 100%;
+            overflow: hidden;
+        }
+        #terminal {
+            padding: 20px;
+            height: calc(100% - 40px);
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+        }
+        .output-line {
+            margin: 2px 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            line-height: 1.4;
+        }
+        .input-wrapper {
+            display: flex;
+            align-items: center;
+            margin-top: 5px;
+        }
+        .prompt {
+            color: #00ff00;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        input[type="text"] {
+            background: transparent;
+            border: none;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 16px;
+            flex-grow: 1;
+            outline: none;
+            caret-color: #00ff00;
+        }
+        .cmd-not-found { color: #ff3333; }
+        .system-msg { color: #00cc00; font-weight: bold; }
+        .success-msg { color: #ffff00; }
+        .info-msg { color: #aaaaaa; }
+
+        /* Scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #050505; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #005500; 
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #00ff00; 
+        }
+    </style>
+</head>
+<body>
+    <div id="terminal">
+        <div id="output">
+            <div class="output-line system-msg">Grand Theft Cyberpunk OS v7.4.2</div>
+            <div class="output-line info-msg">Unauthorized access is strictly prohibited. Neural interface logged.</div>
+            <div class="output-line">Type 'help' to see available commands.</div>
+        </div>
+        <div class="input-wrapper">
+            <span class="prompt">root@neo-tokyo:~#</span>
+            <input type="text" id="cmd" autocomplete="off" spellcheck="false" autofocus>
+        </div>
+    </div>
+
+    <script>
+        const output = document.getElementById('output');
+        const cmdInput = document.getElementById('cmd');
+        const terminal = document.getElementById('terminal');
+
+        const mockFileSystem = [
+            'soul_coins.db', 
+            'neural_implant_logs.txt', 
+            'black_ice_config.sys',
+            'liberty_city_maps.dat'
+        ];
+
+        function printLine(text, className = 'output-line') {
+            const div = document.createElement('div');
+            div.className = className;
+            div.textContent = text;
+            output.appendChild(div);
+            terminal.scrollTop = terminal.scrollHeight;
+        }
+
+        function processCommand(rawCmd) {
+            const fullCmd = rawCmd.trim();
+            if (!fullCmd) return;
+
+            printLine(`root@neo-tokyo:~# ${fullCmd}`, 'output-line info-msg');
+
+            const args = fullCmd.split(' ').filter(Boolean);
+            const cmd = args[0].toLowerCase();
+
+            switch (cmd) {
+                case 'help':
+                    printLine('Available commands:');
+                    printLine('  help                 - Show this help message');
+                    printLine('  clear                - Clear terminal output');
+                    printLine('  ls                   - List files in current directory');
+                    printLine('  whoami               - Display current user identity');
+                    printLine('  sudo                 - Execute a command as superuser (requires exploit)');
+                    printLine('  ping                 - Ping a network host');
+                    printLine('  neofetch             - Display system information');
+                    break;
+                case 'clear':
+                    output.innerHTML = '';
+                    break;
+                case 'ls':
+                    let lsOutput = '';
+                    mockFileSystem.forEach(file => {
+                        lsOutput += file.padEnd(25, ' ');
+                    });
+                    printLine(lsOutput);
+                    break;
+                case 'whoami':
+                    printLine('neo-hacker_99');
+                    break;
+                case 'neofetch':
+                    printLine('       /\\         OS: Grand Theft Cyberpunk v7.4.2');
+                    printLine('      /  \\        Kernel: Neuro-Kernel 9.1.4-custom');
+                    printLine('     /____\\       Uptime: 247 days, 14 hours, 3 mins');
+                    printLine('    /      \\      Shell: bash 5.2.15');
+                    printLine('   /        \\     Memory: 64TB Quantum RAM');
+                    break;
+                case 'sudo':
+                    if (args[1] === 'transfer_soul_coins') {
+                        printLine('Initiating soul coin transfer protocol...', 'system-msg');
+                        cmdInput.disabled = true;
+                        
+                        setTimeout(() => {
+                            printLine('Bypassing Arasaka Black ICE...', 'info-msg');
+                            terminal.scrollTop = terminal.scrollHeight;
+                        }, 800);
+                        
+                        setTimeout(() => {
+                            printLine('SUCCESS: Access granted.', 'success-msg');
+                            printLine('Transferring 10,000 SC to untraceable wallet...', 'info-msg');
+                            terminal.scrollTop = terminal.scrollHeight;
+                        }, 1600);
+                        
+                        setTimeout(() => {
+                            printLine('Transfer complete. Deleting trace logs...', 'success-msg');
+                            terminal.scrollTop = terminal.scrollHeight;
+                        }, 2500);
+
+                        setTimeout(() => {
+                            printLine('Disconnecting...', 'info-msg');
+                            cmdInput.disabled = false;
+                            cmdInput.focus();
+                            terminal.scrollTop = terminal.scrollHeight;
+                        }, 3200);
+
+                    } else if (args.length > 1) {
+                        printLine(`sudo: ${args.slice(1).join(' ')}: neural signature rejected`, 'cmd-not-found');
+                    } else {
+                        printLine('usage: sudo <command>', 'cmd-not-found');
+                    }
+                    break;
+                case 'ping':
+                    const target = args[1] || 'localhost';
+                    printLine(`PING ${target} (192.168.0.1) 56(84) bytes of data.`);
+                    printLine(`64 bytes from ${target}: icmp_seq=1 ttl=64 time=0.042 ms`);
+                    printLine(`64 bytes from ${target}: icmp_seq=2 ttl=64 time=0.038 ms`);
+                    printLine(`64 bytes from ${target}: icmp_seq=3 ttl=64 time=0.045 ms`);
+                    break;
+                default:
+                    printLine(`bash: ${cmd}: command not found`, 'cmd-not-found');
+                    break;
+            }
+        }
+
+        cmdInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                processCommand(this.value);
+                this.value = '';
+            }
+        });
+
+        // Always keep focus on the input field when clicking anywhere
+        document.addEventListener('click', () => {
+            if (!cmdInput.disabled) {
+                cmdInput.focus();
+            }
+        });
+    </script>
+</body>
+</html>
