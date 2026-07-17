@@ -70,7 +70,7 @@ jobs:
       - name: Install dependencies
         working-directory: ./client
         run: |
-          npm ci --legacy-peer-deps
+          npm install --legacy-peer-deps
 
       # ============ BUILD WEB APP ============
       - name: Build web app
@@ -152,9 +152,11 @@ jobs:
           cache: 'npm'
           cache-dependency-path: client/package-lock.json
 
+      # ============ INSTALL DEPENDENCIES ============
       - name: Install dependencies
         working-directory: ./client
-        run: npm ci --legacy-peer-deps
+        run: |
+          npm install --legacy-peer-deps
 
       - name: Build PWA
         working-directory: ./client
