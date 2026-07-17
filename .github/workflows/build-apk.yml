@@ -33,7 +33,7 @@ jobs:
     timeout-minutes: 45
     env:
       ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: 'true'
-    
+
     steps:
       # ============ CHECKOUT ============
       - name: Checkout repository
@@ -55,9 +55,8 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: ${{ env.JAVA_VERSION }}
-          cache: 'gradle'
-          cache-dependency-path: client/android/
           java-package: jdk
+
       # ============ SETUP ANDROID SDK ============
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
@@ -141,7 +140,7 @@ jobs:
     name: Build PWA (Web)
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
