@@ -1,0 +1,134 @@
+{
+  "categories": {
+    "Weapons": {
+      "count": 90,
+      "prefix": "Item_Hell_Weapon_"
+    },
+    "Armor": {
+      "count": 70,
+      "prefix": "Item_Hell_Armor_"
+    },
+    "Cyberware": {
+      "count": 60,
+      "prefix": "Item_Hell_Cyberware_"
+    },
+    "Consumables": {
+      "count": 50,
+      "prefix": "Item_Hell_Consumable_"
+    },
+    "Quickhacks": {
+      "count": 40,
+      "prefix": "Item_Hell_Quickhack_"
+    },
+    "Shards": {
+      "count": 40,
+      "prefix": "Item_Hell_Shard_"
+    },
+    "Vehicles": {
+      "count": 30,
+      "prefix": "Item_Hell_Vehicle_"
+    },
+    "Clothing": {
+      "count": 30,
+      "prefix": "Item_Hell_Clothing_"
+    },
+    "Grenades": {
+      "count": 25,
+      "prefix": "Item_Hell_Grenade_"
+    },
+    "Melee": {
+      "count": 25,
+      "prefix": "Item_Hell_Melee_"
+    },
+    "Explosives": {
+      "count": 20,
+      "prefix": "Item_Hell_Explosive_"
+    },
+    "Cyberdeck_Mods": {
+      "count": 20,
+      "prefix": "Item_Hell_CyberdeckMod_"
+    }
+  },
+  "circles": [
+    [
+      "Limbo",
+      "Thaumiel",
+      "Keter",
+      "Indecision",
+      "pale_gray",
+      "vestige_soul"
+    ],
+    [
+      "Lust",
+      "Ghagiel",
+      "Chokmah",
+      "Desire",
+      "neon_pink",
+      "siren_netrunner"
+    ],
+    [
+      "Gluttony",
+      "Sathariel",
+      "Binah",
+      "Consumption",
+      "visceral_orange",
+      "consumer_script"
+    ],
+    [
+      "Greed",
+      "Gamchicoth",
+      "Chesed",
+      "Avarice",
+      "corporate_gold",
+      "hoarder_executive"
+    ],
+    [
+      "Wrath",
+      "Golachab",
+      "Gevurah",
+      "Rage",
+      "blood_red",
+      "wrath_daemon"
+    ],
+    [
+      "Heresy",
+      "Tagiriron",
+      "Tiferet",
+      "Blasphemy",
+      "iron_maiden",
+      "heretic_inquisitor"
+    ],
+    [
+      "Violence",
+      "Harab_Serapel",
+      "Netzach",
+      "Brutality",
+      "burnt_ochre",
+      "violence_marauder"
+    ],
+    [
+      "Fraud",
+      "Samael",
+      "Hod",
+      "Deception",
+      "mirror_silver",
+      "fraud_architect"
+    ],
+    [
+      "Treachery",
+      "Gamaliel",
+      "Yesod",
+      "Betrayal",
+      "frozen_blue",
+      "traitor_daemon"
+    ],
+    [
+      "Lucifers_Throne",
+      "Lilith",
+      "Malkut",
+      "Pride",
+      "obsidian_black",
+      "lucifer_avatar"
+    ]
+  ]
+}
