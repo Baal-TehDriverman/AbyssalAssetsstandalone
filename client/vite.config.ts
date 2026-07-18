@@ -17,7 +17,9 @@ export default defineConfig({
     },
   },
   server: {
-    port: 3000,
+    host: '0.0.0.0',  // Listen on all interfaces for mobile live-reload
+    port: 5173,       // Match capacitor.config.ts server.url port
+    strictPort: true, // Fail if port is taken instead of incrementing
     proxy: {
       '/api': {
         target: 'http://localhost:8000',
@@ -28,6 +30,15 @@ export default defineConfig({
         ws: true,
       },
     },
+    // Allow live-reload from phone on LAN
+    hmr: {
+      host: '192.168.1.153',
+      port: 5173,
+      protocol: 'ws',
+    },
+    // Allow phone connections
+    allowedHosts: ['192.168.1.153', 'localhost', '127.0.0.1'],
+    cors: true,
   },
   resolve: {
     alias: {

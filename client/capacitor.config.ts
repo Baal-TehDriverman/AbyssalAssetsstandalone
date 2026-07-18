@@ -6,9 +6,10 @@ const config: CapacitorConfig = {
   webDir: 'dist',
   bundledWebRuntime: false,
   server: {
-    url: 'https://api.abyssal-assets.com',
+    // Live-reload: point to your PC's LAN IP for development
+    url: 'http://192.168.1.153:5173',
     cleartext: true,
-    androidScheme: 'https',
+    androidScheme: 'http',
   },
   android: {
     allowMixedContent: true,

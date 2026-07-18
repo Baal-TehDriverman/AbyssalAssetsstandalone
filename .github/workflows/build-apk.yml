@@ -78,8 +78,8 @@ jobs:
         run: |
           npm run build
         env:
-          VITE_API_URL: https://api.abyssalassets.com
-          VITE_WS_URL: wss://api.abyssalassets.com
+          VITE_API_URL: http://192.168.1.153:8000/api
+          VITE_WS_URL: ws://192.168.1.153:8000/ws
 
       # ============ CAPACITOR SYNC ============
       - name: Capacitor add android platform

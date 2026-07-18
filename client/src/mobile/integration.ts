@@ -51,8 +51,9 @@ export interface MobileConfig {
 }
 
 export const MOBILE_CONFIG: MobileConfig = {
-  apiBaseUrl: 'https://api.abyssal-assets.com/api',
-  wsBaseUrl: 'wss://api.abyssal-assets.com/ws',
+  // Live-reload: use Vite env vars or fall back to PC LAN IP
+  apiBaseUrl: (import.meta.env.VITE_API_URL as string) || 'http://192.168.1.153:8000/api',
+  wsBaseUrl: (import.meta.env.VITE_WS_URL as string) || 'ws://192.168.1.153:8000/ws',
   
   adminCredentials: {
     username: '', // Set via environment
