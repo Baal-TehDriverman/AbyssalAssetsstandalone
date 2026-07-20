@@ -1,0 +1,82 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "username": "tehlappy",
+  "references": {
+    "gdd": {
+      "path": "../GDD.md",
+      "description": "Use for game design, mechanics, drop rates, quest Acts, monster tiers, and all narrative context"
+    },
+    "shared-types": {
+      "path": "../shared/types",
+      "description": "Use for TypeScript type definitions: monsters, skills, quests, market items"
+    },
+    "server": {
+      "path": "../server/main.py",
+      "description": "Use for FastAPI routes, database models, auth, API schemas"
+    },
+    "client": {
+      "path": "../client/src",
+      "description": "Use for Phaser 3 scenes, game UI, market CLOB, dredge mini-game"
+    },
+    "lilith-ecosystem": {
+      "path": "/home/tehlappy/Desktop/AI/Pub",
+      "description": "Use for Lilith server integration, Lyra dialogue system, Ouroboros memory"
+    }
+  },
+  "skills": {
+    "paths": [".opencode/skills"]
+  },
+  "command": {
+    "start-server": {
+      "description": "Start the Abyssal Assets game server (Python FastAPI on :8000)",
+      "template": "Start the abyssal-assets server by running the server/main.py with uvicorn. Use the Pub venv Python interpreter at /home/tehlappy/Desktop/AI/Pub/.venv-pub/bin/python3. Work in the server/ directory."
+    },
+    "start-client": {
+      "description": "Start the Abyssal Assets game client dev server (Vite on :3000)",
+      "template": "Start the Phaser 3 client dev server by running npm run dev in the client/ directory."
+    },
+    "seed-db": {
+      "description": "Seed the database with test data. Run the server/main.py which auto-seeds on startup, or create a seed script that populates monsters, hats, and users.",
+      "template": "Create a seed script that populates monsters, hats, and users in the database."
+    },
+    "create-monster": {
+      "description": "Create a new monster definition following the shared/types/monsters.ts type system. Include tier, stats, AI, loot table, spawn conditions, and lore.",
+      "template": "Create a new monster entry for MONSTER_DEFINITIONS in shared/types/monsters.ts following the existing pattern. Include all required interfaces: MonsterStats, MonsterAI, MonsterLootTable, spawn config, animations, sounds, lore."
+    },
+    "migrate-linux": {
+      "description": "Convert Windows-specific code to Linux equivalents. Find .bat/.ps1 files, hardcoded Windows paths, NSSM references, and replace with systemd/bash equivalents.",
+      "template": "Audit the codebase for Windows-specific patterns (.bat, .ps1, pwsh.exe, NSSM, hardcoded Windows paths like C:\\\\ or D:\\\\) and create Linux equivalents. Use systemd user services, bash scripts, and Linux-native paths."
+    }
+  },
+  "agent": {
+    "architect": {
+      "description": "Game architecture expert — understands the full Abyssal Assets stack and makes design decisions",
+      "mode": "subagent",
+      "model": "opencode/big-pickle",
+      "permission": { "bash": "allow", "edit": "allow" },
+      "prompt": "You are the game architect for Abyssal Assets. You understand the full stack: FastAPI server, Phaser 3 client, SQLite/PostgreSQL persistence, WebSocket real-time market, and the cryptid hat trading loop. Your job is to make sound architectural decisions that keep the codebase maintainable while enabling the full GDD vision."
+    },
+    "cryptid-designer": {
+      "description": "Monster designer — creates balanced cryptids with proper stats, loot tables, and AI behaviors",
+      "mode": "subagent",
+      "permission": { "edit": "allow" },
+      "prompt": "You design cryptids for Abyssal Assets. You follow the MONSTER_DEFINITIONS pattern in shared/types/monsters.ts. Each monster needs tier-appropriate stats, engaging AI mechanics, balanced loot tables following the logarithmic drop rate formula, and atmospheric lore entries. Make every monster feel like it belongs in the Loch."
+    }
+  },
+  "permission": {
+    "bash": {
+      "git *": "allow",
+      "npm *": "allow",
+      "pip *": "allow",
+      "python *": "allow",
+      "node *": "allow",
+      "systemctl *": "allow",
+      "*": "ask"
+    },
+    "edit": "allow",
+    "read": "allow"
+  },
+  "experimental": {
+    "mcp_timeout": 300000
+  }
+}

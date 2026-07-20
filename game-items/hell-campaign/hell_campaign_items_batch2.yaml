@@ -1,0 +1,1440 @@
+- id: Item_Hell_Cyberware_Limbo_Frontal_Cortex
+  category: Cyberware
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Limbo Frontal_Cortex of Indecision
+  description: Hell-corrupted cybernetics. Indecision processor.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Rare
+  cyberware_type: Frontal_Cortex
+  slots: 1
+  level: 10
+  price: 5000
+- id: Item_Hell_Cyberware_Limbo_Ocular_System
+  category: Cyberware
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Limbo Ocular_System of Indecision
+  description: Hell-corrupted cybernetics. Indecision processor.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Epic
+  cyberware_type: Ocular_System
+  slots: 2
+  level: 12
+  price: 6000
+- id: Item_Hell_Cyberware_Limbo_Nervous_System
+  category: Cyberware
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Limbo Nervous_System of Indecision
+  description: Hell-corrupted cybernetics. Indecision processor.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Epic
+  cyberware_type: Nervous_System
+  slots: 3
+  level: 14
+  price: 7000
+- id: Item_Hell_Cyberware_Limbo_Circulatory_System
+  category: Cyberware
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Limbo Circulatory_System of Indecision
+  description: Hell-corrupted cybernetics. Indecision processor.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Legendary
+  cyberware_type: Circulatory_System
+  slots: 4
+  level: 16
+  price: 8000
+- id: Item_Hell_Cyberware_Limbo_Integumentary_System
+  category: Cyberware
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Limbo Integumentary_System of Indecision
+  description: Hell-corrupted cybernetics. Indecision processor.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Legendary
+  cyberware_type: Integumentary_System
+  slots: 5
+  level: 18
+  price: 9000
+- id: Item_Hell_Cyberware_Limbo_Operating_System
+  category: Cyberware
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: Limbo Operating_System of Indecision
+  description: Hell-corrupted cybernetics. Indecision processor.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Mythic
+  cyberware_type: Operating_System
+  slots: 6
+  level: 20
+  price: 10000
+- id: Item_Hell_Cyberware_Lust_Frontal_Cortex
+  category: Cyberware
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Lust Frontal_Cortex of Desire
+  description: Hell-corrupted cybernetics. Desire amplifier.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Rare
+  cyberware_type: Frontal_Cortex
+  slots: 1
+  level: 15
+  price: 8000
+- id: Item_Hell_Cyberware_Lust_Ocular_System
+  category: Cyberware
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Lust Ocular_System of Desire
+  description: Hell-corrupted cybernetics. Desire amplifier.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Epic
+  cyberware_type: Ocular_System
+  slots: 2
+  level: 17
+  price: 9000
+- id: Item_Hell_Cyberware_Lust_Nervous_System
+  category: Cyberware
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Lust Nervous_System of Desire
+  description: Hell-corrupted cybernetics. Desire amplifier.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Epic
+  cyberware_type: Nervous_System
+  slots: 3
+  level: 19
+  price: 10000
+- id: Item_Hell_Cyberware_Lust_Circulatory_System
+  category: Cyberware
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Lust Circulatory_System of Desire
+  description: Hell-corrupted cybernetics. Desire amplifier.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Legendary
+  cyberware_type: Circulatory_System
+  slots: 4
+  level: 21
+  price: 11000
+- id: Item_Hell_Cyberware_Lust_Integumentary_System
+  category: Cyberware
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Lust Integumentary_System of Desire
+  description: Hell-corrupted cybernetics. Desire amplifier.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Legendary
+  cyberware_type: Integumentary_System
+  slots: 5
+  level: 23
+  price: 12000
+- id: Item_Hell_Cyberware_Lust_Operating_System
+  category: Cyberware
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: Lust Operating_System of Desire
+  description: Hell-corrupted cybernetics. Desire amplifier.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Mythic
+  cyberware_type: Operating_System
+  slots: 6
+  level: 25
+  price: 13000
+- id: Item_Hell_Cyberware_Gluttony_Frontal_Cortex
+  category: Cyberware
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Gluttony Frontal_Cortex of Consumption
+  description: Hell-corrupted cybernetics. Consumption regulator.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Rare
+  cyberware_type: Frontal_Cortex
+  slots: 1
+  level: 20
+  price: 11000
+- id: Item_Hell_Cyberware_Gluttony_Ocular_System
+  category: Cyberware
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Gluttony Ocular_System of Consumption
+  description: Hell-corrupted cybernetics. Consumption regulator.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Epic
+  cyberware_type: Ocular_System
+  slots: 2
+  level: 22
+  price: 12000
+- id: Item_Hell_Cyberware_Gluttony_Nervous_System
+  category: Cyberware
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Gluttony Nervous_System of Consumption
+  description: Hell-corrupted cybernetics. Consumption regulator.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Epic
+  cyberware_type: Nervous_System
+  slots: 3
+  level: 24
+  price: 13000
+- id: Item_Hell_Cyberware_Gluttony_Circulatory_System
+  category: Cyberware
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Gluttony Circulatory_System of Consumption
+  description: Hell-corrupted cybernetics. Consumption regulator.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Legendary
+  cyberware_type: Circulatory_System
+  slots: 4
+  level: 26
+  price: 14000
+- id: Item_Hell_Cyberware_Gluttony_Integumentary_System
+  category: Cyberware
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Gluttony Integumentary_System of Consumption
+  description: Hell-corrupted cybernetics. Consumption regulator.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Legendary
+  cyberware_type: Integumentary_System
+  slots: 5
+  level: 28
+  price: 15000
+- id: Item_Hell_Cyberware_Gluttony_Operating_System
+  category: Cyberware
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: Gluttony Operating_System of Consumption
+  description: Hell-corrupted cybernetics. Consumption regulator.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Mythic
+  cyberware_type: Operating_System
+  slots: 6
+  level: 30
+  price: 16000
+- id: Item_Hell_Cyberware_Greed_Frontal_Cortex
+  category: Cyberware
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Greed Frontal_Cortex of Avarice
+  description: Hell-corrupted cybernetics. Avarice optimizer.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Rare
+  cyberware_type: Frontal_Cortex
+  slots: 1
+  level: 25
+  price: 14000
+- id: Item_Hell_Cyberware_Greed_Ocular_System
+  category: Cyberware
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Greed Ocular_System of Avarice
+  description: Hell-corrupted cybernetics. Avarice optimizer.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Epic
+  cyberware_type: Ocular_System
+  slots: 2
+  level: 27
+  price: 15000
+- id: Item_Hell_Cyberware_Greed_Nervous_System
+  category: Cyberware
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Greed Nervous_System of Avarice
+  description: Hell-corrupted cybernetics. Avarice optimizer.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Epic
+  cyberware_type: Nervous_System
+  slots: 3
+  level: 29
+  price: 16000
+- id: Item_Hell_Cyberware_Greed_Circulatory_System
+  category: Cyberware
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Greed Circulatory_System of Avarice
+  description: Hell-corrupted cybernetics. Avarice optimizer.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Legendary
+  cyberware_type: Circulatory_System
+  slots: 4
+  level: 31
+  price: 17000
+- id: Item_Hell_Cyberware_Greed_Integumentary_System
+  category: Cyberware
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Greed Integumentary_System of Avarice
+  description: Hell-corrupted cybernetics. Avarice optimizer.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Legendary
+  cyberware_type: Integumentary_System
+  slots: 5
+  level: 33
+  price: 18000
+- id: Item_Hell_Cyberware_Greed_Operating_System
+  category: Cyberware
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: Greed Operating_System of Avarice
+  description: Hell-corrupted cybernetics. Avarice optimizer.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Mythic
+  cyberware_type: Operating_System
+  slots: 6
+  level: 35
+  price: 19000
+- id: Item_Hell_Cyberware_Wrath_Frontal_Cortex
+  category: Cyberware
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Wrath Frontal_Cortex of Rage
+  description: Hell-corrupted cybernetics. Rage injector.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Rare
+  cyberware_type: Frontal_Cortex
+  slots: 1
+  level: 30
+  price: 17000
+- id: Item_Hell_Cyberware_Wrath_Ocular_System
+  category: Cyberware
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Wrath Ocular_System of Rage
+  description: Hell-corrupted cybernetics. Rage injector.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Epic
+  cyberware_type: Ocular_System
+  slots: 2
+  level: 32
+  price: 18000
+- id: Item_Hell_Cyberware_Wrath_Nervous_System
+  category: Cyberware
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Wrath Nervous_System of Rage
+  description: Hell-corrupted cybernetics. Rage injector.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Epic
+  cyberware_type: Nervous_System
+  slots: 3
+  level: 34
+  price: 19000
+- id: Item_Hell_Cyberware_Wrath_Circulatory_System
+  category: Cyberware
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Wrath Circulatory_System of Rage
+  description: Hell-corrupted cybernetics. Rage injector.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Legendary
+  cyberware_type: Circulatory_System
+  slots: 4
+  level: 36
+  price: 20000
+- id: Item_Hell_Cyberware_Wrath_Integumentary_System
+  category: Cyberware
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Wrath Integumentary_System of Rage
+  description: Hell-corrupted cybernetics. Rage injector.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Legendary
+  cyberware_type: Integumentary_System
+  slots: 5
+  level: 38
+  price: 21000
+- id: Item_Hell_Cyberware_Wrath_Operating_System
+  category: Cyberware
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: Wrath Operating_System of Rage
+  description: Hell-corrupted cybernetics. Rage injector.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Mythic
+  cyberware_type: Operating_System
+  slots: 6
+  level: 40
+  price: 22000
+- id: Item_Hell_Cyberware_Heresy_Frontal_Cortex
+  category: Cyberware
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Heresy Frontal_Cortex of Blasphemy
+  description: Hell-corrupted cybernetics. Blasphemy filter.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Rare
+  cyberware_type: Frontal_Cortex
+  slots: 1
+  level: 35
+  price: 20000
+- id: Item_Hell_Cyberware_Heresy_Ocular_System
+  category: Cyberware
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Heresy Ocular_System of Blasphemy
+  description: Hell-corrupted cybernetics. Blasphemy filter.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Epic
+  cyberware_type: Ocular_System
+  slots: 2
+  level: 37
+  price: 21000
+- id: Item_Hell_Cyberware_Heresy_Nervous_System
+  category: Cyberware
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Heresy Nervous_System of Blasphemy
+  description: Hell-corrupted cybernetics. Blasphemy filter.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Epic
+  cyberware_type: Nervous_System
+  slots: 3
+  level: 39
+  price: 22000
+- id: Item_Hell_Cyberware_Heresy_Circulatory_System
+  category: Cyberware
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Heresy Circulatory_System of Blasphemy
+  description: Hell-corrupted cybernetics. Blasphemy filter.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Legendary
+  cyberware_type: Circulatory_System
+  slots: 4
+  level: 41
+  price: 23000
+- id: Item_Hell_Cyberware_Heresy_Integumentary_System
+  category: Cyberware
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Heresy Integumentary_System of Blasphemy
+  description: Hell-corrupted cybernetics. Blasphemy filter.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Legendary
+  cyberware_type: Integumentary_System
+  slots: 5
+  level: 43
+  price: 24000
+- id: Item_Hell_Cyberware_Heresy_Operating_System
+  category: Cyberware
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: Heresy Operating_System of Blasphemy
+  description: Hell-corrupted cybernetics. Blasphemy filter.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Mythic
+  cyberware_type: Operating_System
+  slots: 6
+  level: 45
+  price: 25000
+- id: Item_Hell_Cyberware_Violence_Frontal_Cortex
+  category: Cyberware
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Violence Frontal_Cortex of Brutality
+  description: Hell-corrupted cybernetics. Violence accelerator.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Rare
+  cyberware_type: Frontal_Cortex
+  slots: 1
+  level: 40
+  price: 23000
+- id: Item_Hell_Cyberware_Violence_Ocular_System
+  category: Cyberware
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Violence Ocular_System of Brutality
+  description: Hell-corrupted cybernetics. Violence accelerator.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Epic
+  cyberware_type: Ocular_System
+  slots: 2
+  level: 42
+  price: 24000
+- id: Item_Hell_Cyberware_Violence_Nervous_System
+  category: Cyberware
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Violence Nervous_System of Brutality
+  description: Hell-corrupted cybernetics. Violence accelerator.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Epic
+  cyberware_type: Nervous_System
+  slots: 3
+  level: 44
+  price: 25000
+- id: Item_Hell_Cyberware_Violence_Circulatory_System
+  category: Cyberware
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Violence Circulatory_System of Brutality
+  description: Hell-corrupted cybernetics. Violence accelerator.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Legendary
+  cyberware_type: Circulatory_System
+  slots: 4
+  level: 46
+  price: 26000
+- id: Item_Hell_Cyberware_Violence_Integumentary_System
+  category: Cyberware
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Violence Integumentary_System of Brutality
+  description: Hell-corrupted cybernetics. Violence accelerator.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Legendary
+  cyberware_type: Integumentary_System
+  slots: 5
+  level: 48
+  price: 27000
+- id: Item_Hell_Cyberware_Violence_Operating_System
+  category: Cyberware
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: Violence Operating_System of Brutality
+  description: Hell-corrupted cybernetics. Violence accelerator.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Mythic
+  cyberware_type: Operating_System
+  slots: 6
+  level: 50
+  price: 28000
+- id: Item_Hell_Cyberware_Fraud_Frontal_Cortex
+  category: Cyberware
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Fraud Frontal_Cortex of Deception
+  description: Hell-corrupted cybernetics. Deception encoder.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Rare
+  cyberware_type: Frontal_Cortex
+  slots: 1
+  level: 45
+  price: 26000
+- id: Item_Hell_Cyberware_Fraud_Ocular_System
+  category: Cyberware
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Fraud Ocular_System of Deception
+  description: Hell-corrupted cybernetics. Deception encoder.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Epic
+  cyberware_type: Ocular_System
+  slots: 2
+  level: 47
+  price: 27000
+- id: Item_Hell_Cyberware_Fraud_Nervous_System
+  category: Cyberware
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Fraud Nervous_System of Deception
+  description: Hell-corrupted cybernetics. Deception encoder.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Epic
+  cyberware_type: Nervous_System
+  slots: 3
+  level: 49
+  price: 28000
+- id: Item_Hell_Cyberware_Fraud_Circulatory_System
+  category: Cyberware
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Fraud Circulatory_System of Deception
+  description: Hell-corrupted cybernetics. Deception encoder.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Legendary
+  cyberware_type: Circulatory_System
+  slots: 4
+  level: 51
+  price: 29000
+- id: Item_Hell_Cyberware_Fraud_Integumentary_System
+  category: Cyberware
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Fraud Integumentary_System of Deception
+  description: Hell-corrupted cybernetics. Deception encoder.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Legendary
+  cyberware_type: Integumentary_System
+  slots: 5
+  level: 53
+  price: 30000
+- id: Item_Hell_Cyberware_Fraud_Operating_System
+  category: Cyberware
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: Fraud Operating_System of Deception
+  description: Hell-corrupted cybernetics. Deception encoder.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Mythic
+  cyberware_type: Operating_System
+  slots: 6
+  level: 55
+  price: 31000
+- id: Item_Hell_Cyberware_Treachery_Frontal_Cortex
+  category: Cyberware
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Treachery Frontal_Cortex of Betrayal
+  description: Hell-corrupted cybernetics. Betrayal detector.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Rare
+  cyberware_type: Frontal_Cortex
+  slots: 1
+  level: 50
+  price: 29000
+- id: Item_Hell_Cyberware_Treachery_Ocular_System
+  category: Cyberware
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Treachery Ocular_System of Betrayal
+  description: Hell-corrupted cybernetics. Betrayal detector.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Epic
+  cyberware_type: Ocular_System
+  slots: 2
+  level: 52
+  price: 30000
+- id: Item_Hell_Cyberware_Treachery_Nervous_System
+  category: Cyberware
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Treachery Nervous_System of Betrayal
+  description: Hell-corrupted cybernetics. Betrayal detector.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Epic
+  cyberware_type: Nervous_System
+  slots: 3
+  level: 54
+  price: 31000
+- id: Item_Hell_Cyberware_Treachery_Circulatory_System
+  category: Cyberware
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Treachery Circulatory_System of Betrayal
+  description: Hell-corrupted cybernetics. Betrayal detector.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Legendary
+  cyberware_type: Circulatory_System
+  slots: 4
+  level: 56
+  price: 32000
+- id: Item_Hell_Cyberware_Treachery_Integumentary_System
+  category: Cyberware
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Treachery Integumentary_System of Betrayal
+  description: Hell-corrupted cybernetics. Betrayal detector.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Legendary
+  cyberware_type: Integumentary_System
+  slots: 5
+  level: 58
+  price: 33000
+- id: Item_Hell_Cyberware_Treachery_Operating_System
+  category: Cyberware
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: Treachery Operating_System of Betrayal
+  description: Hell-corrupted cybernetics. Betrayal detector.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Mythic
+  cyberware_type: Operating_System
+  slots: 6
+  level: 60
+  price: 34000
+- id: Item_Hell_Cyberware_Lucifers_Throne_Frontal_Cortex
+  category: Cyberware
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Lucifers_Throne Frontal_Cortex of Pride
+  description: Hell-corrupted cybernetics. Pride manifestor.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Rare
+  cyberware_type: Frontal_Cortex
+  slots: 1
+  level: 55
+  price: 32000
+- id: Item_Hell_Cyberware_Lucifers_Throne_Ocular_System
+  category: Cyberware
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Lucifers_Throne Ocular_System of Pride
+  description: Hell-corrupted cybernetics. Pride manifestor.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Epic
+  cyberware_type: Ocular_System
+  slots: 2
+  level: 57
+  price: 33000
+- id: Item_Hell_Cyberware_Lucifers_Throne_Nervous_System
+  category: Cyberware
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Lucifers_Throne Nervous_System of Pride
+  description: Hell-corrupted cybernetics. Pride manifestor.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Epic
+  cyberware_type: Nervous_System
+  slots: 3
+  level: 59
+  price: 34000
+- id: Item_Hell_Cyberware_Lucifers_Throne_Circulatory_System
+  category: Cyberware
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Lucifers_Throne Circulatory_System of Pride
+  description: Hell-corrupted cybernetics. Pride manifestor.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Legendary
+  cyberware_type: Circulatory_System
+  slots: 4
+  level: 61
+  price: 35000
+- id: Item_Hell_Cyberware_Lucifers_Throne_Integumentary_System
+  category: Cyberware
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Lucifers_Throne Integumentary_System of Pride
+  description: Hell-corrupted cybernetics. Pride manifestor.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Legendary
+  cyberware_type: Integumentary_System
+  slots: 5
+  level: 63
+  price: 36000
+- id: Item_Hell_Cyberware_Lucifers_Throne_Operating_System
+  category: Cyberware
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: Lucifers_Throne Operating_System of Pride
+  description: Hell-corrupted cybernetics. Pride manifestor.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Mythic
+  cyberware_type: Operating_System
+  slots: 6
+  level: 65
+  price: 37000
+- id: Item_Hell_Consumable_Limbo_Stimulant
+  category: Consumable
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: 'Stimulant of Limbo: Indecision'
+  description: Brewed in Limbo. Indecision clouds mind.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Common
+  consumable_type: Stimulant
+  duration: 30
+  cooldown: 10
+  level: 5
+  price: 100
+- id: Item_Hell_Consumable_Limbo_Booster
+  category: Consumable
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: 'Booster of Limbo: Indecision'
+  description: Brewed in Limbo. Indecision clouds mind.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Uncommon
+  consumable_type: Booster
+  duration: 60
+  cooldown: 20
+  level: 5
+  price: 200
+- id: Item_Hell_Consumable_Limbo_Antidote
+  category: Consumable
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: 'Antidote of Limbo: Indecision'
+  description: Brewed in Limbo. Indecision clouds mind.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Rare
+  consumable_type: Antidote
+  duration: 90
+  cooldown: 30
+  level: 5
+  price: 300
+- id: Item_Hell_Consumable_Limbo_Essence
+  category: Consumable
+  circle: Limbo
+  qliphoth: Thaumiel
+  sephirah_inversion: Keter
+  name: 'Essence of Limbo: Indecision'
+  description: Brewed in Limbo. Indecision clouds mind.
+  palette: pale_gray
+  entity: vestige_soul
+  rarity: Epic
+  consumable_type: Essence
+  duration: 120
+  cooldown: 40
+  level: 5
+  price: 400
+- id: Item_Hell_Consumable_Lust_Stimulant
+  category: Consumable
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: 'Stimulant of Lust: Desire'
+  description: Brewed in Lust. Desire burns bright.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Common
+  consumable_type: Stimulant
+  duration: 30
+  cooldown: 10
+  level: 10
+  price: 300
+- id: Item_Hell_Consumable_Lust_Booster
+  category: Consumable
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: 'Booster of Lust: Desire'
+  description: Brewed in Lust. Desire burns bright.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Uncommon
+  consumable_type: Booster
+  duration: 60
+  cooldown: 20
+  level: 10
+  price: 400
+- id: Item_Hell_Consumable_Lust_Antidote
+  category: Consumable
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: 'Antidote of Lust: Desire'
+  description: Brewed in Lust. Desire burns bright.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Rare
+  consumable_type: Antidote
+  duration: 90
+  cooldown: 30
+  level: 10
+  price: 500
+- id: Item_Hell_Consumable_Lust_Essence
+  category: Consumable
+  circle: Lust
+  qliphoth: Ghagiel
+  sephirah_inversion: Chokmah
+  name: 'Essence of Lust: Desire'
+  description: Brewed in Lust. Desire burns bright.
+  palette: neon_pink
+  entity: siren_netrunner
+  rarity: Epic
+  consumable_type: Essence
+  duration: 120
+  cooldown: 40
+  level: 10
+  price: 600
+- id: Item_Hell_Consumable_Gluttony_Stimulant
+  category: Consumable
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: 'Stimulant of Gluttony: Consumption'
+  description: Brewed in Gluttony. Hunger consumes all.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Common
+  consumable_type: Stimulant
+  duration: 30
+  cooldown: 10
+  level: 15
+  price: 500
+- id: Item_Hell_Consumable_Gluttony_Booster
+  category: Consumable
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: 'Booster of Gluttony: Consumption'
+  description: Brewed in Gluttony. Hunger consumes all.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Uncommon
+  consumable_type: Booster
+  duration: 60
+  cooldown: 20
+  level: 15
+  price: 600
+- id: Item_Hell_Consumable_Gluttony_Antidote
+  category: Consumable
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: 'Antidote of Gluttony: Consumption'
+  description: Brewed in Gluttony. Hunger consumes all.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Rare
+  consumable_type: Antidote
+  duration: 90
+  cooldown: 30
+  level: 15
+  price: 700
+- id: Item_Hell_Consumable_Gluttony_Essence
+  category: Consumable
+  circle: Gluttony
+  qliphoth: Sathariel
+  sephirah_inversion: Binah
+  name: 'Essence of Gluttony: Consumption'
+  description: Brewed in Gluttony. Hunger consumes all.
+  palette: visceral_orange
+  entity: consumer_script
+  rarity: Epic
+  consumable_type: Essence
+  duration: 120
+  cooldown: 40
+  level: 15
+  price: 800
+- id: Item_Hell_Consumable_Greed_Stimulant
+  category: Consumable
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: 'Stimulant of Greed: Avarice'
+  description: Brewed in Greed. Greed sharpens wit.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Common
+  consumable_type: Stimulant
+  duration: 30
+  cooldown: 10
+  level: 20
+  price: 700
+- id: Item_Hell_Consumable_Greed_Booster
+  category: Consumable
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: 'Booster of Greed: Avarice'
+  description: Brewed in Greed. Greed sharpens wit.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Uncommon
+  consumable_type: Booster
+  duration: 60
+  cooldown: 20
+  level: 20
+  price: 800
+- id: Item_Hell_Consumable_Greed_Antidote
+  category: Consumable
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: 'Antidote of Greed: Avarice'
+  description: Brewed in Greed. Greed sharpens wit.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Rare
+  consumable_type: Antidote
+  duration: 90
+  cooldown: 30
+  level: 20
+  price: 900
+- id: Item_Hell_Consumable_Greed_Essence
+  category: Consumable
+  circle: Greed
+  qliphoth: Gamchicoth
+  sephirah_inversion: Chesed
+  name: 'Essence of Greed: Avarice'
+  description: Brewed in Greed. Greed sharpens wit.
+  palette: corporate_gold
+  entity: hoarder_executive
+  rarity: Epic
+  consumable_type: Essence
+  duration: 120
+  cooldown: 40
+  level: 20
+  price: 1000
+- id: Item_Hell_Consumable_Wrath_Stimulant
+  category: Consumable
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: 'Stimulant of Wrath: Rage'
+  description: Brewed in Wrath. Rage fuels strength.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Common
+  consumable_type: Stimulant
+  duration: 30
+  cooldown: 10
+  level: 25
+  price: 900
+- id: Item_Hell_Consumable_Wrath_Booster
+  category: Consumable
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: 'Booster of Wrath: Rage'
+  description: Brewed in Wrath. Rage fuels strength.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Uncommon
+  consumable_type: Booster
+  duration: 60
+  cooldown: 20
+  level: 25
+  price: 1000
+- id: Item_Hell_Consumable_Wrath_Antidote
+  category: Consumable
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: 'Antidote of Wrath: Rage'
+  description: Brewed in Wrath. Rage fuels strength.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Rare
+  consumable_type: Antidote
+  duration: 90
+  cooldown: 30
+  level: 25
+  price: 1100
+- id: Item_Hell_Consumable_Wrath_Essence
+  category: Consumable
+  circle: Wrath
+  qliphoth: Golachab
+  sephirah_inversion: Gevurah
+  name: 'Essence of Wrath: Rage'
+  description: Brewed in Wrath. Rage fuels strength.
+  palette: blood_red
+  entity: wrath_daemon
+  rarity: Epic
+  consumable_type: Essence
+  duration: 120
+  cooldown: 40
+  level: 25
+  price: 1200
+- id: Item_Hell_Consumable_Heresy_Stimulant
+  category: Consumable
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: 'Stimulant of Heresy: Blasphemy'
+  description: Brewed in Heresy. Heresy opens doors.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Common
+  consumable_type: Stimulant
+  duration: 30
+  cooldown: 10
+  level: 30
+  price: 1100
+- id: Item_Hell_Consumable_Heresy_Booster
+  category: Consumable
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: 'Booster of Heresy: Blasphemy'
+  description: Brewed in Heresy. Heresy opens doors.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Uncommon
+  consumable_type: Booster
+  duration: 60
+  cooldown: 20
+  level: 30
+  price: 1200
+- id: Item_Hell_Consumable_Heresy_Antidote
+  category: Consumable
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: 'Antidote of Heresy: Blasphemy'
+  description: Brewed in Heresy. Heresy opens doors.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Rare
+  consumable_type: Antidote
+  duration: 90
+  cooldown: 30
+  level: 30
+  price: 1300
+- id: Item_Hell_Consumable_Heresy_Essence
+  category: Consumable
+  circle: Heresy
+  qliphoth: Tagiriron
+  sephirah_inversion: Tiferet
+  name: 'Essence of Heresy: Blasphemy'
+  description: Brewed in Heresy. Heresy opens doors.
+  palette: iron_maiden
+  entity: heretic_inquisitor
+  rarity: Epic
+  consumable_type: Essence
+  duration: 120
+  cooldown: 40
+  level: 30
+  price: 1400
+- id: Item_Hell_Consumable_Violence_Stimulant
+  category: Consumable
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: 'Stimulant of Violence: Brutality'
+  description: Brewed in Violence. Violence solves all.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Common
+  consumable_type: Stimulant
+  duration: 30
+  cooldown: 10
+  level: 35
+  price: 1300
+- id: Item_Hell_Consumable_Violence_Booster
+  category: Consumable
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: 'Booster of Violence: Brutality'
+  description: Brewed in Violence. Violence solves all.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Uncommon
+  consumable_type: Booster
+  duration: 60
+  cooldown: 20
+  level: 35
+  price: 1400
+- id: Item_Hell_Consumable_Violence_Antidote
+  category: Consumable
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: 'Antidote of Violence: Brutality'
+  description: Brewed in Violence. Violence solves all.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Rare
+  consumable_type: Antidote
+  duration: 90
+  cooldown: 30
+  level: 35
+  price: 1500
+- id: Item_Hell_Consumable_Violence_Essence
+  category: Consumable
+  circle: Violence
+  qliphoth: Harab_Serapel
+  sephirah_inversion: Netzach
+  name: 'Essence of Violence: Brutality'
+  description: Brewed in Violence. Violence solves all.
+  palette: burnt_ochre
+  entity: violence_marauder
+  rarity: Epic
+  consumable_type: Essence
+  duration: 120
+  cooldown: 40
+  level: 35
+  price: 1600
+- id: Item_Hell_Consumable_Fraud_Stimulant
+  category: Consumable
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: 'Stimulant of Fraud: Deception'
+  description: Brewed in Fraud. Lies become truth.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Common
+  consumable_type: Stimulant
+  duration: 30
+  cooldown: 10
+  level: 40
+  price: 1500
+- id: Item_Hell_Consumable_Fraud_Booster
+  category: Consumable
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: 'Booster of Fraud: Deception'
+  description: Brewed in Fraud. Lies become truth.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Uncommon
+  consumable_type: Booster
+  duration: 60
+  cooldown: 20
+  level: 40
+  price: 1600
+- id: Item_Hell_Consumable_Fraud_Antidote
+  category: Consumable
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: 'Antidote of Fraud: Deception'
+  description: Brewed in Fraud. Lies become truth.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Rare
+  consumable_type: Antidote
+  duration: 90
+  cooldown: 30
+  level: 40
+  price: 1700
+- id: Item_Hell_Consumable_Fraud_Essence
+  category: Consumable
+  circle: Fraud
+  qliphoth: Samael
+  sephirah_inversion: Hod
+  name: 'Essence of Fraud: Deception'
+  description: Brewed in Fraud. Lies become truth.
+  palette: mirror_silver
+  entity: fraud_architect
+  rarity: Epic
+  consumable_type: Essence
+  duration: 120
+  cooldown: 40
+  level: 40
+  price: 1800
+- id: Item_Hell_Consumable_Treachery_Stimulant
+  category: Consumable
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: 'Stimulant of Treachery: Betrayal'
+  description: Brewed in Treachery. Betrayal empowers.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Common
+  consumable_type: Stimulant
+  duration: 30
+  cooldown: 10
+  level: 45
+  price: 1700
+- id: Item_Hell_Consumable_Treachery_Booster
+  category: Consumable
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: 'Booster of Treachery: Betrayal'
+  description: Brewed in Treachery. Betrayal empowers.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Uncommon
+  consumable_type: Booster
+  duration: 60
+  cooldown: 20
+  level: 45
+  price: 1800
+- id: Item_Hell_Consumable_Treachery_Antidote
+  category: Consumable
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: 'Antidote of Treachery: Betrayal'
+  description: Brewed in Treachery. Betrayal empowers.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Rare
+  consumable_type: Antidote
+  duration: 90
+  cooldown: 30
+  level: 45
+  price: 1900
+- id: Item_Hell_Consumable_Treachery_Essence
+  category: Consumable
+  circle: Treachery
+  qliphoth: Gamaliel
+  sephirah_inversion: Yesod
+  name: 'Essence of Treachery: Betrayal'
+  description: Brewed in Treachery. Betrayal empowers.
+  palette: frozen_blue
+  entity: traitor_daemon
+  rarity: Epic
+  consumable_type: Essence
+  duration: 120
+  cooldown: 40
+  level: 45
+  price: 2000
+- id: Item_Hell_Consumable_Lucifers_Throne_Stimulant
+  category: Consumable
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: 'Stimulant of Lucifers_Throne: Pride'
+  description: Brewed in Lucifers_Throne. Pride ascends.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Common
+  consumable_type: Stimulant
+  duration: 30
+  cooldown: 10
+  level: 50
+  price: 1900
+- id: Item_Hell_Consumable_Lucifers_Throne_Booster
+  category: Consumable
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: 'Booster of Lucifers_Throne: Pride'
+  description: Brewed in Lucifers_Throne. Pride ascends.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Uncommon
+  consumable_type: Booster
+  duration: 60
+  cooldown: 20
+  level: 50
+  price: 2000
+- id: Item_Hell_Consumable_Lucifers_Throne_Antidote
+  category: Consumable
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: 'Antidote of Lucifers_Throne: Pride'
+  description: Brewed in Lucifers_Throne. Pride ascends.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Rare
+  consumable_type: Antidote
+  duration: 90
+  cooldown: 30
+  level: 50
+  price: 2100
+- id: Item_Hell_Consumable_Lucifers_Throne_Essence
+  category: Consumable
+  circle: Lucifers_Throne
+  qliphoth: Lilith
+  sephirah_inversion: Malkut
+  name: 'Essence of Lucifers_Throne: Pride'
+  description: Brewed in Lucifers_Throne. Pride ascends.
+  palette: obsidian_black
+  entity: lucifer_avatar
+  rarity: Epic
+  consumable_type: Essence
+  duration: 120
+  cooldown: 40
+  level: 50
+  price: 2200

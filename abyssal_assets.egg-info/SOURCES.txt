@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+abyssal_assets.egg-info/PKG-INFO
+abyssal_assets.egg-info/SOURCES.txt
+abyssal_assets.egg-info/dependency_links.txt
+abyssal_assets.egg-info/top_level.txt

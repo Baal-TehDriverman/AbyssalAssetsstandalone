@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abyssal Exchange | Grand Theft Cyberpunk</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Market Specific Styles */
+        .market-dashboard {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            padding: 2rem;
+            gap: 1.5rem;
+        }
+        
+        .market-grid {
+            display: grid;
+            grid-template-columns: 300px 1fr 300px;
+            gap: 1.5rem;
+            flex: 1;
+            min-height: 0;
+        }
+
+        .panel-header {
+            color: var(--neon-cyan);
+            font-size: 1.1rem;
+            border-bottom: 1px solid rgba(0,240,255,0.3);
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            font-family: 'Orbitron', sans-serif;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .scrollable {
+            overflow-y: auto;
+            flex: 1;
+            padding-right: 5px;
+        }
+
+        /* Custom Scrollbar */
+        .scrollable::-webkit-scrollbar { width: 5px; }
+        .scrollable::-webkit-scrollbar-track { background: rgba(0,0,0,0.3); }
+        .scrollable::-webkit-scrollbar-thumb { background: var(--neon-violet); }
+
+        .asset-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .asset-item {
+            background: rgba(0,0,0,0.5);
+            border: 1px solid #333;
+            padding: 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .asset-item:hover, .asset-item.active {
+            border-color: var(--neon-cyan);
+            background: rgba(0, 240, 255, 0.05);
+        }
+
+        .asset-name { font-weight: bold; font-family: 'Orbitron', sans-serif; font-size: 0.9rem; }
+        .asset-price { font-family: monospace; color: #fff; }
+        .trend-up { color: #0f0; }
+        .trend-down { color: var(--neon-crimson); }
+
+        /* Chart Area Placeholder */
+        .chart-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .chart-view {
+            flex: 1;
+            background: rgba(0,0,0,0.8);
+            border: 1px solid #333;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: flex-end;
+            padding: 20px 0;
+        }
+        /* Simulated Chart Line using SVG */
+        .chart-svg {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        .chart-path {
+            fill: none;
+            stroke: var(--neon-cyan);
+            stroke-width: 2;
+            filter: drop-shadow(0 0 5px var(--neon-cyan));
+        }
+        .chart-fill {
+            fill: url(#gradient);
+            opacity: 0.2;
+        }
+        .chart-grid {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+            background-size: 50px 50px;
+        }
+        
+        .market-controls {
+            display: flex;
+            gap: 10px;
+            background: rgba(0,0,0,0.6);
+            padding: 15px;
+            border: 1px solid #333;
+        }
+
+        /* Order Book */
+        .order-book {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .order-table {
+            width: 100%;
+            font-family: monospace;
+            font-size: 0.85rem;
+            text-align: right;
+            border-collapse: collapse;
+        }
+        .order-table th {
+            text-align: right;
+            padding-bottom: 5px;
+            color: #888;
+            font-weight: normal;
+        }
+        .order-table td { padding: 3px 0; }
+        .order-table td:first-child { text-align: left; }
+        .row-sell td:nth-child(2) { color: var(--neon-crimson); }
+        .row-buy td:nth-child(2) { color: #0f0; }
+        .order-row { position: relative; }
+        /* Simulated depth bar */
+        .depth-bar {
+            position: absolute;
+            right: 0; top: 2px; bottom: 2px;
+            z-index: -1;
+            opacity: 0.2;
+        }
+        .row-sell .depth-bar { background: var(--neon-crimson); }
+        .row-buy .depth-bar { background: #0f0; }
+
+        .trade-form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: auto;
+            border-top: 1px solid #333;
+            padding-top: 15px;
+        }
+        .input-group {
+            display: flex;
+            background: rgba(0,0,0,0.8);
+            border: 1px solid #444;
+        }
+        .input-group span {
+            padding: 8px 10px;
+            color: #888;
+            background: #111;
+            font-family: monospace;
+        }
+        .input-group input {
+            flex: 1;
+            background: transparent;
+            border: none;
+            color: #fff;
+            padding: 8px;
+            font-family: monospace;
+            outline: none;
+            text-align: right;
+        }
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .btn-buy { flex: 1; background: rgba(0, 255, 0, 0.1); border: 1px solid #0f0; color: #0f0; padding: 10px; cursor: pointer; font-family: 'Orbitron'; font-weight: bold; transition: 0.2s;}
+        .btn-buy:hover { background: #0f0; color: #000; box-shadow: 0 0 10px #0f0; }
+        .btn-sell { flex: 1; background: rgba(255, 0, 60, 0.1); border: 1px solid var(--neon-crimson); color: var(--neon-crimson); padding: 10px; cursor: pointer; font-family: 'Orbitron'; font-weight: bold; transition: 0.2s;}
+        .btn-sell:hover { background: var(--neon-crimson); color: #fff; box-shadow: 0 0 10px var(--neon-crimson); }
+        
+        .nav-back {
+            text-decoration: none;
+            color: var(--neon-violet);
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: 0.2s;
+        }
+        .nav-back:hover {
+            color: #fff;
+            text-shadow: 0 0 8px var(--neon-violet);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cyber-grid"></div>
+    <div class="vignette"></div>
+
+    <main class="market-dashboard">
+        <header class="glass-panel header-bar" style="padding: 1rem 2rem;">
+            <div class="logo-container" style="display: flex; align-items: center; gap: 20px;">
+                <a href="index.html" class="nav-back">◄ BACK TO NODE</a>
+                <div>
+                    <h1 class="glitch-text" style="font-size: 1.8rem;" data-text="ABYSSAL EXCHANGE">ABYSSAL EXCHANGE</h1>
+                    <span class="subtitle">Decentralized Dark Pool // Market Active</span>
+                </div>
+            </div>
+            <div class="status-indicators">
+                <div class="indicator"><span class="dot crimson"></span> Liquidity Pool: UNSTABLE</div>
+                <div class="indicator"><span class="dot violet"></span> Ledger: SYNCED</div>
+            </div>
+        </header>
+
+        <div class="market-grid">
+            <!-- Left: Assets & Wallet -->
+            <div class="glass-panel" style="display: flex; flex-direction: column; padding: 1.5rem;">
+                <div class="panel-header">PORTFOLIO WALLET</div>
+                <div style="margin-bottom: 20px; font-family: monospace; background: rgba(0,0,0,0.5); padding: 15px; border: 1px solid #333;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span style="color:#888;">Soul Coins (SC)</span>
+                        <span style="color:#fff; font-weight:bold;">150,000.00</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span style="color:#888;">Eurodollars (€$)</span>
+                        <span style="color:#fff; font-weight:bold;">45,230.50</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <span style="color:#888;">Margin Level</span>
+                        <span style="color:#0f0;">SAFE (84%)</span>
+                    </div>
+                </div>
+
+                <div class="panel-header" style="margin-top: 10px;">MARKETS</div>
+                <div class="scrollable">
+                    <div class="asset-list">
+                        <div class="asset-item active">
+                            <div>
+                                <div class="asset-name">SLC/ED</div>
+                                <div style="font-size: 0.75rem; color:#888;">Soul Coin</div>
+                            </div>
+                            <div style="text-align: right;">
+                                <div class="asset-price">4,206.90</div>
+                                <div class="trend-up" style="font-size: 0.75rem;">+5.24%</div>
+                            </div>
+                        </div>
+                        <div class="asset-item">
+                            <div>
+                                <div class="asset-name">SYN/ED</div>
+                                <div style="font-size: 0.75rem; color:#888;">Syndicate Contraband</div>
+                            </div>
+                            <div style="text-align: right;">
+                                <div class="asset-price">892.40</div>
+                                <div class="trend-down" style="font-size: 0.75rem;">-1.45%</div>
+                            </div>
+                        </div>
+                        <div class="asset-item">
+                            <div>
+                                <div class="asset-name">BDX/ED</div>
+                                <div style="font-size: 0.75rem; color:#888;">Braindance Index</div>
+                            </div>
+                            <div style="text-align: right;">
+                                <div class="asset-price">124.55</div>
+                                <div class="trend-up" style="font-size: 0.75rem;">+0.8%</div>
+                            </div>
+                        </div>
+                        <div class="asset-item">
+                            <div>
+                                <div class="asset-name">MIL/ED</div>
+                                <div style="font-size: 0.75rem; color:#888;">Militech Arms</div>
+                            </div>
+                            <div style="text-align: right;">
+                                <div class="asset-price">1,050.00</div>
+                                <div class="trend-down" style="font-size: 0.75rem;">-3.12%</div>
+                            </div>
+                        </div>
+                        <div class="asset-item">
+                            <div>
+                                <div class="asset-name">CHB/ED</div>
+                                <div style="font-size: 0.75rem; color:#888;">Chrome Billet</div>
+                            </div>
+                            <div style="text-align: right;">
+                                <div class="asset-price">45.20</div>
+                                <div class="trend-up" style="font-size: 0.75rem;">+12.4%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Center: Chart & Controls -->
+            <div class="glass-panel chart-container" style="padding: 1.5rem;">
+                <div class="panel-header">
+                    <span>SLC/ED - SOUL COIN (1H)</span>
+                    <div style="display: flex; gap: 10px; font-size: 0.8rem; font-family: monospace;">
+                        <span style="color:#888;">O: <span style="color:#fff">4180.00</span></span>
+                        <span style="color:#888;">H: <span style="color:#fff">4250.00</span></span>
+                        <span style="color:#888;">L: <span style="color:#fff">4150.00</span></span>
+                        <span style="color:#888;">C: <span style="color:#fff">4206.90</span></span>
+                    </div>
+                </div>
+                
+                <div class="chart-view">
+                    <div class="chart-grid"></div>
+                    <svg class="chart-svg" viewBox="0 0 800 300" preserveAspectRatio="none">
+                        <defs>
+                            <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+                                <stop offset="0%" stop-color="var(--neon-cyan)" stop-opacity="0.8"/>
+                                <stop offset="100%" stop-color="var(--neon-cyan)" stop-opacity="0"/>
+                            </linearGradient>
+                        </defs>
+                        <!-- Simulated Line Chart -->
+                        <path class="chart-fill" d="M0,300 L0,250 L50,230 L100,260 L150,210 L200,220 L250,150 L300,180 L350,120 L400,140 L450,80 L500,100 L550,50 L600,90 L650,40 L700,60 L750,20 L800,45 L800,300 Z" />
+                        <path class="chart-path" d="M0,250 L50,230 L100,260 L150,210 L200,220 L250,150 L300,180 L350,120 L400,140 L450,80 L500,100 L550,50 L600,90 L650,40 L700,60 L750,20 L800,45" />
+                        
+                        <!-- Current Price Line -->
+                        <line x1="0" y1="45" x2="800" y2="45" stroke="var(--neon-cyan)" stroke-dasharray="5,5" stroke-width="1" opacity="0.5"/>
+                        <rect x="730" y="35" width="70" height="20" fill="var(--neon-cyan)"/>
+                        <text x="765" y="49" fill="#000" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">4206.90</text>
+                    </svg>
+                </div>
+
+                <div class="market-controls">
+                    <button class="cyber-btn" style="flex:1; font-size:0.8rem;">INDICATORS</button>
+                    <button class="cyber-btn" style="flex:1; font-size:0.8rem;">ALERTS</button>
+                    <button class="cyber-btn" style="flex:1; font-size:0.8rem;">LAUNDER LOG</button>
+                    <button class="cyber-btn" style="flex:1; font-size:0.8rem;">DEEP SCAN</button>
+                </div>
+            </div>
+
+            <!-- Right: Order Book & Trading -->
+            <div class="glass-panel" style="display: flex; flex-direction: column; padding: 1.5rem;">
+                <div class="panel-header">ORDER BOOK</div>
+                
+                <div class="order-book scrollable">
+                    <table class="order-table">
+                        <thead>
+                            <tr>
+                                <th>Size</th>
+                                <th>Price (€$)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="row-sell">
+                            <tr class="order-row"><td style="position:relative;"><div class="depth-bar" style="width: 80%;"></div>12.5</td><td>4,215.00</td></tr>
+                            <tr class="order-row"><td style="position:relative;"><div class="depth-bar" style="width: 65%;"></div>8.2</td><td>4,213.50</td></tr>
+                            <tr class="order-row"><td style="position:relative;"><div class="depth-bar" style="width: 90%;"></div>24.0</td><td>4,210.00</td></tr>
+                            <tr class="order-row"><td style="position:relative;"><div class="depth-bar" style="width: 40%;"></div>5.1</td><td>4,208.50</td></tr>
+                            <tr class="order-row"><td style="position:relative;"><div class="depth-bar" style="width: 55%;"></div>9.8</td><td>4,207.20</td></tr>
+                        </tbody>
+                    </table>
+                    
+                    <div style="text-align: center; font-family: monospace; font-size: 1.2rem; font-weight: bold; color: #fff; padding: 10px 0; border-top: 1px solid #333; border-bottom: 1px solid #333; margin: 10px 0;">
+                        4,206.90 <span style="font-size: 0.8rem; color: #0f0;">↑</span>
+                    </div>
+
+                    <table class="order-table">
+                        <tbody class="row-buy">
+                            <tr class="order-row"><td style="position:relative;"><div class="depth-bar" style="width: 45%;"></div>6.4</td><td>4,205.10</td></tr>
+                            <tr class="order-row"><td style="position:relative;"><div class="depth-bar" style="width: 70%;"></div>15.2</td><td>4,203.00</td></tr>
+                            <tr class="order-row"><td style="position:relative;"><div class="depth-bar" style="width: 35%;"></div>4.0</td><td>4,201.50</td></tr>
+                            <tr class="order-row"><td style="position:relative;"><div class="depth-bar" style="width: 85%;"></div>22.5</td><td>4,200.00</td></tr>
+                            <tr class="order-row"><td style="position:relative;"><div class="depth-bar" style="width: 50%;"></div>7.9</td><td>4,198.20</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="trade-form">
+                    <div class="panel-header" style="margin-bottom: 5px; font-size: 0.9rem;">EXECUTE TRADE</div>
+                    <div style="display:flex; justify-content:space-between; font-family:monospace; font-size:0.75rem; color:#888; margin-bottom:5px;">
+                        <span>Available: 45,230.50 €$</span>
+                    </div>
+                    <div class="input-group">
+                        <span>Price</span>
+                        <input type="text" value="4206.90">
+                        <span>€$</span>
+                    </div>
+                    <div class="input-group">
+                        <span>Amount</span>
+                        <input type="text" placeholder="0.00">
+                        <span>SC</span>
+                    </div>
+                    <div class="btn-group">
+                        <button class="btn-buy">BUY SLC</button>
+                        <button class="btn-sell">SELL SLC</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

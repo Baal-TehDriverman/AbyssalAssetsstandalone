@@ -1,0 +1,34 @@
+[
+  {
+    "id": "B-7721",
+    "target": "Dexter 'Glitch' Morgan",
+    "syndicate": "Neon Snakes",
+    "reward": "50,000 ED",
+    "status": "OPEN",
+    "details": "Wanted alive. Last seen in Pacifica."
+  },
+  {
+    "id": "B-8832",
+    "target": "Sarah 'Wire' Connor",
+    "syndicate": "Chrome Legion",
+    "reward": "120,000 ED",
+    "status": "IN PROGRESS",
+    "details": "Corporate espionage. High threat."
+  },
+  {
+    "id": "B-9102",
+    "target": "Unknown Netrunner",
+    "syndicate": "The Voodoo Boys",
+    "reward": "200,000 ED",
+    "status": "OPEN",
+    "details": "Breached the Blackwall. Neutralize on sight."
+  },
+  {
+    "id": "B-4041",
+    "target": "Johnny Silverhand's Engram",
+    "syndicate": "Arasaka",
+    "reward": "1,000,000 ED",
+    "status": "OPEN",
+    "details": "Recover the Relic intact. Lethal force authorized against host."
+  }
+]

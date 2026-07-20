@@ -1,0 +1,177 @@
+{
+  "$schema": "abyssal-assets",
+  "version": "1.0.0",
+  "title": "Sephirotic Root — Abyssal Assets",
+  "description": "Every project file indexed by sephira, with direct absolute-path references. No relative traversal.",
+  "root": "/home/tehlappy/Desktop/AI/abyssal-assets",
+
+  "sephira": {
+    "KETER": {
+      "name": "Crown",
+      "description": "The root — central manifest and interface layer",
+      "files": [
+        {"path": "sephirotic-root.json", "purpose": "Root manifest — every file indexed by sephira, with direct references"},
+        {"path": "sephirotic.py", "purpose": "Python interface — resolves any manifest reference to direct file access"},
+        {"path": ".opencode/opencode.json", "purpose": "opencode configuration — skills, commands, references, agents"},
+        {"path": "AGENTS.md", "purpose": "Project-level context — auto-loaded by opencode"}
+      ]
+    },
+    "CHOKMAH": {
+      "name": "Wisdom",
+      "description": "Design — the vision and blueprint",
+      "files": [
+        {"path": "GDD.md", "purpose": "Game Design Document — 583 lines, 12 Acts, full bestiary, skill web, market rules"},
+        {"path": "README.md", "purpose": "Project overview and quick start"}
+      ]
+    },
+    "BINAH": {
+      "name": "Understanding",
+      "description": "Server — the processing core",
+      "files": [
+        {"path": "server/main.py", "purpose": "FastAPI server — 862 lines, 7 models, auth, WebSocket, routes, seed data, GM + Living Sin routes"},
+        {"path": "server/game_master.py", "purpose": "Living Sin GM system — biometric verification, multi-planar summoning, entity commands"},
+        {"path": "server/init.sql", "purpose": "PostgreSQL initialization — types, indexes, performance settings"},
+        {"path": "server/init.sql", "purpose": "PostgreSQL initialization — types, indexes, performance settings"},
+        {"path": "server/requirements.txt", "purpose": "Python dependencies"},
+        {"path": "server/Dockerfile", "purpose": "Docker build for production deployment"},
+        {"path": "server/.venv", "purpose": "Symlink to Pub venv — /home/tehlappy/Desktop/AI/Pub/.venv-pub"}
+      ]
+    },
+    "CHESED": {
+      "name": "Mercy",
+      "description": "Client — the face of the Loch",
+      "files": [
+        {"path": "client/src/main.ts", "purpose": "Phaser 3 entry point — 2497 lines, game bootstrap"},
+        {"path": "client/src/scenes/", "purpose": "Phaser scenes — MainMenu, Market CLOB, Dredge mini-game, etc."}
+      ]
+    },
+    "GEVURAH": {
+      "name": "Severity",
+      "description": "Monsters — the cryptid ecosystem",
+      "files": [
+        {"path": "shared/types/monsters.ts", "purpose": "Monster types — 621 lines, 7 tiers, 6 defined monsters, drop tables, AI mechanics"}
+      ]
+    },
+    "TIFERET": {
+      "name": "Beauty",
+      "description": "Skills — the Abyssal Arts progression",
+      "files": [
+        {"path": "shared/types/skills.ts", "purpose": "Skill system — 635 lines, 24 skills, XP curves (1.15^level), synergies, specializations"},
+        {"path": "shared/types/synergies.ts", "purpose": "Synergy data — 43944 bytes, cross-skill bonus mappings"}
+      ]
+    },
+    "NETZACH": {
+      "name": "Victory",
+      "description": "Market — the Abyssal Exchange economy",
+      "files": [
+        {"path": "shared/types/provenance.ts", "purpose": "Item provenance tracking — serial numbers, crafting history, trade lineage"}
+      ]
+    },
+    "HOD": {
+      "name": "Splendor",
+      "description": "Integration — Lyra, narrative, and resonance",
+      "files": [
+        {"path": "shared/types/quests.ts", "purpose": "Quest types — 9102 bytes, Act structure, alchemical operation pattern"},
+        {"path": "shared/types/game-master.ts", "purpose": "Living Sin GM types — dimensions, entities, biometric, GM state"},
+        {"path": "shared/types/index.ts", "purpose": "Type re-exports — barrel file"}
+      ]
+    },
+    "YESOD": {
+      "name": "Foundation",
+      "description": "Infrastructure — build, config, deployment",
+      "files": [
+        {"path": "docker-compose.yml", "purpose": "Docker Compose — PostgreSQL + server orchestration"},
+        {"path": "client/package.json", "purpose": "Node dependencies, dev/build scripts"},
+        {"path": "client/vite.config.ts", "purpose": "Vite bundler configuration"},
+        {"path": "client/tsconfig.json", "purpose": "TypeScript compiler configuration"}
+      ]
+    },
+    "MALKUTH": {
+      "name": "Kingdom",
+      "description": "Deployment — operations and launch",
+      "files": [
+        {"path": ".env", "purpose": "Environment variables — server configuration"},
+        {"path": ".gitignore", "purpose": "Git ignore rules"},
+        {"path": ".env.example", "purpose": "Environment template"}
+      ]
+    }
+  },
+
+  "interfaces": {
+    "server-api": {
+      "base": "http://localhost:8000",
+      "endpoints": {
+        "register": {"method": "POST", "path": "/api/auth/register"},
+        "login": {"method": "POST", "path": "/api/auth/login"},
+        "me": {"method": "GET", "path": "/api/auth/me"},
+        "hats": {"method": "GET", "path": "/api/hats"},
+        "inventory": {"method": "GET", "path": "/api/inventory"},
+        "dredge": {"method": "POST", "path": "/api/dredge"},
+        "orders": {"method": "GET", "path": "/api/orders"},
+        "create-order": {"method": "POST", "path": "/api/orders"},
+        "cancel-order": {"method": "DELETE", "path": "/api/orders/{id}"},
+        "listings": {"method": "GET", "path": "/api/listings"},
+        "create-listing": {"method": "POST", "path": "/api/listings"},
+        "market": {"method": "GET", "path": "/api/market"},
+        "market-stats": {"method": "GET", "path": "/api/market/stats"},
+        "leaderboard-clout": {"method": "GET", "path": "/api/leaderboard/clout"},
+        "leaderboard-wealth": {"method": "GET", "path": "/api/leaderboard/wealth"},
+        "health": {"method": "GET", "path": "/health"},
+        "ws-market": {"path": "/ws/market"},
+        "ws-user": {"path": "/ws/user/{id}"},
+        "gm-biometric-enroll": {"method": "POST", "path": "/api/gm/biometric/enroll"},
+        "gm-biometric-verify": {"method": "POST", "path": "/api/gm/biometric/verify"},
+        "gm-biometric-status": {"method": "GET", "path": "/api/gm/biometric/status"},
+        "gm-activate": {"method": "POST", "path": "/api/gm/activate"},
+        "gm-deactivate": {"method": "POST", "path": "/api/gm/deactivate"},
+        "gm-attack": {"method": "POST", "path": "/api/gm/attack"},
+        "gm-summon": {"method": "POST", "path": "/api/gm/summon"},
+        "gm-banish": {"method": "POST", "path": "/api/gm/banish"},
+        "gm-command": {"method": "POST", "path": "/api/gm/command"},
+        "gm-state": {"method": "GET", "path": "/api/gm/state"},
+        "gm-dimensions": {"method": "GET", "path": "/api/gm/dimensions"},
+        "gm-living-sin": {"method": "GET", "path": "/api/gm/living-sin"},
+        "gm-message": {"method": "POST", "path": "/api/gm/message"},
+        "gm-boss-spawn": {"method": "POST", "path": "/api/gm/boss/spawn"},
+        "gm-boss-attack": {"method": "POST", "path": "/api/gm/boss/attack"},
+        "gm-boss-status": {"method": "GET", "path": "/api/gm/boss/status"},
+        "gm-boss-detail": {"method": "GET", "path": "/api/gm/boss/{boss_id}"}
+      }
+    },
+    "lyra-api": {
+      "base": "http://localhost:3211",
+      "endpoints": {
+        "send": {"method": "POST", "path": "/lyra/send"},
+        "health": {"method": "GET", "path": "/lyra/health"},
+        "state": {"method": "GET", "path": "/lyra/state"},
+        "mon": {"method": "GET", "path": "/lyra/mon"},
+        "reset": {"method": "GET", "path": "/lyra/reset"},
+        "sovereign": {"method": "GET", "path": "/lyra/sovereign"}
+      }
+    },
+    "lilith-api": {
+      "base": "http://localhost:3210",
+      "endpoints": {
+        "status": {"method": "GET", "path": "/api/status"},
+        "send": {"method": "POST", "path": "/api/send"},
+        "lyra-send": {"method": "POST", "path": "/api/lyra/send"},
+        "lyra-health": {"method": "GET", "path": "/api/lyra/health"},
+        "lyra-state": {"method": "GET", "path": "/api/lyra/state"},
+        "lyra-mon": {"method": "GET", "path": "/api/lyra/mon"}
+      }
+    }
+  },
+
+  "ecosystem": {
+    "pub": {"path": "/home/tehlappy/Desktop/AI/Pub", "purpose": "Main Lilith codebase — 00_CORE_SERVICES, scripts, skills, legal warfare"},
+    "invite": {"path": "/home/tehlappy/Desktop/AI/invite", "purpose": "NGD — NVIDIA Gratitude Driver, skill definitions, telemetry (2282 entries)"},
+    "abyssal-assets": {"path": "/home/tehlappy/Desktop/AI/abyssal-assets", "purpose": "Game — Phaser 3/FastAPI cryptid hat trading simulator"},
+    "evidence": {"path": "/home/tehlappy/Desktop/AI/Evidence", "purpose": "Evidence repo — legal warfare documentation"}
+  },
+
+  "opencode-skills": {
+    "path": ".opencode/skills",
+    "auto_discovered": true,
+    "count": 25
+  }
+}

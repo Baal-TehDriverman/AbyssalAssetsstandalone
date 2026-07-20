@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTC | Musashi Protocol - Mission Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #050505;
+            --corp-red: #ff003c;
+            --corp-cyan: #00f3ff;
+            --text-main: #e0e0e0;
+            --glitch-offset: 3px;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Share Tech Mono', monospace;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background-image: 
+                linear-gradient(rgba(0, 243, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 243, 255, 0.05) 1px, transparent 1px);
+            background-size: 30px 30px;
+            position: relative;
+        }
+
+        /* Scanlines */
+        body::before {
+            content: " ";
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            z-index: 999;
+            background-size: 100% 2px, 3px 100%;
+            pointer-events: none;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid #333;
+            background: rgba(10, 10, 10, 0.85);
+            box-shadow: 0 0 20px rgba(255, 0, 60, 0.2);
+            position: relative;
+            z-index: 10;
+        }
+
+        .header {
+            border-bottom: 2px solid var(--corp-red);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .glitch-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2.5em;
+            color: var(--corp-red);
+            position: relative;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .glitch-title::before, .glitch-title::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.8;
+        }
+
+        .glitch-title::before {
+            left: var(--glitch-offset);
+            text-shadow: -2px 0 var(--corp-cyan);
+            clip: rect(24px, 550px, 90px, 0);
+            animation: glitch-anim 3s infinite linear alternate-reverse;
+        }
+
+        .glitch-title::after {
+            left: calc(-1 * var(--glitch-offset));
+            text-shadow: -2px 0 var(--corp-red);
+            clip: rect(85px, 550px, 140px, 0);
+            animation: glitch-anim 2.5s infinite linear alternate-reverse;
+        }
+
+        @keyframes glitch-anim {
+            0% { clip: rect(10px, 9999px, 85px, 0); }
+            5% { clip: rect(72px, 9999px, 14px, 0); }
+            10% { clip: rect(41px, 9999px, 30px, 0); }
+            15% { clip: rect(98px, 9999px, 56px, 0); }
+            20% { clip: rect(20px, 9999px, 9px, 0); }
+            25% { clip: rect(48px, 9999px, 72px, 0); }
+            30% { clip: rect(15px, 9999px, 58px, 0); }
+            35% { clip: rect(82px, 9999px, 10px, 0); }
+            40% { clip: rect(61px, 9999px, 20px, 0); }
+            45% { clip: rect(31px, 9999px, 45px, 0); }
+            50% { clip: rect(93px, 9999px, 88px, 0); }
+            55% { clip: rect(2px, 9999px, 13px, 0); }
+            60% { clip: rect(55px, 9999px, 99px, 0); }
+            65% { clip: rect(84px, 9999px, 34px, 0); }
+            70% { clip: rect(27px, 9999px, 63px, 0); }
+            75% { clip: rect(11px, 9999px, 7px, 0); }
+            80% { clip: rect(69px, 9999px, 41px, 0); }
+            85% { clip: rect(38px, 9999px, 76px, 0); }
+            90% { clip: rect(96px, 9999px, 25px, 0); }
+            95% { clip: rect(50px, 9999px, 52px, 0); }
+            100% { clip: rect(4px, 9999px, 81px, 0); }
+        }
+
+        .corp-badge {
+            background: var(--corp-red);
+            color: #000;
+            padding: 5px 10px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            font-size: 0.8em;
+        }
+
+        .mission-log {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .ring-card {
+            border: 1px solid #444;
+            background: rgba(20, 20, 20, 0.9);
+            padding: 15px 20px;
+            position: relative;
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+
+        .ring-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--corp-cyan);
+            transition: width 0.3s ease;
+        }
+
+        .ring-card:hover {
+            border-color: var(--corp-cyan);
+            box-shadow: 0 0 15px rgba(0, 243, 255, 0.2);
+        }
+
+        .ring-card:hover::before {
+            width: 100%;
+            opacity: 0.1;
+        }
+
+        .ring-card.completed::before {
+            background: var(--corp-red);
+        }
+
+        .ring-card.completed .status {
+            color: var(--corp-red);
+        }
+
+        .ring-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .ring-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.5em;
+            color: #fff;
+            margin: 0;
+        }
+
+        .status {
+            color: var(--corp-cyan);
+            font-weight: bold;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+
+        .desc {
+            color: #aaa;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+
+        .objectives {
+            margin-top: 15px;
+            list-style: none;
+            padding-left: 0;
+            font-size: 0.85em;
+        }
+
+        .objectives li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 5px;
+        }
+
+        .objectives li::before {
+            content: '>';
+            position: absolute;
+            left: 0;
+            color: var(--corp-red);
+        }
+
+        .objectives li.done::before {
+            content: '[x]';
+            color: #555;
+        }
+        
+        .objectives li.done {
+            color: #555;
+            text-decoration: line-through;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            color: var(--corp-cyan);
+            text-decoration: none;
+            border: 1px solid var(--corp-cyan);
+            padding: 10px 20px;
+            text-transform: uppercase;
+            font-family: 'Orbitron', sans-serif;
+            transition: all 0.2s ease;
+        }
+
+        .back-link:hover {
+            background: var(--corp-cyan);
+            color: #000;
+        }
+
+        .sys-log {
+            margin-top: 40px;
+            padding: 15px;
+            background: #0a0a0a;
+            border: 1px dashed #333;
+            font-size: 0.8em;
+            color: #666;
+            height: 100px;
+            overflow-y: auto;
+            font-family: 'Share Tech Mono', monospace;
+        }
+
+        .sys-log p {
+            margin: 2px 0;
+        }
+        .sys-log .warn { color: #ffaa00; }
+        .sys-log .err { color: var(--corp-red); }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1 class="glitch-title" data-text="MUSASHI PROTOCOL">MUSASHI PROTOCOL</h1>
+        <div class="corp-badge">ARASAKA INTERNAL</div>
+    </div>
+
+    <div class="mission-log">
+        <!-- Earth Ring -->
+        <div class="ring-card completed">
+            <div class="ring-header">
+                <h2 class="ring-title">RING I : EARTH</h2>
+                <span class="status">ARCHIVED</span>
+            </div>
+            <div class="desc">
+                Establishing the foundation. Master the basics of cyber-kendo and align your neuro-optics. Overcome the corrupted training mechs in Sector 4.
+            </div>
+            <ul class="objectives">
+                <li class="done">Acquire the 'Bokken' blunt module.</li>
+                <li class="done">Defeat 10 Tyger Claw stragglers without lethal force.</li>
+                <li class="done">Upload stance telemetry to the MSN.</li>
+            </ul>
+        </div>
+
+        <!-- Water Ring -->
+        <div class="ring-card">
+            <div class="ring-header">
+                <h2 class="ring-title">RING II : WATER</h2>
+                <span class="status">ACTIVE</span>
+            </div>
+            <div class="desc">
+                Fluidity in combat. Adapt to any cyberware configuration. Locate the rogue fluid-dynamics AI operating beneath the Kabuki docks.
+            </div>
+            <ul class="objectives">
+                <li class="done">Intercept the Kabuki manifest.</li>
+                <li>Defeat the Aqua-Borg miniboss using parry mechanics.</li>
+                <li>Retrieve the 'Flow' Sandevistan tuning chip.</li>
+            </ul>
+        </div>
+
+        <!-- Fire Ring -->
+        <div class="ring-card">
+            <div class="ring-header">
+                <h2 class="ring-title">RING III : FIRE</h2>
+                <span class="status">LOCKED</span>
+            </div>
+            <div class="desc">
+                Fierce engagement and aggression. Burn through the Maelstrom blockade.
+            </div>
+            <ul class="objectives">
+                <li>Acquire thermal katana blueprint.</li>
+                <li>Survive the 3-minute holdout at Totentanz.</li>
+            </ul>
+        </div>
+
+        <!-- Wind Ring -->
+        <div class="ring-card">
+            <div class="ring-header">
+                <h2 class="ring-title">RING IV : WIND</h2>
+                <span class="status">LOCKED</span>
+            </div>
+            <div class="desc">
+                Knowledge of the enemy. Uncover the covert operative hunting you and learn their techniques.
+            </div>
+            <ul class="objectives">
+                <li>Hack 3 secure dataterms to trace the assassin.</li>
+                <li>Defeat the shadow in a stealth duel.</li>
+            </ul>
+        </div>
+
+        <!-- Void Ring -->
+        <div class="ring-card">
+            <div class="ring-header">
+                <h2 class="ring-title">RING V : VOID</h2>
+                <span class="status">ENCRYPTED</span>
+            </div>
+            <div class="desc">
+                The essence of nothingness. Achieve the No-Mind state against the final construct.
+            </div>
+            <ul class="objectives">
+                <li>Synchronize with the Baal Chaos Engine.</li>
+                <li>Defeat the manifestation of your own Engram.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="sys-log">
+        <p>[01:54:55] SYSTEM BOOT...</p>
+        <p>[01:54:55] CONNECTING TO MSN NETWORK...</p>
+        <p class="warn">[01:54:56] WARNING: UNAUTHORIZED NEURAL LINK DETECTED</p>
+        <p>[01:54:56] LOADING MUSASHI.EXE...</p>
+        <p class="err">[01:54:57] ERROR: VOID DATA CORRUPTED BY LILITH MAINFRAME</p>
+    </div>
+
+    <a href="index.html" class="back-link">&lt; RETURN TO MAIN MENU</a>
+</div>
+
+<script>
+    // Simple glitch effect on log
+    setInterval(() => {
+        const log = document.querySelector('.sys-log');
+        if (Math.random() > 0.85) {
+            const p = document.createElement('p');
+            const timeStr = new Date().toISOString().substr(11, 8);
+            const hexMem = Math.floor(Math.random()*16777215).toString(16).toUpperCase();
+            p.textContent = `[${timeStr}] MEMORY LEAK AT 0x${hexMem}`;
+            p.className = 'warn';
+            log.appendChild(p);
+            log.scrollTop = log.scrollHeight;
+        }
+    }, 2000);
+</script>
+
+</body>
+</html>
