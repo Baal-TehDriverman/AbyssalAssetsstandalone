@@ -1,0 +1,103 @@
+{
+  "deployed_batches": [
+    1,
+    2,
+    3
+  ],
+  "timestamp": 1781595462.3993542,
+  "results": {
+    "1": {
+      "status": "deployed",
+      "tasks": {
+        "manifest-validate": {
+          "status": "ok",
+          "messages": [
+            "Manifest valid"
+          ]
+        },
+        "python-interface": {
+          "status": "ok",
+          "messages": [
+            "Sephirotic Root v1.0.0",
+            "Root: /home/tehlappy/Desktop/AI/abyssal-assets",
+            "Total files indexed: 29",
+            "Sephira: 10/10",
+            "",
+            "Tree:",
+            "  \u25cf KETER (Crown) \u2014 4 files",
+            "  \u25cf CHOKMAH (Wisdom) \u2014 2 files",
+            "  \u25cf BINAH (Understanding) \u2014 7 files",
+            "  \u25cf CHESED (Mercy) \u2014 2 files",
+            "  \u25cf GEVURAH (Severity) \u2014 1 files",
+            "  \u25cf TIFERET (Beauty) \u2014 2 files",
+            "  \u25cf NETZACH (Victory) \u2014 1 files",
+            "  \u25cf HOD (Splendor) \u2014 3 files",
+            "  \u25cf YESOD (Foundation) \u2014 4 files",
+            "  \u25cf MALKUTH (Kingdom) \u2014 3 files",
+            "",
+            "Ecosystem:",
+            "  \u25cf pub \u2014 Main Lilith codebase \u2014 00_CORE_SERVICES, scripts, skills, legal warfare",
+            "  \u25cf invite \u2014 NGD \u2014 NVIDIA Gratitude Driver, skill definitions, telemetry (2282 entries)",
+            "  \u25cf abyssal-assets \u2014 Game \u2014 Phaser 3/FastAPI cryptid hat trading simulator",
+            "  \u25cf evidence \u2014 Evidence repo \u2014 legal warfare documentation",
+            "",
+            "Skills deployed: 0/10",
+            "KETER: 4 files",
+            "API health: http://localhost:8000/health"
+          ]
+        },
+        "server-imports": {
+          "status": "ok",
+          "messages": [
+            "server/main.py \u2014 valid AST"
+          ]
+        }
+      },
+      "skills_deployed": 26,
+      "skills_total": 26
+    },
+    "2": {
+      "status": "deployed",
+      "tasks": {
+        "typescript-types": {
+          "status": "ok",
+          "messages": [
+            "index.ts (4286 bytes)",
+            "monsters.ts (38438 bytes)",
+            "skills.ts (22803 bytes)",
+            "synergies.ts (43944 bytes)",
+            "provenance.ts (10414 bytes)",
+            "quests.ts (9102 bytes)"
+          ]
+        },
+        "shared-types-consistent": {
+          "status": "ok",
+          "messages": [
+            "monsters.ts: ~16 monster definitions found",
+            "skills.ts: ~70 skill definitions found"
+          ]
+        }
+      },
+      "skills_deployed": 26,
+      "skills_total": 26
+    },
+    "3": {
+      "status": "deployed",
+      "tasks": {
+        "config-files-valid": {
+          "status": "ok",
+          "messages": [
+            "client/package.json \u2014 Node package config",
+            "client/vite.config.ts \u2014 Vite bundler config",
+            "client/tsconfig.json \u2014 TypeScript config",
+            "server/Dockerfile \u2014 Docker build file",
+            "server/requirements.txt \u2014 Python deps",
+            "server/init.sql \u2014 DB init script"
+          ]
+        }
+      },
+      "skills_deployed": 26,
+      "skills_total": 26
+    }
+  }
+}
