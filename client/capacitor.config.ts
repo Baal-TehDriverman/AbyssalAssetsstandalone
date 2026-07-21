@@ -6,10 +6,7 @@ const config: CapacitorConfig = {
   webDir: 'dist',
   bundledWebRuntime: false,
   server: {
-    // Live-reload: point to your PC's LAN IP for development
-    url: 'http://192.168.1.153:5173',
-    cleartext: true,
-    androidScheme: 'http',
+  	androidScheme: 'https',
   },
   android: {
     allowMixedContent: true,
