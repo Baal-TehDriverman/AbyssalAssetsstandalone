@@ -78,8 +78,8 @@ jobs:
         run: |
           npm run build
         env:
-          VITE_API_URL: http://192.168.1.153:8000/api
-          VITE_WS_URL: ws://192.168.1.153:8000/ws
+          VITE_API_URL: https://api.abyssalassets.com
+          VITE_WS_URL: wss://api.abyssalassets.com
 
       # ============ CAPACITOR SYNC ============
       - name: Capacitor add android platform
@@ -93,17 +93,16 @@ jobs:
           npx cap sync android
 
       # ============ BUILD ANDROID ============
-      - name: Build Android APK
+      - name: Build Android APK (debug)
         working-directory: ./client/android
         run: |
           chmod +x gradlew
-          ./gradlew assemble${{ github.event.inputs.build_type || 'Release' }}
+          ./gradlew assembleDebug
         env:
           GRADLE_OPTS: '-Xmx4g -Dorg.gradle.jvmargs="-Xmx4g" -Dorg.gradle.parallel=true -Dorg.gradle.configureondemand=true'
 
       # ============ UPLOAD ARTIFACTS ============
       - name: Upload Debug APK
-        if: github.event.inputs.build_type == 'debug' || github.event_name != 'workflow_dispatch'
         uses: actions/upload-artifact@v4
         with:
           name: abyssal-assets-debug-apk
